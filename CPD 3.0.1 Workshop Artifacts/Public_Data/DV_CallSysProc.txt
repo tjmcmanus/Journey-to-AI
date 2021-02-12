@@ -1,0 +1,5 @@
+CALL SYSPROC.NNSTAT(NULL, 'USER1001',
+'CUSTOMER_TRANSACTIONS','', '',2,'/tmp/collstats1.log',?,1);
+
+CALL SYSPROC.NNSTAT(NULL, 'USER1001',
+'STOCK_SYMBOLS','', '',2,'/tmp/collstats1.log',?,1);
