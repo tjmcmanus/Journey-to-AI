@@ -27,7 +27,7 @@ The Data Scientist persona is the most likely role to perform the
 Analyze tasks in this lab, that is, to create a machine learning model
 with AutoAI that can be deployed and infused into an AI application.
 
-:---:
+
 | **Persona (Role)**  | **Capabilities**                 |
 :---:|:---:|
 |![Data Scientist](./images/media/datascientist.png) | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions. |
