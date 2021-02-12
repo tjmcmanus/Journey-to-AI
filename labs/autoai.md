@@ -53,66 +53,31 @@ guidance, and AutoAI will do the rest of the work.
 In our scenario, Trade Co. data scientists accelerate their time to
 value using this powerful tool.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="0.5833333333333334in"
-height="0.4722222222222222in"}
+![](./images/media/image5.png)
 
-4.  In the CPD web client, click the Navigation Menu ("hamburger" icon)
-    a Projects.
-
-![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="1.327869641294838in"
-height="1.1406058617672792in"}![A picture containing dark, clock, light,
-meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="2.3114752843394575in"
-height="1.1525885826771654in"}
-
-5.  Select the project: CPD Workshop Analytics Project.
-
-![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="2.8934416010498687in"
-height="0.888069772528434in"}
-
-6.  Once the project is opened, at the top right corner of the screen
-    click on: Add to project +.
-
-![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="3.8196719160104986in"
-height="0.8536734470691164in"}
-
-7.  In the next screen hover over and then click on the tile: AutoAI
-    experiment.
-
-![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="3.721311242344707in"
-height="1.3641896325459317in"}
-
-8.  In Name, enter ChurnRisk AutoAI experiment.
-
-Fill in anything you like in Description.
-
-Leave the defaults for Compute configuration.
-
-Click Create.
-
+1. In the CPD web client, click the Navigation Menu ("hamburger" icon)
+    a Projects.![A picture containing clock, meter Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png)![A picture containing dark, clock, light,meter Description automatically generated](./images/media/image7.png)
+1. Select the project: CPD Workshop Analytics Project.
+  ![A screenshot of a cell phone Description automatically
+generated](./images/media/image8.png)
+1. Once the project is opened, at the top right corner of the screen click on: Add to project +. ![A screenshot of a cell phone Description automatically
+generated](./images/media/image9.png)
+1. In the next screen hover over and then click on the tile: AutoAI experiment. ![A screenshot of a cell phone Description automatically generated](./images/media/image10.png)
+  1. In Name, enter ChurnRisk AutoAI experiment.
+  1. Fill in anything you like in Description.
+  1. Leave the defaults for Compute configuration.
+  1. Click Create.
 ![A screenshot of a cell phone Description automatically
 generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="6.504553805774278in"
 height="3.2637292213473317in"}
-
-> *Note: If you have to wait a long time for the spinning circle to
-> complete, simply return to the CPD Workshop Analytics Project and
-> select ChurnRisk AutoAI Experiment from the list of Assets.*
-
-9.  In the screen Add data source, click Select from project.
-
+  *Note:* If you have to wait a long time for the spinning circle to complete, simply return to the CPD Workshop Analytics Project and select ChurnRisk AutoAI Experiment from the list of Assets.
+1. In the screen Add data source, click Select from project.
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="4.590162948381452in"
-height="2.5797222222222222in"}
-
-10. Select File name: customer_demochurn_activity_analyze.csv.
-
-Click Select asset.
-
-![A screenshot of a cell phone Description automatically
+generated](./images/media/image12.png)
+ 1. Select File name: customer_demochurn_activity_analyze.csv.
+ 1. Click Select asset.
+ ![A screenshot of a cell phone Description automatically
 generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="6.38907261592301in"
 height="3.490741469816273in"}
 
