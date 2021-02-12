@@ -1,41 +1,25 @@
 # **[Analyze: AutoAI]{.smallcaps}**
-
 ## Lab overview
+Analyze is the third phase in the Cloud Pak for Data platform and workflow. This is where data scientists and business analysts can join forces to gain insights from their organization's data. Analyze capabilities can be delivered with a number of different CPD services.
 
-Analyze is the third phase in the Cloud Pak for Data platform and
-workflow. This is where data scientists and business analysts can join
-forces to gain insights from their organization's data. Analyze
-capabilities can be delivered with a number of different CPD services.
 Examples:
-
 -   AutoAI (included with the Watson Machine Learning service)
-
 -   Notebook model creation (included with the Watson Studio service)
-
 -   SPSS Modeler
-
 -   Decision Optimization
-
 -   Cognos Analytics (or Cognos Analytics Embedded)
-
 -   IBM Streams (which could be "Collect" or "Analyze" depending on how
     it is used)
-
--   RStudio model creation\...and others
+-   RStudio model creation ...and others
 
 In this lab you will explore AutoAI, which helps simplify the Machine
 Learning model AI lifecycle by automating the following:
-
 -   Data preparation
-
 -   Model development
-
 -   Feature engineering
-
 -   Hyper-parameter optimization
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image1.png){width="6.034549431321085in"
-height="2.7847222222222223in"}
+![](labs/images/media/image1.png)
 
 ## Persona represented in this lab
 
@@ -44,12 +28,12 @@ Analyze tasks in this lab, that is, to create a machine learning model
 with AutoAI that can be deployed and infused into an AI application.
 
 +----------------------------------+----------------------------------+
-| **Persona (Role)**               | **Capabilities**                 |
+| **Persona (Role)**  | **Capabilities**                 |
 +==================================+==================================+
-| ![](/Users/tjm/Documents         | Data Scientists bring expertise  |
-| /GitHub/CPD-workshop/labs/images | in statistics and the process of |
-| /media/image2.png){width="0.4in" | building ML/AI models to make    |
-| height="0.4in"}                  | predictions and answer key       |
+| Data Scientist | Data Scientists bring expertise  |
+|  | in statistics and the process of |
+|  | building ML/AI models to make    |
+|                  | predictions and answer key       |
 |                                  | business questions.              |
 | Data Scientist                   |                                  |
 +----------------------------------+----------------------------------+
