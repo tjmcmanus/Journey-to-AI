@@ -32,7 +32,7 @@ with AutoAI that can be deployed and infused into an AI application.
 +==================================+==================================+
 | Data Scientist | Data Scientists bring expertise  |
 |  | in statistics and the process of |
-|  | building ML/AI models to make    |
+| ![Scientist]{./images/media/datascientist.png} | building ML/AI models to make    |
 |                  | predictions and answer key       |
 |                                  | business questions.              |
 | Data Scientist                   |                                  |
