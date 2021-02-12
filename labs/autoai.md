@@ -1,4 +1,4 @@
-# **[Analyze: AutoAI]{.smallcaps}**
+# Analyze: AutoAI
 ## Lab overview
 Analyze is the third phase in the Cloud Pak for Data platform and workflow. This is where data scientists and business analysts can join forces to gain insights from their organization's data. Analyze capabilities can be delivered with a number of different CPD services.
 
