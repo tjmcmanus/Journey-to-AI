@@ -22,29 +22,22 @@ Learning model AI lifecycle by automating the following:
 ![](./images/media/datascientist.png)
 
 ## Persona represented in this lab
-
 The Data Scientist persona is the most likely role to perform the
 Analyze tasks in this lab, that is, to create a machine learning model
 with AutoAI that can be deployed and infused into an AI application.
 
-
 | **Persona (Role)**  | **Capabilities**                 |
-:---:|:---:|
-|![Data Scientist](./images/media/datascientist.png) | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions. |
-
+:---:|:---|
+|Data Scientist ![Data Scientist](./images/media/datascientist.png) | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.
 
 ## Logging into the Cloud Pak for Data web client (if you have not already done so)
-
 1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
 1.  Click the desktop icon: Cloud Pak for Data Web Client.
-![A picture containing object, clock Description automatically
-generated](./images/media/image3.png)
+![](./images/media/user.png)
 1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-![A screenshot of a cell phone Description automatically
-generated](./images/media/image4.png)
+![](./images/media/image4.png)
 
 ## Setting up the AutoAI experiment
-
 In the lab, you will create an AutoAI experiment that will be used to
 automatically create the machine learning model that best fits the data
 to provide the desired outcome. One only needs to provide general
@@ -52,44 +45,31 @@ guidance, and AutoAI will do the rest of the work.
 
 In our scenario, Trade Co. data scientists accelerate their time to
 value using this powerful tool.
-
 ![](./images/media/image5.png)
 
 1. In the CPD web client, click the Navigation Menu ("hamburger" icon)
-    a Projects.![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png)![A picture containing dark, clock, light,meter Description automatically generated](./images/media/image7.png)
+    a Projects. ![](./images/media/image6.png)
+    ![](./images/media/image7.png)
 1. Select the project: CPD Workshop Analytics Project.
-  ![A screenshot of a cell phone Description automatically
-generated](./images/media/image8.png)
-1. Once the project is opened, at the top right corner of the screen click on: Add to project +. ![A screenshot of a cell phone Description automatically
-generated](./images/media/image9.png)
-1. In the next screen hover over and then click on the tile: AutoAI experiment. ![A screenshot of a cell phone Description automatically generated](./images/media/image10.png)
+  ![](./images/media/image8.png)
+1. Once the project is opened, at the top right corner of the screen click on: Add to project +. ![](./images/media/image9.png)
+1. In the next screen hover over and then click on the tile: AutoAI experiment. ![](./images/media/image10.png)
   1. In Name, enter ChurnRisk AutoAI experiment.
   1. Fill in anything you like in Description.
   1. Leave the defaults for Compute configuration.
   1. Click Create.
-![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="6.504553805774278in"
-height="3.2637292213473317in"}
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png)
   *Note:* If you have to wait a long time for the spinning circle to complete, simply return to the CPD Workshop Analytics Project and select ChurnRisk AutoAI Experiment from the list of Assets.
 1. In the screen Add data source, click Select from project.
-![A screenshot of a social media post Description automatically
-generated](./images/media/image12.png)
+![](./images/media/image12.png)
  1. Select File name: customer_demochurn_activity_analyze.csv.
  1. Click Select asset.
- ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="6.38907261592301in"
-height="3.490741469816273in"}
+ ![](./images/media/image13.png)
 
-+----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | The CSV file used in this AutoAI |
-| /GitHub/CPD-workshop/labs/images | experiment is a join of Db2      |
-| /media/image2.png){width="0.4in" | CUSTOMER_CHURN, Db2              |
-| height="0.4in"}                  | CUSTOMER_DEMOGRAPHICS and        |
-|                                  | MongoDB CUSTOMER_ACTIVITY data.  |
-| Data                             |                                  |
+|:---:|:---|
+| ![](./labs/images/media/image2.png| The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. |
 |                                  | If you have been doing all the   |
-| Scientist                        | labs so far in this workshop,    |
+|                         | labs so far in this workshop,    |
 |                                  | you would have completed the     |
 |                                  | previous Data Flow Designer and  |
 |                                  | Data Virtualization labs that    |
