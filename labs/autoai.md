@@ -19,7 +19,7 @@ Learning model AI lifecycle by automating the following:
 -   Feature engineering
 -   Hyper-parameter optimization
 
-![](labs/images/media/image1.png)
+![](./images/media/datascientist.png)
 
 ## Persona represented in this lab
 
@@ -33,23 +33,15 @@ with AutoAI that can be deployed and infused into an AI application.
 |![Data Scientist](./images/media/datascientist.png) | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions. |
 :---:
 
-## Logging into the CPD web client (if you have not already done so)
+## Logging into the Cloud Pak for Data web client (if you have not already done so)
 
-1.  If you are starting this lab stand-alone (without going through
-    previous labs) do the following:
-
-2.  Click the desktop icon: Cloud Pak for Data Web Client.
-
+1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
+1.  Click the desktop icon: Cloud Pak for Data Web Client.
 ![A picture containing object, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.7049179790026247in"
-height="0.7958748906386701in"}
-
-3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess
-    for the *Username* and *Password* and click Sign in.
-
+generated](./images/media/image3.png)
+1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image4.png){width="1.8032786526684164in"
-height="2.370650699912511in"}
+generated](./images/media/image4.png)
 
 ## Setting up the AutoAI experiment
 
