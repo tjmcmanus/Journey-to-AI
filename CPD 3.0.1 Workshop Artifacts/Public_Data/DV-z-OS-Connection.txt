@@ -1,0 +1,6 @@
+Connection Name	POT-DVM
+Description	DVM Connection
+Connection type	DVM for z/OS
+JDBC URL	jdbc:rs:dv://cap-sg-prd-4.securegateway.appdomain.cloud:19885;DBTY=SQL92;PMDSQL=false
+Username	IBMCP4D
+Password	CP4D2020
