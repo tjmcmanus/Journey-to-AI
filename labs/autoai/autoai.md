@@ -3,32 +3,20 @@
 ## Lab overview
 
 Analyze is the third phase in the Cloud Pak for Data platform and workflow. This is where data scientists and business analysts can join forces to gain insights from their organization's data. Analyze capabilities can be delivered with a number of different CPD services. Examples:
-
--   AutoAI (included with the Watson Machine Learning service)
-
--   Notebook model creation (included with the Watson Studio service)
-
--   SPSS Modeler
-
--   Decision Optimization
-
--   Cognos Analytics (or Cognos Analytics Embedded)
-
--   IBM Streams (which could be "Collect" or "Analyze" depending on how it is used)
-
--   RStudio model creation\...and others
+ -   AutoAI (included with the Watson Machine Learning service)
+ -   Notebook model creation (included with the Watson Studio service)
+ -   SPSS Modeler
+ -   Decision Optimization
+ -   Cognos Analytics (or Cognos Analytics Embedded)
+ -   IBM Streams (which could be "Collect" or "Analyze" depending on how it is used)
+ -   RStudio model creation\...and others
 
 In this lab you will explore AutoAI, which helps simplify the Machine Learning model AI lifecycle by automating the following:
-
--   Data preparation
-
--   Model development
-
--   Feature engineering
-
--   Hyper-parameter optimization
-
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image1.png){width="6.034549431321085in" height="2.7847222222222223in"}
+ - Data preparation
+ - Model development
+ - Feature engineering
+ - Hyper-parameter optimization
+![](./images/media/image1.png | 6.034549431321085inx2.7847222222222223in)
 
 ## Persona represented in this lab
 
