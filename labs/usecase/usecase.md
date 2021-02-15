@@ -8,10 +8,10 @@ seems to be ineffective as well. The company's executives have asked
 their senior Business Analyst to help them understand why and to help
 find a solution.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image1.png){width="0.5819728783902012in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image1.png){width="0.5819728783902012in"
 height="0.47515529308836396in"}
 
-![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTML14f33b3e.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image2.png){width="6.381944444444445in"
+![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTML14f33b3e.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image2.png){width="6.381944444444445in"
 height="3.4856003937007873in"}
 
 ## Persona represented in this lab
@@ -27,8 +27,8 @@ in this lab.
 +----------------------------------+----------------------------------+
 | **Persona (Role)**               | **Capabilities**                 |
 +==================================+==================================+
-| ![](/Users/tjm/Documents         | Business Analysts deliver value  |
-| /GitHub/CPD-workshop/labs/images | by taking data, using it to      |
+| ![](/Users/tjm/Documents/GitHub/ | Business Analysts deliver value  |
+| CPD-workshop/labs/usecase/images | by taking data, using it to      |
 | /media/image3.png){width="0.4in" | answer questions, and            |
 | height="0.4in"}                  | communicating the results to     |
 |                                  | help make better business        |
@@ -43,14 +43,14 @@ in this lab.
 2.  Double-click the desktop icon: Cloud Pak for Data Web Client.
 
 ![A picture containing object, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image4.png){width="0.7049179790026247in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image4.png){width="0.7049179790026247in"
 height="0.7958748906386701in"}
 
 3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess
     for the *Username* and *Password* and click Sign in.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="1.57376968503937in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image5.png){width="1.57376968503937in"
 height="2.0689304461942255in"}
 
 ## Reviewing the dashboard: Monthly Metrics
@@ -67,16 +67,16 @@ project the Business Analyst shares with his team.
     Projects.
 
 ![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="1.327869641294838in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image6.png){width="1.327869641294838in"
 height="1.1406058617672792in"}![A picture containing dark, clock, light,
 meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="2.3114752843394575in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image7.png){width="2.3114752843394575in"
 height="1.1525885826771654in"}
 
 5.  Select the project: CPD Workshop Analytics Project.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="3.57376968503937in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image8.png){width="3.57376968503937in"
 height="1.0968788276465442in"}
 
 6.  Under tab Assets, scroll down until you find Dashboards.
@@ -84,16 +84,16 @@ height="1.0968788276465442in"}
 Click Monthly Metrics -- Trade Co.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="3.0163932633420822in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image9.png){width="3.0163932633420822in"
 height="1.0860083114610675in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="3.5in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image10.png){width="3.5in"
 height="1.888986220472441in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | Use \[Ctrl\] -- and \[Ctrl\] +   |
-| /GitHub/CPD-workshop/labs/images | keys to adjust the zoom on the   |
+| ![](/Users/tjm/Documents/GitHub/ | Use \[Ctrl\] -- and \[Ctrl\] +   |
+| CPD-workshop/labs/usecase/images | keys to adjust the zoom on the   |
 | /media/image3.png){width="0.4in" | dashboard to best suit your      |
 | height="0.4in"}                  | screen.                          |
 |                                  |                                  |
@@ -112,23 +112,23 @@ If Trade Co. could somehow find a way to retain their customers, shares
 sold per month would go up, thus driving revenue up.
 
 ![A screen shot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="5.793722659667542in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image11.png){width="5.793722659667542in"
 height="2.770492125984252in"}
 
 8.  Leave this dashboard by clicking on the breadcrumb trail to navigate
     to the project again.
 
 ![A picture containing meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="3.7708333333333335in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image12.png){width="3.7708333333333335in"
 height="0.7055555555555556in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="4.478472222222222in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image13.png){width="4.478472222222222in"
 height="0.9684962817147856in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | If you would like to see how     |
-| /GitHub/CPD-workshop/labs/images | this dashboard was built, you    |
+| ![](/Users/tjm/Documents/GitHub/ | If you would like to see how     |
+| CPD-workshop/labs/usecase/images | this dashboard was built, you    |
 | /media/image3.png){width="0.4in" | can build it yourself by doing   |
 | height="0.4in"}                  | the following lab: (Deeper Dive) |
 |                                  | -- Cognos Dashboard Embedded     |
@@ -150,11 +150,11 @@ dashboard to better understand the situation.
 Click Demographics Discovery -- Trade Co.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="3.0163932633420822in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image9.png){width="3.0163932633420822in"
 height="1.0860083114610675in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="4.723236001749782in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image14.png){width="4.723236001749782in"
 height="2.5491797900262467in"}
 
 10. Notice there are two tabs in this dashboard; you are currently
@@ -167,7 +167,7 @@ You will see later that these are interactive with the rest of the
 dashboard.
 
 ![A screen shot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="5.991666666666666in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image15.png){width="5.991666666666666in"
 height="1.1058562992125984in"}
 
 11. Review the top left filter (funnel) icon and notice that a filter
@@ -175,7 +175,7 @@ height="1.1058562992125984in"}
     Churn Risk.
 
 ![A close up of a sign Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="2.22in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image16.png){width="2.22in"
 height="0.6769783464566929in"}
 
 12. Click on the aqua blue portion of the pie chart (which represents
@@ -189,10 +189,10 @@ Click again on the aqua portion of the pie chart to deselect the values
 for Female.
 
 ![A close up of a sign Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="2.221311242344707in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image17.png){width="2.221311242344707in"
 height="2.586097987751531in"} ![A picture containing sitting, clock
 Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image18.png){width="2.1967213473315836in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image18.png){width="2.1967213473315836in"
 height="2.5811056430446193in"}
 
 13. The next visualization is also filtered by High Risk, and then
@@ -206,7 +206,7 @@ This is a complex visualization, but from it you can see that Married
 Females are the largest group.
 
 ![A screen shot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image19.png){width="6.013074146981627in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image19.png){width="6.013074146981627in"
 height="4.179861111111111in"}
 
 14. In the top filters section, click on the filter for CHURNRISK.
@@ -214,7 +214,7 @@ height="4.179861111111111in"}
 Deselect the filter for High and click \[OK\].
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="1.8934416010498687in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image20.png){width="1.8934416010498687in"
 height="2.522924321959755in"}
 
 15. With no filters in place for this tab on the dashboard, scroll down
@@ -225,7 +225,7 @@ height="2.522924321959755in"}
     map, the darker the square, the more the risk.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image21.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image21.png){width="6.0in"
 height="1.3703051181102361in"}
 
 17. Hover over darker purple square on the top left of the Heat Map.
@@ -233,7 +233,7 @@ height="1.3703051181102361in"}
     homeowners and are 20 years of age.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="2.221311242344707in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image22.png){width="2.221311242344707in"
 height="1.6097298775153106in"}
 
 18. Click on the second tab in this dashboard called Risk to Business --
@@ -249,18 +249,18 @@ though this demographic appears to be high risk, they are still fairly
 active.
 
 ![A screenshot of a computer screen Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image23.png){width="5.581453412073491in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image23.png){width="5.581453412073491in"
 height="3.368852799650044in"}
 
 19. Leave this dashboard by clicking on the breadcrumb trail to navigate
     to the project again.
 
 ![A picture containing meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="4.478472222222222in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image24.png){width="4.478472222222222in"
 height="0.7578007436570429in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="4.478472222222222in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image13.png){width="4.478472222222222in"
 height="0.9684962817147856in"}
 
 ## Devising a plan
@@ -269,14 +269,14 @@ Armed with his findings, the Business Analyst brings this to the Data
 Scientists on the team. Together they come up with a plan to fix their
 current Rules Based system of predicting churn.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="6.354166666666667in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image25.png){width="6.354166666666667in"
 height="3.3442650918635173in"}
 
 The intent is to use a better approach: Leverage Cloud Pak for Data to
 build a data driven Machine Learning model to infuse into their Stock
 Trader application.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image26.png){width="6.305555555555555in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image26.png){width="6.305555555555555in"
 height="3.3433508311461066in"}
 
 With this better model that more accurately predicts churn, the
@@ -286,7 +286,7 @@ into the application, the new ML model will predict the risk of churn
 for this customer and will then make one of three offers designed to
 retain them.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="6.402777777777778in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image27.png){width="6.402777777777778in"
 height="3.388011811023622in"}
 
 In this case, infusing the new ML model into the Stock Trader
@@ -295,7 +295,7 @@ invoked upon sign in. It will be called the "Predictive Analysis"
 service (indicated by the green arrow below) and will make the offer
 after sign in.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="5.486393263342082in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image28.png){width="5.486393263342082in"
 height="3.2362773403324585in"}
 
 ## Reviewing the dashboard: Monthly Metrics After AI
@@ -311,11 +311,11 @@ first that displays the results.
 Click Monthly Metrics - After AI Trade Co.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="3.0163932633420822in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image9.png){width="3.0163932633420822in"
 height="1.0860083114610675in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="3.1721303587051617in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image29.png){width="3.1721303587051617in"
 height="1.7120319335083114in"}
 
 21. This dashboard is similar to the first one in the two
@@ -326,7 +326,7 @@ Shares sold per month and Number of Traders per month
 Notice however, new data is present for October, November, and December.
 
 ![A screen shot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="6.488926071741032in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image30.png){width="6.488926071741032in"
 height="2.791304680664917in"}
 
 **The data is very encouraging: both data points have gone up!**
@@ -346,7 +346,7 @@ to Cloud and AI using this amazing, industry leading Analytics
 Modernization platform called Cloud Pak for Data. You will also take on
 the roles of the various personas involved along the way. The steps in
 the journey are depicted in the illustration
-below.![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="6.339130577427822in"
+below.![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/usecase/images/media/image31.png){width="6.339130577427822in"
 height="3.488257874015748in"}
 
 **\*\* End of Lab 02 -- Business Use Case: Customer Churn**
