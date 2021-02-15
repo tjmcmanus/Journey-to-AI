@@ -16,7 +16,7 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
  - Model development
  - Feature engineering
  - Hyper-parameter optimization
- ![image](./images/media/image1.png){:height="6.034in" width="2.784in"}
+ [[ ./images/media/image1.png \| height="6.034in" width="2.784in"]]
 
 ## Persona represented in this lab
 
@@ -25,7 +25,7 @@ The Data Scientist persona is the most likely role to perform the Analyze tasks 
 |:---:|:---|
 | **Persona (Role)** | **Capabilities**|
 |:---:|:---|
-| ![Data Scientist](./images/media/image2.png) {:height="0.4in" width="0.4in"} | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
+|[[./images/media/image2.png \|height="0.4in" width="0.4in"]] | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
 
 
 ## Logging into the CPD web client (if you have not already done so)
