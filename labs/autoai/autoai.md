@@ -263,17 +263,17 @@ Your notebook has NOT finished until you see that the last two code cells (above
 ![A screenshot of a social media post Description automatically generated](./images/media/image51.png)
 
 |:---:|:---|
-| ![](./images/media/image2.png) | > **Ten Reasons Why I Like my Jupyter Notebook**
-|:---:|:---|                                                                                                      | | 1.  **All in one place**: The Jupyter Notebook is a web-based interactive environment that combines code, rich text, images, videos, animations, mathematical equations, plots, maps, interactive figures and widgets, and graphical user interfaces, into a single document.|
+| ![](./images/media/image2.png) | **Ten Reasons Why I Like my Jupyter Notebook**|
+|  | 1.  **All in one place**: The Jupyter Notebook is a web-based interactive environment that combines code, rich text, images, videos, animations, mathematical equations, plots, maps, interactive figures and widgets, and graphical user interfaces, into a single document.|
 |  | 2.  **Easy to share**: Notebooks are saved as structured text files (JSON format), which makes them easily shareable.|
-| | 3.  **Easy to convert**: Jupyter comes with a special tool, nbconvert, which converts notebooks to other formats such as HTML and PDF.|
-| | 4.  **Language independent**: The architecture of Jupyter is language independent. The decoupling between the client and kernel makes it possible to write kernels in any language.|
-| | 5.  **Easy to create kernel wrappers**: Jupyter brings a lightweight interface for kernel languages that can be wrapped in Python. Wrapper kernels can implement optional methods, notably for code completion and code inspection.|
-| | 6.  **Easy to customize**: Jupyter's interface can be used to create an entirely customized experience in the Jupyter Notebook (or another client application such as the console).|
-| | 7.  **Extensions with custom magic commands**: Create IPython extensions with custom magic commands to make interactive computing even easier. Many third-party extensions and magic commands exist, for example, the %%cython magic that allows one to write Cython code directly in a notebook.|
-| | 8.  **Stress-free Reproducible experiments**: Jupyter notebooks can help you conduct efficient and reproducible interactive computing experiments with ease. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you don't have to worry about reproducibility; just do all of your interactive work in notebooks, put them under version control, and commit regularly. Don't forget to refactor your code into independent reusable components.|
-| | 9.  **Effective teaching-cum-learning tool**: The Jupyter Notebook is not only a tool for scientific research and data analysis but also a great tool for teaching.|
-| | 10. **Interactive code and data exploration:** The ipywidgets package provides many common user interface controls for exploring code and data interactively.  |
+|  | 3.  **Easy to convert**: Jupyter comes with a special tool, nbconvert, which converts notebooks to other formats such as HTML and PDF.|
+|  | 4.  **Language independent**: The architecture of Jupyter is language independent. The decoupling between the client and kernel makes it possible to write kernels in any language.|
+|  | 5.  **Easy to create kernel wrappers**: Jupyter brings a lightweight interface for kernel languages that can be wrapped in Python. Wrapper kernels can implement optional methods, notably for code completion and code inspection.|
+|  | 6.  **Easy to customize**: Jupyter's interface can be used to create an entirely customized experience in the Jupyter Notebook (or another client application such as the console).|
+|  | 7.  **Extensions with custom magic commands**: Create IPython extensions with custom magic commands to make interactive computing even easier. Many third-party extensions and magic commands exist, for example, the %%cython magic that allows one to write Cython code directly in a notebook.|
+|  | 8.  **Stress-free Reproducible experiments**: Jupyter notebooks can help you conduct efficient and reproducible interactive computing experiments with ease. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you don't have to worry about reproducibility; just do all of your interactive work in notebooks, put them under version control, and commit regularly. Don't forget to refactor your code into independent reusable components.|
+|  | 9.  **Effective teaching-cum-learning tool**: The Jupyter Notebook is not only a tool for scientific research and data analysis but also a great tool for teaching.|
+|  | 10. **Interactive code and data exploration:** The ipywidgets package provides many common user interface controls for exploring code and data interactively.  |
 
 
 ## Reviewing the AutoAI results
@@ -285,17 +285,11 @@ If the AutoAI experiment has not completed yet, let it finish. You can tell if i
 ![image](./images/media/image52.png)
 
 |:---:|:---|
-| ![](./images/media/image2.png) | Note: this experiment may take 25 minutes or more to complete, but this is not normal. We have turned off AVX/AVX2 processor support for this workshop so that the Cloud Pak for Data workshop image can run on servers that do not have AVX nor AVX2 processors. If we did not do that and the workshop was run on servers without AVX/AVX2 processors, the experiment would fail. So, we took this route to make sure the AutoAI experiment would run under any circumstances on any server, with or without AVX/AVX2 processors. |
+|  ![](./images/media/image2.png) | Note: this experiment may take 25 minutes or more to complete, but this is not normal. We have turned off AVX/AVX2 processor support for this workshop so that the Cloud Pak for Data workshop image can run on servers that do not have AVX nor AVX2 processors. If we did not do that and the workshop was run on servers without AVX/AVX2 processors, the experiment would fail. So, we took this route to make sure the AutoAI experiment would run under any circumstances on any server, with or without AVX/AVX2 processors. |
 | | **That said, with a CPD cluster on AVX/AVX2 supported processors this experiment completes on average, in around 3 minutes.**|
-|| Servers with AVX/AVX2 processors were released in 2011 and are mostly ubiquitous. Your organization probably has them.|
+| | Servers with AVX/AVX2 processors were released in 2011 and are mostly ubiquitous. Your organization probably has them.|
+|  ![](./images/media/image2.png) | Note: the results from your AutoAI experiment may vary from the illustrations in this workbook. This is especially true for Feature Transformations. |
 
-|:---:|:---|
-| ![](./images/media/image2.png) | Note: the results from your AutoAI experiment may vary from the illustrations in this workbook. This is especially true for Feature Transformations. |
-|                                                                                                                 |                                                                                                                                                      |
-| Data                                                                                                            |                                                                                                                                                      |
-|                                                                                                                 |                                                                                                                                                      |
-| Scientist                                                                                                       |                                                                                                                                                      |
-+-----------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 46. AutoAI chooses the best model from the various pipeline leaderboard options as Rank \#1. You can scroll down in either map infographic screen to see the leaderboard.
 
