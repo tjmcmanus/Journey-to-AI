@@ -16,7 +16,7 @@ use in later steps of the CPD analytics workflow.
 In this lab you will explore Connections for the Collect process. In
 later labs you will explore Data Transformation and Data Virtualization.
 
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image1.png){width="6.590616797900262in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image1.png){width="6.590616797900262in"
 > height="2.2640048118985128in"}
 
 ## Persona represented in this lab
@@ -29,12 +29,13 @@ Collect tasks shown in this lab.
 +==================================+==================================+
 | ![A close up of a logo           | Data Engineers build and         |
 | Description generated with high  | optimize the systems to allow    |
-| confidence](/Users/tjm/Documents | data scientists and business     |
-| /GitHub/CPD-workshop/labs/images | analysts to perform their work.  |
-| /media/image2.png){width="0.4in" | The Data Engineer ensures that   |
-| height="0.4in"}                  | any data is properly received,   |
-|                                  | transformed, stored, and made    |
-| Data Engineer                    | accessible to other users.       |
+| confidence](/Users/t             | data scientists and business     |
+| jm/Documents/GitHub/CPD-workshop | analysts to perform their work.  |
+| /labs/collect-connections/images | The Data Engineer ensures that   |
+| /media/image2.png){width="0.4in" | any data is properly received,   |
+| height="0.4in"}                  | transformed, stored, and made    |
+|                                  | accessible to other users.       |
+| Data Engineer                    |                                  |
 +----------------------------------+----------------------------------+
 
 ## Db2 data overview -- Transforming for analytics
@@ -50,10 +51,10 @@ key factors that make an appropriate scenario for Data Transformation:
 -   The data must be changed before it can be processed in our CPD
     analytics workflow.
 
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.5819728783902012in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image3.png){width="0.5819728783902012in"
 > height="0.47515529308836396in"}
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image4.png){width="3.5765726159230096in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image4.png){width="3.5765726159230096in"
 height="1.1389479440069992in"}
 
 Although you will be doing the actual Data Transformation in the next
@@ -68,7 +69,7 @@ Connections lab.
 2.  Double-click the desktop icon: Cloud Pak for Data Web Client.
 
 ![A picture containing object, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="0.7049179790026247in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image5.png){width="0.7049179790026247in"
 height="0.7958748906386701in"}
 
 3.  The CPD web client GUI displays as shown.
@@ -77,7 +78,7 @@ height="0.7958748906386701in"}
 > Sign in.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="1.57376968503937in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image6.png){width="1.57376968503937in"
 height="2.0689304461942255in"}
 
 ### **Reviewing the Db2 Advanced Edition data**
@@ -88,34 +89,34 @@ height="2.0689304461942255in"}
 In the CPD web client, click the Navigation Menu ("hamburger" icon).
 
 ![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="1.221434820647419in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image7.png){width="1.221434820647419in"
 height="1.049180883639545in"}
 
 5.  Click Collect a My Data a Databases a Db2 Advanced Edition a
     ellipsis
-    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="0.11806211723534558in"
+    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image8.png){width="0.11806211723534558in"
     height="0.16667541557305338in"} a Open database *(Note: Please wait
     for the green check to appear next to Db2 Advanced Edition first.)*
 
 ![A picture containing clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="1.4918022747156605in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image9.png){width="1.4918022747156605in"
 height="0.6571030183727035in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="2.729507874015748in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image10.png){width="2.729507874015748in"
 height="2.19876968503937in"}
 
 6.  At the top left of the Db2 Advanced Edition console, click on:
     Summary a Explore a Tables.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="2.629452099737533in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image11.png){width="2.629452099737533in"
 height="3.229507874015748in"}
 
 7.  Select schema CPDUSER.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="1.8688517060367453in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image12.png){width="1.8688517060367453in"
 height="1.0956856955380578in"}
 
 8.  Click CUSTOMER_CHURN and click on it to bring up the table
@@ -124,10 +125,10 @@ height="1.0956856955380578in"}
 Click on View Data.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="5.508196631671041in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image13.png){width="5.508196631671041in"
 height="1.5451399825021872in"}
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="2.7622944006999126in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image14.png){width="2.7622944006999126in"
 height="1.170949256342957in"}
 
 *This data represents churn risk that was determined through a manual
@@ -139,13 +140,13 @@ methodology created in this workshop.*
 
 ![A picture containing object, clock, drawing, meter Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="1.0819663167104112in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image15.png){width="1.0819663167104112in"
 height="0.4262292213473316in"} ![A screenshot of a cell phone
 Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="4.8688527996500435in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image16.png){width="4.8688527996500435in"
 height="1.4910389326334208in"}
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="3.4016393263342084in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image17.png){width="3.4016393263342084in"
 height="1.2323622047244094in"}
 
 *This data represents the known characteristics of the Trade Co.
@@ -161,11 +162,11 @@ accurately.*
 
 > Navigation Menu a Collect a My Data a Databases a Db2 Advanced Edition
 > a ellipsis
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="0.11806211723534558in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image8.png){width="0.11806211723534558in"
 > height="0.16667541557305338in"} a Details
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image18.png){width="3.8278685476815397in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image18.png){width="3.8278685476815397in"
 > height="3.0835608048993874in"}
 
 11. This takes you to the details page for this data source.
@@ -174,7 +175,7 @@ On the right you will find the Access Information section which gives
 you the information you need to create a connection.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image19.png){width="3.921527777777778in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image19.png){width="3.921527777777778in"
 height="1.6447090988626423in"}
 
 Note: Username and Password are explicitly shown (and easily copied
@@ -187,22 +188,22 @@ Host:Port/Database.
 Go to: Navigation Menu a Connections a Db2 Advanced Edition
 
 ![A close up of a sign Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="1.5573764216972878in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image20.png){width="1.5573764216972878in"
 height="0.6166491688538933in"}
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image21.png){width="4.859562554680665in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image21.png){width="4.859562554680665in"
 height="0.5081966316710411in"}
 
 13. Hover over the left part of the connection and click the Edit
     (pencil) icon.
 
 ![A picture containing clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="0.6557381889763779in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image22.png){width="0.6557381889763779in"
 height="0.45658792650918634in"}
 
 14. The Db2 Advanced Edition Connection edit screen looks like this:
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image23.png){width="3.57376968503937in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image23.png){width="3.57376968503937in"
 height="3.341321084864392in"}
 
 Each data source type (Db2, Mongo, Hive, S3, Drop Box, and so on) has
@@ -213,12 +214,12 @@ credentials altogether.
 15. At the bottom of the screen, click Test connection.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="2.7840277777777778in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image24.png){width="2.7840277777777778in"
 height="1.0450995188101488in"}
 
 16. At the top left of the screen, you should see this Success message.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="5.058823272090988in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image25.png){width="5.058823272090988in"
 height="0.9198304899387576in"}
 
 17. To exit the edit screen, click Cancel. DO NOT SAVE this connection.
@@ -226,14 +227,14 @@ height="0.9198304899387576in"}
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Note: if you do NOT have a       |
 | Description generated with high  | successful connection test as    |
-| confidence](/User                | shown above, you should fix this |
-| s/tjm/Documents/GitHub/CPD-works | by launching another CPD web     |
-| hop/labs/images/media/image26.pn | client from the desktop and use  |
-| g){width="0.36041666666666666in" | the second web client to return  |
-| height="0.36041666666666666in"}  | to the Details screen of the Db2 |
-|                                  | Advanced Edition. Use both       |
-| Data Engineer                    | screens to make sure all the     |
-|                                  | credentials match between the    |
+| confi                            | shown above, you should fix this |
+| dence](/Users/tjm/Documents/GitH | by launching another CPD web     |
+| ub/CPD-workshop/labs/collect-con | client from the desktop and use  |
+| nections/images/media/image26.pn | the second web client to return  |
+| g){width="0.36041666666666666in" | to the Details screen of the Db2 |
+| height="0.36041666666666666in"}  | Advanced Edition. Use both       |
+|                                  | screens to make sure all the     |
+| Data Engineer                    | credentials match between the    |
 |                                  | Details screen and the           |
 |                                  | Connection screen, especially    |
 |                                  | Username/Password.               |
@@ -248,10 +249,10 @@ for an appropriate scenario for Data Virtualization:
 
 -   Our analytics processing requires the latest data
 
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.5819728783902012in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image3.png){width="0.5819728783902012in"
 > height="0.47515529308836396in"}
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="3.416842738407699in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image27.png){width="3.416842738407699in"
 height="0.9931069553805775in"}
 
 We have chosen semi-structured data in this scenario to demonstrate the
@@ -275,18 +276,18 @@ service was installed, which is also located in My data.
 18. Start at the Navigation Menu.
 
 19. Click Collect a My data a Databases a MongoDB-1 a ellipsis
-    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="0.11806211723534558in"
+    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image8.png){width="0.11806211723534558in"
     height="0.16667541557305338in"} a Details.
 
 ![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="1.221434820647419in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image7.png){width="1.221434820647419in"
 height="1.049180883639545in"}![A picture containing clock Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="1.4918022747156605in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image9.png){width="1.4918022747156605in"
 height="0.6571030183727035in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="2.360655074365704in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image28.png){width="2.360655074365704in"
 height="1.9616721347331583in"}
 
 20. Examine the section MongoDB Ops Manager on the right.
@@ -295,36 +296,36 @@ Here you can review the username for the Ops Manager (which is cpduser).
 
 Copy the Password using the icon.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="4.635416666666667in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image29.png){width="4.635416666666667in"
 height="1.7199278215223097in"}
 
 21. Now return to the My data screen and choose Databases a MongoDB-1 a
     ellipsis
-    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="0.11806211723534558in"
+    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image8.png){width="0.11806211723534558in"
     height="0.16667541557305338in"} a Open Database.
 
 ![A picture containing clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="1.4918022747156605in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image9.png){width="1.4918022747156605in"
 height="0.6571030183727035in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="2.9690201224846895in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image30.png){width="2.9690201224846895in"
 height="2.4672134733158355in"} ![A screenshot of a cell phone
 Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="2.2493175853018372in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image31.png){width="2.2493175853018372in"
 height="2.4287839020122486in"}
 
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | The very first time you log into |
 | Description generated with high  | this *MongoDB Ops Manager*       |
-| confidence](/User                | console it may not ask you for   |
-| s/tjm/Documents/GitHub/CPD-works | user and password credentials.   |
-| hop/labs/images/media/image26.pn | We have saved these for you in a |
-| g){width="0.36041666666666666in" | browser setting.                 |
-| height="0.36041666666666666in"}  |                                  |
-|                                  | However, if the credentials were |
-| Data Engineer                    | not saved and should you         |
-|                                  | encounter this Login screen (as  |
+| confi                            | console it may not ask you for   |
+| dence](/Users/tjm/Documents/GitH | user and password credentials.   |
+| ub/CPD-workshop/labs/collect-con | We have saved these for you in a |
+| nections/images/media/image26.pn | browser setting.                 |
+| g){width="0.36041666666666666in" |                                  |
+| height="0.36041666666666666in"}  | However, if the credentials were |
+|                                  | not saved and should you         |
+| Data Engineer                    | encounter this Login screen (as  |
 |                                  | above) you can use the password  |
 |                                  | copied from the Details screen.  |
 |                                  |                                  |
@@ -349,20 +350,20 @@ height="2.4287839020122486in"}
 In the Processes tab, click on the Replica Set link,
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image32.png){width="5.6375in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image32.png){width="5.6375in"
 height="1.8946062992125985in"}
 
 23. Click on the Data tab to review the JSON documents in database
     mongodb.activity01.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image33.png){width="6.55172353455818in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image33.png){width="6.55172353455818in"
 height="4.318472222222222in"}
 
 24. When finished, close the tab Data \| MongoDB Ops Manager.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image34.png){width="2.6224529746281715in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image34.png){width="2.6224529746281715in"
 height="0.7459011373578303in"}
 
 ### **Reviewing the MongoDB connection**
@@ -370,20 +371,20 @@ height="0.7459011373578303in"}
 25. Go to Navigation Menu a Connections
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image35.png){width="1.7131146106736659in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image35.png){width="1.7131146106736659in"
 height="1.3969356955380579in"}
 
 26. Click on connection MongoDB line and choose the Edit icon.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image36.png){width="5.9375in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image36.png){width="5.9375in"
 height="1.2816961942257217in"}
 
 27. Note that the credentials information is taken from the Details
     screen you reviewed earlier.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image37.png){width="4.7826093613298335in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image37.png){width="4.7826093613298335in"
 height="4.441127515310586in"}
 
 ## Lab conclusion
@@ -392,10 +393,10 @@ In this Collect: Connections lab, you reviewed connections for the Db2
 Advanced Edition and MongoDB data. This prepares you for the Organize
 and Collect: Virtualize labs in this workshop.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.5819728783902012in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image3.png){width="0.5819728783902012in"
 height="0.47515529308836396in"}
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image38.png){width="6.527777777777778in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/collect-connections/images/media/image38.png){width="6.527777777777778in"
 height="2.408174759405074in"}
 
 In the Organize lab coming up, we will be transforming the Db2 data sets
