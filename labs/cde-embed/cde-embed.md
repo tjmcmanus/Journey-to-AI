@@ -17,7 +17,7 @@ provide the company executives and the data scientists the information
 they needed to understand their problem as well as to access the
 effectiveness of the solution.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image1.png){width="0.5833333333333334in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image1.png){width="0.5833333333333334in"
 height="0.4722222222222222in"}
 
 ## Persona represented in this lab
@@ -29,12 +29,13 @@ the organization is facing.
 +----------------------------------+----------------------------------+
 | **Persona (Role)**               | **Capabilities**                 |
 +==================================+==================================+
-| ![](/Users/tjm/Documents         | Business Analysts deliver value  |
-| /GitHub/CPD-workshop/labs/images | by taking data, using it to      |
-| /media/image2.png){width="0.4in" | answer questions, and            |
-| height="0.4in"}                  | communicating the results to     |
-|                                  | help make better business        |
-| Business Analyst                 | decisions.                       |
+| ![                               | Business Analysts deliver value  |
+| ](/Users/tjm/Documents/GitHub/CP | by taking data, using it to      |
+| D-workshop/labs/cde-embed/images | answer questions, and            |
+| /media/image2.png){width="0.4in" | communicating the results to     |
+| height="0.4in"}                  | help make better business        |
+|                                  | decisions.                       |
+| Business Analyst                 |                                  |
 +----------------------------------+----------------------------------+
 
 ## Logging into the CPD web client (if you have not already done so)
@@ -45,14 +46,14 @@ the organization is facing.
 2.  Click the desktop icon: Cloud Pak for Data Web Client.
 
 > ![A picture containing object, clock Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.8668689851268592in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image3.png){width="0.8668689851268592in"
 > height="0.9787226596675416in"}
 
 3.  The CPD web client GUI displays as shown. Use cpduser and cpduser
     for the *Username* and *Password* and click Sign In.
 
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image4.png){width="2.9893613298337707in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image4.png){width="2.9893613298337707in"
 > height="3.9299136045494314in"}
 
 ## Reviewing the dashboard: Monthly Metrics - Trade Co. 
@@ -64,7 +65,7 @@ a declining number of traders per month, which the business analyst
 provides to the Trade Co. executives.
 
 ![A screen shot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="6.4972484689413825in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image5.png){width="6.4972484689413825in"
 height="2.7446806649168853in"}
 
 ## Building the dashboard: Monthly Metrics - Trade Co. 
@@ -88,13 +89,13 @@ analyst discovered.
 Notice TraderData.csv available in our project.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="4.486205161854768in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image6.png){width="4.486205161854768in"
 height="2.4361701662292212in"}
 
 3.  Click Add to project + Dashboard.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="5.297871828521435in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image7.png){width="5.297871828521435in"
 height="2.927717629046369in"}
 
 4.  In the Blank tab, fill in the Name and Description as shown below,
@@ -102,45 +103,45 @@ height="2.927717629046369in"}
     - for the name*,* use initials-Monthly Metrics -- Trade Co.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="5.297871828521435in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image8.png){width="5.297871828521435in"
 height="3.27593394575678in"}
 
 5.  You are now presented with a choice of canvas templates. Select the
     one that looks as shown Click OK.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="5.191489501312336in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image9.png){width="5.191489501312336in"
 height="2.370800524934383in"}
 
 6.  From the Selected sources area near the top left of your screen,
     click
-    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="0.1889938757655293in"
+    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image10.png){width="0.1889938757655293in"
     height="0.1889938757655293in"}.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="4.251784776902887in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image11.png){width="4.251784776902887in"
 height="1.7021270778652668in"}
 
 7.  Expand arrow next to Data assets and choose: TraderData.csv Select.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="2.888300524934383in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image12.png){width="2.888300524934383in"
 height="2.297871828521435in"}![A close up of a sign Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="1.8936165791776027in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image13.png){width="1.8936165791776027in"
 height="0.5661975065616798in"}
 
 8.  Click on TraderData.csv once it is in the Selected sources. This
     will allow you to expand it.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="3.9975885826771655in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image14.png){width="3.9975885826771655in"
 height="2.1885247156605425in"}
 
 9.  Now expand TraderData.csv.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="3.3510640857392824in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image15.png){width="3.3510640857392824in"
 height="3.142551399825022in"}
 
 10. Next. ensure the properties of the column data are what you want to
@@ -150,7 +151,7 @@ Click the MonthNum ellipsis, then select Properties from the flyout
 menu.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="4.10655949256343in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image16.png){width="4.10655949256343in"
 height="3.393616579177603in"}
 
 11. MonthNum is an attribute on which we sort our months. Change
@@ -158,14 +159,14 @@ height="3.393616579177603in"}
     Default, then click Close.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="3.9255314960629923in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image17.png){width="3.9255314960629923in"
 height="3.5722944006999127in"}
 
 12. Select the Properties of Month by selecting the ellipses next to
     Month.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image18.png){width="3.994329615048119in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image18.png){width="3.994329615048119in"
 height="2.950819116360455in"}
 
 13. Change Aggregate to None.
@@ -177,7 +178,7 @@ Select Sort by -- MonthNum.
 Click Close.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image19.png){width="4.3625in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image19.png){width="4.3625in"
 height="4.299776902887139in"}
 
 14. Next, set the aggregation of our measures for totaling.
@@ -188,7 +189,7 @@ both.
 Click the ellipsis and then click Properties.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="3.834002624671916in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image20.png){width="3.834002624671916in"
 height="3.2021270778652666in"}
 
 15. Make sure *Aggregate* is Total in the drop-down menu.
@@ -196,7 +197,7 @@ height="3.2021270778652666in"}
 Click Close.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image21.png){width="5.031914916885389in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image21.png){width="5.031914916885389in"
 height="2.7674551618547683in"}
 
 ### **Building the first visualizations**
@@ -205,7 +206,7 @@ height="2.7674551618547683in"}
     maximize* area when it turns blue, then releasing the mouse. This
     gives us a total of Shares sold over all time.
 
-![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTMLa1f3e46.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="6.402777777777778in"
+![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTMLa1f3e46.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image22.png){width="6.402777777777778in"
 height="1.6395220909886263in"}
 
 17. If you did not drop at the right place it won't fill the template
@@ -213,21 +214,21 @@ height="1.6395220909886263in"}
     the left box. It should look as below.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image23.png){width="4.221311242344707in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image23.png){width="4.221311242344707in"
 height="1.5734951881014874in"}
 
 18. Drag DailyTraders to the top right box, hovering over the *Drop here
     to maximize* area when it turns blue as well. This maximizes this
     metric in this box. This gives us a total of trades over all time.
 
-![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTMLa221f85.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="3.013888888888889in"
+![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTMLa221f85.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image24.png){width="3.013888888888889in"
 height="0.8707972440944882in"}
 
 19. After you complete both top boxes, the dashboard should display as
     shown:
 
 ![A close up of a logo Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="6.314000437445319in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image25.png){width="6.314000437445319in"
 height="1.35in"}
 
 ### **Building the line charts**
@@ -240,7 +241,7 @@ height="1.35in"}
     visualization wider if needed.)
 
 ![A close up of a map Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image26.png){width="6.402136920384952in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image26.png){width="6.402136920384952in"
 height="4.840425415573053in"}
 
 22. Cognos Analytics uses augmented intelligence to automatically
@@ -252,13 +253,13 @@ height="4.840425415573053in"}
     (Line, in this case), and view all the visualizations available.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="5.95454615048119in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image27.png){width="5.95454615048119in"
 height="4.686059711286089in"}
 
 23. Click the X to close the Change visualization screen.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="5.538445975503062in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image28.png){width="5.538445975503062in"
 height="2.595744750656168in"}
 
 24. Hold Control key down, click Month and DailyTraders and drag the two
@@ -266,7 +267,7 @@ height="2.595744750656168in"}
     here to maximize* area.
 
 ![A close up of a map Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="6.403792650918636in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image29.png){width="6.403792650918636in"
 height="3.45744750656168in"}
 
 25. Adjust the top, bottom, left and right of the chart boundaries so
@@ -275,13 +276,13 @@ height="3.45744750656168in"}
 26. The dashboard should display as below.
 
 ![A close up of a map Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="6.2888724846894135in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image30.png){width="6.2888724846894135in"
 height="2.3484853455818024in"}
 
 27. Click the Save icon at the top of the screen to save your work.
 
 ![A picture containing clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="2.778688757655293in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image31.png){width="2.778688757655293in"
 height="1.1920909886264217in"}
 
 ### **Making the finishing touches**
@@ -291,14 +292,14 @@ height="1.1920909886264217in"}
     visualization.
 
 ![A close up of a map Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image32.png){width="6.4554133858267715in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image32.png){width="6.4554133858267715in"
 height="3.095744750656168in"}
 
 29. Expand Appearance, then from the General tab, check Show title.
 
 ![A screenshot of a cell phone screen with text Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image33.png){width="2.9159186351706037in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image33.png){width="2.9159186351706037in"
 height="4.148935914260718in"}
 
 30. In the bottom left visualization itself you can now type in a title
@@ -307,7 +308,7 @@ height="4.148935914260718in"}
 Enter Shares sold per month.
 
 ![A picture containing man, sign Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image34.png){width="4.980005468066492in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image34.png){width="4.980005468066492in"
 height="1.5245898950131234in"}
 
 31. Click the bottom right visualization, select Properties *(if not
@@ -316,17 +317,17 @@ height="1.5245898950131234in"}
 
 ![A screenshot of a cell phone screen with text Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image33.png){width="2.4972222222222222in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image33.png){width="2.4972222222222222in"
 height="3.5531911636045495in"}![A close up of a map Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image35.png){width="3.991803368328959in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image35.png){width="3.991803368328959in"
 height="3.1379221347331585in"}
 
 32. From the Visualization tab, expand Chart, then check Show Value
     Labels.
 
 ![A close up of a map Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image36.png){width="4.8936165791776025in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image36.png){width="4.8936165791776025in"
 height="4.59255249343832in"}
 
 33. Select the Shares sold per Month chart then check Show Value Labels.
@@ -338,20 +339,20 @@ Title it Stock Trades. Adjust the box so the title is large and
 readable.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image37.png){width="5.985945975503062in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image37.png){width="5.985945975503062in"
 height="2.4590157480314963in"}
 
 35. Format the properties of the title Stock Trades. Make the text font
     size 48, bold, choose light teal text color and center aligned.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image38.png){width="5.7575765529308836in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image38.png){width="5.7575765529308836in"
 height="2.8810411198600177in"}
 
 36. Close the Widgets panel.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image39.png){width="0.5453718285214348in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image39.png){width="0.5453718285214348in"
 height="1.2868853893263341in"}
 
 37. Next, let's change the overall look of the dashboard to match our
@@ -360,7 +361,7 @@ height="1.2868853893263341in"}
     top left visualization as shown:
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image40.png){width="3.009854549431321in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image40.png){width="3.009854549431321in"
 height="3.015152012248469in"}
 
 38. This selects the entire dashboard. Select Properties again, expand
@@ -372,13 +373,13 @@ height="3.015152012248469in"}
     Give it a title of Stock Trades.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image41.png){width="1.606557305336833in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image41.png){width="1.606557305336833in"
 height="1.1216951006124234in"}
 
 41. The final results should look something like this:
 
 ![A screen shot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image42.png){width="5.986805555555556in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cde-embed/images/media/image42.png){width="5.986805555555556in"
 height="2.808950131233596in"}
 
 42. Click Save again to mark your progress.
