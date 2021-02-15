@@ -1,43 +1,79 @@
-# Analyze: AutoAI
-## Lab overview
-Analyze is the third phase in the Cloud Pak for Data platform and workflow. This is where data scientists and business analysts can join forces to gain insights from their organization's data. Analyze capabilities can be delivered with a number of different CPD services.
+# **[Analyze: AutoAI]{.smallcaps}**
 
+## Lab overview
+
+Analyze is the third phase in the Cloud Pak for Data platform and
+workflow. This is where data scientists and business analysts can join
+forces to gain insights from their organization's data. Analyze
+capabilities can be delivered with a number of different CPD services.
 Examples:
+
 -   AutoAI (included with the Watson Machine Learning service)
+
 -   Notebook model creation (included with the Watson Studio service)
+
 -   SPSS Modeler
+
 -   Decision Optimization
+
 -   Cognos Analytics (or Cognos Analytics Embedded)
+
 -   IBM Streams (which could be "Collect" or "Analyze" depending on how
     it is used)
--   RStudio model creation ...and others
+
+-   RStudio model creation\...and others
 
 In this lab you will explore AutoAI, which helps simplify the Machine
 Learning model AI lifecycle by automating the following:
+
 -   Data preparation
+
 -   Model development
+
 -   Feature engineering
+
 -   Hyper-parameter optimization
 
-![](./images/media/datascientist.png)
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image1.png){width="6.034549431321085in"
+height="2.7847222222222223in"}
 
 ## Persona represented in this lab
+
 The Data Scientist persona is the most likely role to perform the
 Analyze tasks in this lab, that is, to create a machine learning model
 with AutoAI that can be deployed and infused into an AI application.
 
-| **Persona (Role)**  | **Capabilities**                 |
-:---:|:---|
-|Data Scientist ![Data Scientist](./images/media/datascientist.png) | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.
++----------------------------------+----------------------------------+
+| **Persona (Role)**               | **Capabilities**                 |
++==================================+==================================+
+| ![](/Users/tjm/Documents/GitHub  | Data Scientists bring expertise  |
+| /CPD-workshop/labs/autoai/images | in statistics and the process of |
+| /media/image2.png){width="0.4in" | building ML/AI models to make    |
+| height="0.4in"}                  | predictions and answer key       |
+|                                  | business questions.              |
+| Data Scientist                   |                                  |
++----------------------------------+----------------------------------+
 
-## Logging into the Cloud Pak for Data web client (if you have not already done so)
-1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
-1.  Click the desktop icon: Cloud Pak for Data Web Client.
-![](./images/media/user.png)
-1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-![](./images/media/image4.png)
+## Logging into the CPD web client (if you have not already done so)
+
+1.  If you are starting this lab stand-alone (without going through
+    previous labs) do the following:
+
+2.  Click the desktop icon: Cloud Pak for Data Web Client.
+
+![A picture containing object, clock Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image3.png){width="0.7049179790026247in"
+height="0.7958748906386701in"}
+
+3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess
+    for the *Username* and *Password* and click Sign in.
+
+![A screenshot of a cell phone Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image4.png){width="1.8032786526684164in"
+height="2.370650699912511in"}
 
 ## Setting up the AutoAI experiment
+
 In the lab, you will create an AutoAI experiment that will be used to
 automatically create the machine learning model that best fits the data
 to provide the desired outcome. One only needs to provide general
@@ -45,31 +81,79 @@ guidance, and AutoAI will do the rest of the work.
 
 In our scenario, Trade Co. data scientists accelerate their time to
 value using this powerful tool.
-![](./images/media/image5.png)
 
-1. In the CPD web client, click the Navigation Menu ("hamburger" icon)
-    a Projects. ![](./images/media/image6.png)
-    ![](./images/media/image7.png)
-1. Select the project: CPD Workshop Analytics Project.
-  ![](./images/media/image8.png)
-1. Once the project is opened, at the top right corner of the screen click on: Add to project +. ![](./images/media/image9.png)
-1. In the next screen hover over and then click on the tile: AutoAI experiment. ![](./images/media/image10.png)
-  1. In Name, enter ChurnRisk AutoAI experiment.
-  1. Fill in anything you like in Description.
-  1. Leave the defaults for Compute configuration.
-  1. Click Create.
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png)
-  *Note:* If you have to wait a long time for the spinning circle to complete, simply return to the CPD Workshop Analytics Project and select ChurnRisk AutoAI Experiment from the list of Assets.
-1. In the screen Add data source, click Select from project.
-![](./images/media/image12.png)
- 1. Select File name: customer_demochurn_activity_analyze.csv.
- 1. Click Select asset.
- ![](./images/media/image13.png)
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image5.png){width="0.5833333333333334in"
+height="0.4722222222222222in"}
 
-|:---:|:---|
-| ![](./labs/images/media/image2.png| The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. |
+4.  In the CPD web client, click the Navigation Menu ("hamburger" icon)
+    a Projects.
+
+![A picture containing clock, meter Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image6.png){width="1.327869641294838in"
+height="1.1406058617672792in"}![A picture containing dark, clock, light,
+meter Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image7.png){width="2.3114752843394575in"
+height="1.1525885826771654in"}
+
+5.  Select the project: CPD Workshop Analytics Project.
+
+![A screenshot of a cell phone Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image8.png){width="2.8934416010498687in"
+height="0.888069772528434in"}
+
+6.  Once the project is opened, at the top right corner of the screen
+    click on: Add to project +.
+
+![A screenshot of a cell phone Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image9.png){width="3.8196719160104986in"
+height="0.8536734470691164in"}
+
+7.  In the next screen hover over and then click on the tile: AutoAI
+    experiment.
+
+![A screenshot of a cell phone Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image10.png){width="3.721311242344707in"
+height="1.3641896325459317in"}
+
+8.  In Name, enter ChurnRisk AutoAI experiment.
+
+Fill in anything you like in Description.
+
+Leave the defaults for Compute configuration.
+
+Click Create.
+
+![A screenshot of a cell phone Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image11.png){width="6.504553805774278in"
+height="3.2637292213473317in"}
+
+> *Note: If you have to wait a long time for the spinning circle to
+> complete, simply return to the CPD Workshop Analytics Project and
+> select ChurnRisk AutoAI Experiment from the list of Assets.*
+
+9.  In the screen Add data source, click Select from project.
+
+![A screenshot of a social media post Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image12.png){width="4.590162948381452in"
+height="2.5797222222222222in"}
+
+10. Select File name: customer_demochurn_activity_analyze.csv.
+
+Click Select asset.
+
+![A screenshot of a cell phone Description automatically
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image13.png){width="6.38907261592301in"
+height="3.490741469816273in"}
+
++----------------------------------+----------------------------------+
+| ![](/Users/tjm/Documents/GitHub  | The CSV file used in this AutoAI |
+| /CPD-workshop/labs/autoai/images | experiment is a join of Db2      |
+| /media/image2.png){width="0.4in" | CUSTOMER_CHURN, Db2              |
+| height="0.4in"}                  | CUSTOMER_DEMOGRAPHICS and        |
+|                                  | MongoDB CUSTOMER_ACTIVITY data.  |
+| Data                             |                                  |
 |                                  | If you have been doing all the   |
-|                         | labs so far in this workshop,    |
+| Scientist                        | labs so far in this workshop,    |
 |                                  | you would have completed the     |
 |                                  | previous Data Flow Designer and  |
 |                                  | Data Virtualization labs that    |
@@ -90,7 +174,7 @@ value using this powerful tool.
     CHURNRISK.
 
 ![A screenshot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="5.295080927384077in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image14.png){width="5.295080927384077in"
 height="2.597821522309711in"}
 
 12. Notice that the bottom of this screen now fills in when CHURNRISK is
@@ -102,7 +186,7 @@ Classification.
 Click Experiment settings.
 
 ![A picture containing clock, drawing Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="4.229507874015748in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image15.png){width="4.229507874015748in"
 height="1.2526356080489938in"}
 
 13. The first Experiment setting you can change from the values chosen
@@ -112,7 +196,7 @@ This allows you to change the Holdout data split (for testing vs.
 training)
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="5.490112642169729in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image16.png){width="5.490112642169729in"
 height="3.131147200349956in"}
 
 If you scroll down you can see that you can optionally choose to select
@@ -131,7 +215,7 @@ Multiclass classification is best suited for this data.
 
 Leave these setting as-is .
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="6.478949037620297in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image17.png){width="6.478949037620297in"
 height="2.008196631671041in"}
 
 15. Scroll down to review the next section: Optimized metric. Notice
@@ -141,7 +225,7 @@ height="2.008196631671041in"}
 A Data Scientist would best determine if and when to deviate from this
 recommended metric, but you will leave this choice as-is.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image18.png){width="3.9405938320209972in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image18.png){width="3.9405938320209972in"
 height="1.2395286526684164in"}
 
 16. Scroll to review third section which allows you to choose which
@@ -149,53 +233,53 @@ height="1.2395286526684164in"}
     deselecting it.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image19.png){width="4.941824146981627in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image19.png){width="4.941824146981627in"
 height="2.762376421697288in"}
 
 17. Click the Runtime setting to review the last settings for your
     experiment.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="4.587951662292213in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image20.png){width="4.587951662292213in"
 height="2.3267333770778653in"}
 
 18. Click Save settings to save your changes.
 
 ![A close up of a logo Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image21.png){width="1.37623687664042in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image21.png){width="1.37623687664042in"
 height="0.48434055118110236in"}
 
 ## Running the AutoAI experiment
 
 19. At the bottom of the screen, click Run experiment.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="6.0in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image22.png){width="6.0in"
 height="0.7353291776027997in"}
 
 20. You will first see AutoAI go into a Preparing mode... then it will
     be Pending.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image23.png){width="2.4874989063867017in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image23.png){width="2.4874989063867017in"
 height="1.049180883639545in"}
 
 21. Once it is running, you can click on \[Swap view\] to see each of
     the two different infographics: Relationship map and Progress map.
 
 ![A screenshot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image24.png){width="6.0in"
 height="2.8679582239720034in"}
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image25.png){width="6.0in"
 height="2.1379101049868767in"}
 
 22. Review the Legend for each infographic map.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image26.png){width="2.4262292213473318in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image26.png){width="2.4262292213473318in"
 height="2.7042935258092737in"} ![A screenshot of a cell phone
 Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="2.4508202099737533in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image27.png){width="2.4508202099737533in"
 height="2.6959022309711287in"}
 
 23. On either infographics map, you can scroll down to see the Pipeline
@@ -206,7 +290,7 @@ for the best model) ranking them as it goes along. You will see the
 pipelines complete and rank as the process continues.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="7.1in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image28.png){width="7.1in"
 height="2.5104166666666665in"}
 
 24. As AutoAI does its work, watch it flow through its various steps:
@@ -267,13 +351,13 @@ client to perform a parallel exercise.
     desktop.
 
 ![A picture containing meter, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="0.9092847769028871in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image29.png){width="0.9092847769028871in"
 height="1.1393449256342958in"}
 
 26. Double click the desktop icon: Cloud Pak for Data Web Client.
 
 ![A picture containing object, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.7049179790026247in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image3.png){width="0.7049179790026247in"
 height="0.7958748906386701in"}
 
 27. This will open a second CPD Web client browser tab.
@@ -281,22 +365,22 @@ height="0.7958748906386701in"}
 The AutoAI session is running in the first tab **[so don't close
 it!]{.ul}**
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="3.059405074365704in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image30.png){width="3.059405074365704in"
 height="1.40586176727909in"}
 
 28. In the CPD web client, click the Navigation Menu a Projects.
 
 ![A close up of a sign Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="1.7012981189851268in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image31.png){width="1.7012981189851268in"
 height="0.8360662729658793in"}![A picture containing meter Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image32.png){width="1.8118810148731408in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image32.png){width="1.8118810148731408in"
 height="0.7084930008748906in"}
 
 29. Select the project: CPD Workshop Analytics Project.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image33.png){width="2.9837150043744534in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image33.png){width="2.9837150043744534in"
 height="1.8910892388451443in"}
 
 30. In the section Assets, scroll down to find Notebooks.
@@ -304,16 +388,16 @@ height="1.8910892388451443in"}
 Click TradingCustomerChurnClassifier-Py36.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image34.png){width="4.955527121609799in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image34.png){width="4.955527121609799in"
 height="1.0972222222222223in"}
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image35.png){width="4.5in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image35.png){width="4.5in"
 height="1.1324825021872267in"}
 
 31. You will be presented with the opened notebook.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image36.png){width="3.5741152668416447in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image36.png){width="3.5741152668416447in"
 height="2.0069444444444446in"}
 
 32. Click the Edit (pencil) icon to put the Notebook in edit mode.
@@ -322,17 +406,17 @@ height="2.0069444444444446in"}
 mode.)
 
 ![A picture containing clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image37.png){width="1.180326990376203in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image37.png){width="1.180326990376203in"
 height="0.6501027996500437in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | Note: if you received an error   |
-| /GitHub/CPD-workshop/labs/images | like this "403: forbidden."      |
+| ![](/Users/tjm/Documents/GitHub  | Note: if you received an error   |
+| /CPD-workshop/labs/autoai/images | like this "403: forbidden."      |
 | /media/image2.png){width="0.4in" |                                  |
-| height="0.4in"}                  | ![C:\\Users\\BURTVI\~1\\A        |
-|                                  | ppData\\Local\\Temp\\SNAGHTML5be |
-| Data                             | d53eb.PNG](/Users/tjm/Documents/ |
-|                                  | GitHub/CPD-workshop/labs/images/ |
+| height="0.4in"}                  | ![C:\\Users\\BURTVI\~1\\AppData\ |
+|                                  | \Local\\Temp\\SNAGHTML5bed53eb.P |
+| Data                             | NG](/Users/tjm/Documents/GitHub/ |
+|                                  | CPD-workshop/labs/autoai/images/ |
 | Scientist                        | media/image38.png){width="1.2in" |
 |                                  | height="0.764912510936133in"}    |
 |                                  |                                  |
@@ -345,9 +429,9 @@ height="0.6501027996500437in"}
 |                                  | notebook again after returning   |
 |                                  | to the project.                  |
 |                                  |                                  |
-|                                  | ![](/Use                         |
-|                                  | rs/tjm/Documents/GitHub/CPD-work |
-|                                  | shop/labs/images/media/image39.p |
+|                                  | ![](/Users/tjm/                  |
+|                                  | Documents/GitHub/CPD-workshop/la |
+|                                  | bs/autoai/images/media/image39.p |
 |                                  | ng){width="0.9444444444444444in" |
 |                                  | height="0.29127734033245845in"}  |
 +----------------------------------+----------------------------------+
@@ -355,20 +439,20 @@ height="0.6501027996500437in"}
 33. The Notebook will start a runtime and present a screen with the top
     left looking like this:
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image40.png){width="6.576388888888889in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image40.png){width="6.576388888888889in"
 height="1.2671642607174103in"}
 
 34. Click on the Fast Forward (double arrow) icon to re-run the whole
     notebook.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image41.png){width="4.204917979002625in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image41.png){width="4.204917979002625in"
 height="1.5538123359580052in"}
 
 35. Click Restart and Run All Cells.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image42.png){width="4.8125in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image42.png){width="4.8125in"
 height="1.1122790901137358in"}
 
 36. The notebook will now start running each cell in sequential order. A
@@ -377,16 +461,17 @@ height="1.1122790901137358in"}
 Scroll up to the first cells under 1. Load libraries.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image43.png){width="6.042647637795276in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image43.png){width="6.042647637795276in"
 height="2.237623578302712in"}
 
 +----------------------------------+----------------------------------+
 | ![A picture containing hat,      | Note: You can run the notebook   |
 | light Description automatically  | cell by cell or all at once.     |
-| generated](/Users/tjm/Documents  | Either way will give you the     |
-| /GitHub/CPD-workshop/labs/images | same result. Any cell that has   |
-| /media/image2.png){width="0.4in" | not yet run is indicated like    |
-| height="0.4in"}                  | this: \[\*\]                     |
+| genera                           | Either way will give you the     |
+| ted](/Users/tjm/Documents/GitHub | same result. Any cell that has   |
+| /CPD-workshop/labs/autoai/images | not yet run is indicated like    |
+| /media/image2.png){width="0.4in" | this: \[\*\]                     |
+| height="0.4in"}                  |                                  |
 |                                  |                                  |
 | Data                             |                                  |
 |                                  |                                  |
@@ -398,7 +483,7 @@ height="2.237623578302712in"}
     the same project that AutoAI is using.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image44.png){width="5.24590113735783in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image44.png){width="5.24590113735783in"
 height="1.7614610673665791in"}
 
 Scroll through this section of the notebook to see various
@@ -406,25 +491,25 @@ visualizations of the data.
 
 38. Review the cells in 3. Data preparation.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image45.png){width="3.513888888888889in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image45.png){width="3.513888888888889in"
 height="0.9687182852143482in"}
 
 39. The next section is self-explanatory: 4. Build Random Forest
     classification model.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image46.png){width="3.7222222222222223in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image46.png){width="3.7222222222222223in"
 height="1.0722954943132108in"}
 
 40. Scroll to find Model Results, then find the Accuracy.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image47.png){width="4.795080927384077in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image47.png){width="4.795080927384077in"
 height="1.6771522309711286in"}
 
 41. Cell \[30\] shows the "Feature Importances," that is, the data
     columns that affected the model the most
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image48.png){width="5.3748326771653545in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image48.png){width="5.3748326771653545in"
 height="3.1458333333333335in"}
 
 42. Finally, review the name listed in 5. Save the model into WML
@@ -433,14 +518,14 @@ height="3.1458333333333335in"}
 We will be referring to this Deployment Space in a later lab.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image49.png){width="6.463792650918635in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image49.png){width="6.463792650918635in"
 height="2.3442629046369206in"}
 
 43. Also note at the very end of the notebook in the last two cells that
     two files are created for batch scoring and evaluation.
 
 ![A close up of a screen Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image50.png){width="5.9098359580052495in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image50.png){width="5.9098359580052495in"
 height="1.3711012685914261in"}
 
 Your notebook has NOT finished until you see that the last two code
@@ -451,12 +536,12 @@ cells (above) have a number from the run.
     model created by this notebook.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image51.png){width="5.590162948381452in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image51.png){width="5.590162948381452in"
 height="0.9858234908136483in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | > **Ten Reasons Why I Like my    |
-| /GitHub/CPD-workshop/labs/images | > Jupyter Notebook**             |
+| ![](/Users/tjm/Documents/GitHub  | > **Ten Reasons Why I Like my    |
+| /CPD-workshop/labs/autoai/images | > Jupyter Notebook**             |
 | /media/image2.png){width="0.4in" |                                  |
 | height="0.4in"}                  | 1.  **All in one place**: The    |
 |                                  |     Jupyter Notebook is a        |
@@ -565,12 +650,12 @@ If the AutoAI experiment has not completed yet, let it finish. You can
 tell if it is finished by looking at the Relationship map view.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image52.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image52.png){width="6.0in"
 height="3.0093897637795277in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | Note: this experiment may take   |
-| /GitHub/CPD-workshop/labs/images | 25 minutes or more to complete,  |
+| ![](/Users/tjm/Documents/GitHub  | Note: this experiment may take   |
+| /CPD-workshop/labs/autoai/images | 25 minutes or more to complete,  |
 | /media/image2.png){width="0.4in" | but this is not normal. We have  |
 | height="0.4in"}                  | turned off AVX/AVX2 processor    |
 |                                  | support for this workshop so     |
@@ -600,8 +685,8 @@ height="3.0093897637795277in"}
 +----------------------------------+----------------------------------+
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | Note: the results from your      |
-| /GitHub/CPD-workshop/labs/images | AutoAI experiment may vary from  |
+| ![](/Users/tjm/Documents/GitHub  | Note: the results from your      |
+| /CPD-workshop/labs/autoai/images | AutoAI experiment may vary from  |
 | /media/image2.png){width="0.4in" | the illustrations in this        |
 | height="0.4in"}                  | workbook. This is especially     |
 |                                  | true for Feature                 |
@@ -619,7 +704,7 @@ accurate result.
 
 Click on the \#1 ranked Pipeline 4. ![A screenshot of a cell phone
 Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image53.png){width="6.3933333333333335in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image53.png){width="6.3933333333333335in"
 height="1.6039610673665792in"}
 
 47. Model Evaluation shows the various evaluation accuracy figures.
@@ -627,25 +712,25 @@ height="1.6039610673665792in"}
     Multi-Class.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image54.png){width="6.393055555555556in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image54.png){width="6.393055555555556in"
 height="5.693972003499563in"}
 
 48. Precision Recall Curve Shows the tradeoff between precision and
     recall.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image55.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image55.png){width="6.0in"
 height="4.3145538057742785in"}
 
 49. Threshold Chart helps choose a threshold for best performance based
     on the chosen measure of performance.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image56.png){width="6.319444444444445in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image56.png){width="6.319444444444445in"
 height="2.307982283464567in"}
 
 50. Model Information gives info on type of model fitted.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image57.png){width="6.270833333333333in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image57.png){width="6.270833333333333in"
 height="1.9657688101487314in"}
 
 51. Feature Transformations displays new features created by AutoAI.
@@ -653,13 +738,13 @@ height="1.9657688101487314in"}
     something a Data Scientist may intuitively do themselves in a
     notebook. (Note: your results may vary from this screen shot.)
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image58.png){width="6.270833333333333in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image58.png){width="6.270833333333333in"
 height="2.207426727909011in"}
 
 52. Feature Importance displays the relative importance of the feature
     in predicting the target.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image59.png){width="6.090277777777778in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image59.png){width="6.090277777777778in"
 height="2.5852701224846895in"}
 
 ## Saving the model
@@ -674,7 +759,7 @@ save the model as a Notebook.
     Save as a Model.
 
     ![A screenshot of a computer screen Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image60.png){width="6.5in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image60.png){width="6.5in"
     height="3.129841426071741in"}
 
 54. In the screen *Save as model*:
@@ -686,20 +771,20 @@ Description: CPD Workshop AutoAI experiment
 Click Save.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image61.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image61.png){width="6.0in"
 height="2.984154636920385in"}
 
 55. Exit the confirmation pop up by clicking x.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image62.png){width="1.8606561679790026in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image62.png){width="1.8606561679790026in"
 height="1.0124168853893263in"}
 
 ### **Saving the model as a notebook**
 
 56. On the top right corner of the screen, click Save as a Notebook.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image63.png){width="5.673611111111111in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image63.png){width="5.673611111111111in"
 height="2.6576826334208223in"}
 
 57. In the screen *New notebook*:
@@ -711,7 +796,7 @@ Description: CPD Workshop AutoAI -- Notebook creation
 Click Create notebook.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image64.png){width="5.89885498687664in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image64.png){width="5.89885498687664in"
 height="3.198675634295713in"}
 
 58. You will be taken to the new notebook in edit mode in the project.\
@@ -723,7 +808,7 @@ height="3.198675634295713in"}
     breadcrumb trail.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image65.png){width="5.499311023622047in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image65.png){width="5.499311023622047in"
 height="4.049179790026247in"}
 
 ### **Reviewing the project**
@@ -734,11 +819,11 @@ height="4.049179790026247in"}
 Scroll down to find the Notebooks section. There you will find the
 AutoAI generated notebook you were just in.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image34.png){width="4.955527121609799in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image34.png){width="4.955527121609799in"
 height="1.0972222222222223in"}
 
 ![A close up of a beach Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image66.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image66.png){width="6.0in"
 height="1.24706583552056in"}
 
 60. Scroll down farther to find the model you created from the AutoAI
@@ -746,17 +831,17 @@ height="1.24706583552056in"}
     RandomForestClassifierEstimator.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image67.png){width="6.0in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image67.png){width="6.0in"
 height="1.1255872703412073in"}
 
 61. Review your new AutoAI generated model.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image68.png){width="5.287582020997375in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image68.png){width="5.287582020997375in"
 height="1.7071905074365705in"}
 
 62. Close any extra browser tabs you may have open, leaving only one.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image69.png){width="3.129251968503937in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image69.png){width="3.129251968503937in"
 height="0.9583333333333334in"}
 
 ## Lab conclusion
@@ -792,7 +877,7 @@ in Intelligent Automation"*: <http://ibm.biz/The-Alconics-Awards>
 
 **Award for IBM's AutoAI**
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image70.png){width="3.6041666666666665in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image70.png){width="3.6041666666666665in"
 height="2.0254188538932634in"}
 
 **\*\* End of Lab 06 - Analyze: AutoAI**
