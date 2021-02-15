@@ -21,10 +21,11 @@ Business Analyst.
 +==================================+==================================+
 | ![A picture containing clothing  | Business Analysts deliver value  |
 | Description automatically        | by taking data, using it to      |
-| generated](/Users/tjm/Documents  | answer questions, and            |
-| /GitHub/CPD-workshop/labs/images | communicating the results to     |
-| /media/image1.png){width="0.4in" | help make better business        |
-| height="0.4in"}                  | decisions.                       |
+| generated](/                     | answer questions, and            |
+| Users/tjm/Documents/GitHub/CPD-w | communicating the results to     |
+| orkshop/labs/cognos-intro/images | help make better business        |
+| /media/image1.png){width="0.4in" | decisions.                       |
+| height="0.4in"}                  |                                  |
 |                                  |                                  |
 | Business Analyst                 |                                  |
 +----------------------------------+----------------------------------+
@@ -37,21 +38,21 @@ Business Analyst.
 2.  Double-click the desktop icon: Cloud Pak for Data Web Client.
 
 ![A picture containing object, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image2.png){width="0.7049179790026247in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image2.png){width="0.7049179790026247in"
 height="0.7958748906386701in"}
 
 3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess
     for the *Username* and *Password* and click Sign In.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image3.png){width="1.8032786526684164in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image3.png){width="1.8032786526684164in"
 height="2.370650699912511in"}
 
 ## Logging into the IBM Cognos provisioned instance
 
 4.  Select the Navigation Menu icon at the top of the screen.
 
-    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image4.png){width="0.2930675853018373in"
+    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image4.png){width="0.2930675853018373in"
     height="0.2647058180227472in"}
 
 5.  Select My Instances from the menu.
@@ -59,7 +60,7 @@ height="2.370650699912511in"}
 6.  Select Provisioned instances from the tab at the top.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="3.5409831583552056in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image5.png){width="3.5409831583552056in"
     height="1.4411220472440944in"}
 
 > Here you will see a list of instances that have been provisioned for
@@ -69,7 +70,7 @@ height="2.370650699912511in"}
     select Open.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="4.683739063867017in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image6.png){width="4.683739063867017in"
     height="2.361111111111111in"}
 
 > You will now be automatically directed and logged into the IBM Cognos
@@ -88,17 +89,17 @@ All IBM Cognos Analytics Users begin their navigation here at the
 Welcome Screen.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="7.052724190726159in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image7.png){width="7.052724190726159in"
 height="3.4652777777777777in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | TECH TIP: Not all Welcome Screen |
-| /GitHub/CPD-workshop/labs/images | Getting Started tiles may be     |
-| /media/image1.png){width="0.4in" | available in your workshop       |
-| height="0.4in"}                  | instance. The Welcome screen     |
-|                                  | getting started tiles presented  |
-| Business Analyst                 | are based on which have been     |
-|                                  | configured to run in the         |
+| ![](/                            | TECH TIP: Not all Welcome Screen |
+| Users/tjm/Documents/GitHub/CPD-w | Getting Started tiles may be     |
+| orkshop/labs/cognos-intro/images | available in your workshop       |
+| /media/image1.png){width="0.4in" | instance. The Welcome screen     |
+| height="0.4in"}                  | getting started tiles presented  |
+|                                  | are based on which have been     |
+| Business Analyst                 | configured to run in the         |
 |                                  | environment[.]{.smallcaps}       |
 +----------------------------------+----------------------------------+
 
@@ -106,7 +107,7 @@ height="3.4652777777777777in"}
     canvas to collapse the Welcome Screen's Getting Started content.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="2.588105861767279in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image8.png){width="2.588105861767279in"
     height="1.7428576115485563in"}
 
 9.  The canvas now shows the Recently used files, if any, in the
@@ -114,7 +115,7 @@ height="3.4652777777777777in"}
     can easily upload their data files.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="6.721786964129484in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image9.png){width="6.721786964129484in"
     height="2.841666666666667in"}
 
 10. Once you begin working with content, the canvas will update with
@@ -133,7 +134,7 @@ height="3.4652777777777777in"}
 11. From your Cognos Analytics Home screen, select New -- Upload.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="1.2295078740157481in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image10.png){width="1.2295078740157481in"
     height="2.610599300087489in"}
 
 12. Select CustomerChurnDemographics-CA_Lab.csv from
@@ -142,21 +143,21 @@ height="3.4652777777777777in"}
     <http://ibm.biz/Churn-Demographics>.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="4.729507874015748in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image11.png){width="4.729507874015748in"
     height="2.9388265529308835in"}
 
 13. Cognos Analytics will then begin to import and analyze the data in
     the CSV file.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="6.819444444444445in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image12.png){width="6.819444444444445in"
     height="1.3166655730533683in"}
 
 14. In the Recent area, in the upper left corner of the CustomerChurn
     CSV card, select ellipses Create exploration.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="3.9454363517060367in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image13.png){width="3.9454363517060367in"
     height="2.074981408573928in"}
 
 ## Cleaning up the data
@@ -169,7 +170,7 @@ Analytics out by defining some data properties.
 15. From the left-hand menu, select the icon for the Data tab.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="1.9333333333333333in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image14.png){width="1.9333333333333333in"
     height="2.042253937007874in"}
 
     Note: You will notice icons next to each field showing a
@@ -184,13 +185,13 @@ Analytics out by defining some data properties.
     information.
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | TIP: If you cannot read the full |
-| /GitHub/CPD-workshop/labs/images | name of the data item shown on   |
-| /media/image1.png){width="0.4in" | your screen, simply hover over   |
-| height="0.4in"}                  | the name and a fly out will      |
-|                                  | display the full name. Another   |
-| Business Analyst                 | option is to use the zoom out    |
-|                                  | feature of your browser.         |
+| ![](/                            | TIP: If you cannot read the full |
+| Users/tjm/Documents/GitHub/CPD-w | name of the data item shown on   |
+| orkshop/labs/cognos-intro/images | your screen, simply hover over   |
+| /media/image1.png){width="0.4in" | the name and a fly out will      |
+| height="0.4in"}                  | display the full name. Another   |
+|                                  | option is to use the zoom out    |
+| Business Analyst                 | feature of your browser.         |
 +----------------------------------+----------------------------------+
 
 17. For the following measures, change the Properties of the Data Item
@@ -201,7 +202,7 @@ Analytics out by defining some data properties.
     Dollar per Unit traded:
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="3.9255435258092737in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image15.png){width="3.9255435258092737in"
     height="3.752380796150481in"}
 
 18. You will be presented with the Properties of that measure.
@@ -210,7 +211,7 @@ Analytics out by defining some data properties.
     None, then Close.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="4.670431977252844in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image16.png){width="4.670431977252844in"
     height="2.8285717410323707in"}
 
 19. Change the other Data Items with the following property values by
@@ -233,25 +234,25 @@ Analytics out by defining some data properties.
     By Estimated income, select ellipses Create data group.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="3.1480653980752407in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image17.png){width="3.1480653980752407in"
     height="2.0571423884514437in"}
 
 21. Choose Create a data group (numeric style).
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image18.png){width="4.459027777777778in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image18.png){width="4.459027777777778in"
     height="1.6292596237970254in"}
 
 22. You will be presented with the following auto grouping:
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image19.png){width="4.459494750656168in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image19.png){width="4.459494750656168in"
     height="4.018518153980753in"}
 
 23. Change the number of Groups to 4.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="5.457142388451444in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image20.png){width="5.457142388451444in"
     height="3.393099300087489in"}\
     *Note: You could manually enter group values or use Cognos to
     automatically do it for you!*
@@ -262,17 +263,17 @@ Analytics out by defining some data properties.
     Data Items list.
 
     ![A close up of a screen Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image21.png){width="1.342856517935258in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image21.png){width="1.342856517935258in"
     height="0.5432928696412949in"}![A screenshot of a cell phone
     Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="2.354543963254593in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image22.png){width="2.354543963254593in"
     height="3.190476815398075in"}
 
 25. When you are finished, return to the Exploration canvas by selecting
     the Exploration tab.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image23.png){width="1.1523807961504813in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image23.png){width="1.1523807961504813in"
     height="1.6078455818022748in"}
 
     IBM Cognos Analytics Exploration asks you: Where do you want to
@@ -298,17 +299,17 @@ Analytics out by defining some data properties.
     see that all of your Data Module Data Items are presented.
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="3.3142858705161853in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image24.png){width="3.3142858705161853in"
     height="3.145071084864392in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | TIP: If you're really            |
-| /GitHub/CPD-workshop/labs/images | adventurous, or do not know the  |
-| /media/image1.png){width="0.4in" | data you are exploring very      |
-| height="0.4in"}                  | well, you could select the Skip  |
-|                                  | -- show me anything link and IBM |
-| Business Analyst                 | Cognos Analytics will select any |
-|                                  | measure as a starting point.     |
+| ![](/                            | TIP: If you're really            |
+| Users/tjm/Documents/GitHub/CPD-w | adventurous, or do not know the  |
+| orkshop/labs/cognos-intro/images | data you are exploring very      |
+| /media/image1.png){width="0.4in" | well, you could select the Skip  |
+| height="0.4in"}                  | -- show me anything link and IBM |
+|                                  | Cognos Analytics will select any |
+| Business Analyst                 | measure as a starting point.     |
 |                                  |                                  |
 |                                  | [Do not do this for this         |
 |                                  | Workshop]{.ul}! It's good to     |
@@ -328,7 +329,7 @@ with us.
 27. From the dropdown, type Churn, then select Churn Risk.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="4.209523184601925in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image25.png){width="4.209523184601925in"
     height="2.8346008311461066in"}
 
 28. By hovering over each of my measures associated with Churn Risk, I
@@ -336,7 +337,7 @@ with us.
     driving Churn Risk.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image26.png){width="5.117020997375328in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image26.png){width="5.117020997375328in"
     height="3.845272309711286in"}
 
 > For example, there seems to be a 73% relationship strength between Net
@@ -353,7 +354,7 @@ with us.
 30. Select the drop-down menu to Edit diagram and select Edit scope.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="2.131932414698163in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image27.png){width="2.131932414698163in"
     height="1.6857141294838145in"}
 
     Fields such as DOB, Longitude and Latitude are probably Data Items
@@ -361,12 +362,12 @@ with us.
     and [may cause static]{.ul} when exploring your data.
 
 31. You can remove those by hovering over, then selecting the
-    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="0.20699037620297464in"
+    ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image28.png){width="0.20699037620297464in"
     height="0.19444444444444445in"} next to DOB, Longitude and Latitude,
     then OK.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="4.97872375328084in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image29.png){width="4.97872375328084in"
     height="4.372452974628171in"}
 
 > IBM Cognos Analytics gives you the flexibility to remove fields that
@@ -379,13 +380,13 @@ with us.
     Select Edit diagram Secondary relationships.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="3.066666666666667in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image30.png){width="3.066666666666667in"
     height="2.2460094050743655in"}
 
 33. Hover around each of the fields to see view the relationship
     strength IBM Cognos Analytics discovered between them. ![A close up
     of a map Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="6.681781496062992in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image31.png){width="6.681781496062992in"
     height="3.2761909448818898in"}
 
 ## Creating Exploration Cards
@@ -402,7 +403,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
 34. Select link See more.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image32.png){width="2.3510640857392824in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image32.png){width="2.3510640857392824in"
     height="4.113092738407699in"}
 
 35. You are now able to see more auto-generated cards via the power of
@@ -415,14 +416,14 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     Status.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image33.png){width="2.5179582239720033in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image33.png){width="2.5179582239720033in"
     height="2.009524278215223in"}
 
 37. Notice that it has added the Card to the left side in the
     Exploration Cards area.
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image34.png){width="4.26176290463692in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image34.png){width="4.26176290463692in"
     height="2.8761898512685913in"}
 
 38. We can see that our High and Medium Churn Risk customers are mostly
@@ -430,7 +431,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     You can view more interesting discoveries by viewing the Details
     tab.\
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image35.png){width="1.9809525371828522in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image35.png){width="1.9809525371828522in"
     height="3.475919728783902in"}\
     Let's now see if Gender plays a role in how much money they trade
     with us.
@@ -438,7 +439,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
 39. Select the Data slots tab at the top next to Details.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image36.png){width="3.4952384076990377in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image36.png){width="3.4952384076990377in"
     height="2.3270188101487315in"}
 
 40. Cognos Analytics provides you interesting insight to your data
@@ -446,13 +447,13 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     the far-right side.
 
     ![A close up of a logo Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image37.png){width="0.5762084426946632in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image37.png){width="0.5762084426946632in"
     height="1.8761898512685915in"}
 
 41. From here, drag Gender over to on top of Status.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image38.png){width="6.457142388451444in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image38.png){width="6.457142388451444in"
     height="2.799737532808399in"}
 
 42. This chart is showing that our high-risk customers who trade the
@@ -463,7 +464,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     realized gains YTD and Age (89%).
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image39.png){width="5.885714129483815in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image39.png){width="5.885714129483815in"
     height="2.608964348206474in"}
 
 43. Next to the title for the fly out, select the 5 Correlated with Net
@@ -472,16 +473,16 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     losses YTD, Net realized gains YTD and Age (89%).
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image40.png){width="6.024501312335958in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image40.png){width="6.024501312335958in"
     height="1.9545450568678915in"}\\
 
 44. Choose the Explorations tab on the left ![A picture containing
     drawing Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image41.png){width="0.33928477690288716in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image41.png){width="0.33928477690288716in"
     height="0.3571423884514436in"} and you will now see the following:
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image42.png){width="6.418772965879265in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image42.png){width="6.418772965879265in"
     height="3.625in"}
 
 45. Notice the strength of the predictor is higher when a combination of
@@ -494,13 +495,13 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     a new Exploration card).
 
     ![A picture containing clock, drawing Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image43.png){width="1.361903980752406in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image43.png){width="1.361903980752406in"
     height="0.8642847769028872in"}
 
 48. Select the Decision Tree card at the left.
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image44.png){width="3.2095231846019248in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image44.png){width="3.2095231846019248in"
     height="2.2424146981627295in"}
 
 49. Now you are easily seeing combinations of drivers and their
@@ -508,7 +509,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     the Top 5 Nodes to show your top 5 nodes in the tree.
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image45.png){width="6.212962598425197in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image45.png){width="6.212962598425197in"
     height="3.66919728783902in"}
 
 50. But you are not limited there. You can view other ways of looking at
@@ -517,13 +518,13 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     Choose Tree sunburst from the top tab.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image46.png){width="3.6476192038495188in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image46.png){width="3.6476192038495188in"
     height="1.6049529746281714in"}
 
 51. You will now be presented with the Sunburst diagram.
 
     ![A close up of a logo Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image47.png){width="4.561917104111986in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image47.png){width="4.561917104111986in"
     height="3.0555555555555554in"}
 
 52. So far, IBM Cognos Analytics has been guiding us and creating charts
@@ -533,26 +534,26 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
 53. From the top menu, select New card Single -- Choose a Type.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image48.png){width="1.9809525371828522in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image48.png){width="1.9809525371828522in"
     height="1.8757141294838144in"}![A picture containing person
     Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image49.png){width="1.8333989501312336in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image49.png){width="1.8333989501312336in"
     height="1.3428576115485564in"}
 
 54. Choose Map under the group Geospatial.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image50.png){width="3.2037029746281713in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image50.png){width="3.2037029746281713in"
     height="1.6100656167979002in"}
 
 55. Select the Data Tab![A picture containing drawing Description
     automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image51.png){width="0.4571434820647419in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image51.png){width="0.4571434820647419in"
     height="0.3975164041994751in"}, then under Data slots, expand
     Regions.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image52.png){width="1.9809525371828522in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image52.png){width="1.9809525371828522in"
     height="1.7243832020997376in"}
 
     Drag Total dollar value traded to Location color.
@@ -560,7 +561,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     Drag State to Locations.
 
     ![A close up of a map Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image53.png){width="6.423657042869642in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image53.png){width="6.423657042869642in"
     height="2.8285706474190726in"}
 
 56. Select the Details tab to get more information on this map.
@@ -574,16 +575,16 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     From the top tab, select New card Single Choose a type.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image48.png){width="1.9809525371828522in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image48.png){width="1.9809525371828522in"
     height="1.8757141294838144in"} ![A picture containing person
     Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image49.png){width="2.5047615923009623in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image49.png){width="2.5047615923009623in"
     height="1.8345909886264218in"}
 
 58. This time let's choose a heat map from the Relationships group.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image54.png){width="1.390475721784777in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image54.png){width="1.390475721784777in"
     height="1.221933508311461in"}
 
 59. Drag Estimated income (Group) to Rows.
@@ -593,7 +594,7 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     Drag Total units traded to Heat.
 
     ![A close up of a map Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image55.png){width="4.310558836395451in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image55.png){width="4.310558836395451in"
     height="3.922253937007874in"}
 
 60. That looks really noisy! Let's now group that Total dollar value
@@ -603,13 +604,13 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     Select the ellipses next to Total dollar traded Auto-group.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image56.png){width="3.20919072615923in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image56.png){width="3.20919072615923in"
     height="3.4736832895888012in"}
 
 61. Turn on Auto-group and set Number of groups to 5.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image57.png){width="3.7289654418197724in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image57.png){width="3.7289654418197724in"
     height="4.021053149606299in"}
 
 62. That's easier to read! Visualizing that sweet spot is now so much
@@ -622,13 +623,13 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     create dashboard.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image58.png){width="2.6736843832020996in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image58.png){width="2.6736843832020996in"
     height="4.928310367454068in"}
 
 64. You should now see the following:
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image59.png){width="6.506284995625546in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image59.png){width="6.506284995625546in"
     height="2.754861111111111in"}
 
     IBM Cognos Analytics Assistant created a dashboard for you!
@@ -639,12 +640,12 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
 
     From the Data tab ![A picture containing drawing Description
     automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image51.png){width="0.4571434820647419in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image51.png){width="0.4571434820647419in"
     height="0.3975164041994751in"}, drag Churn Risk to the Filter All
     tabs location OK.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image60.png){width="5.377396106736658in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image60.png){width="5.377396106736658in"
     height="4.472222222222222in"}
 
 66. Close the Data items tab by selecting it again and you should see
@@ -652,17 +653,17 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     customers. Building dashboards is easy in Cognos Analytics!
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image61.png){width="6.368421916010499in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image61.png){width="6.368421916010499in"
     height="2.8173293963254595in"}
 
 67. Save your Auto-created Dashboard in your Personal Folder as Your
     name -- Dashboard from Exploration Lab.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image62.png){width="1.8631583552055992in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image62.png){width="1.8631583552055992in"
     height="1.3464840332458443in"}![A screenshot of a cell phone
     Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image63.png){width="4.663158355205599in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image63.png){width="4.663158355205599in"
     height="3.140242782152231in"}
 
 ## Embedding Cognos Content
@@ -675,13 +676,13 @@ can begin with one of these info graphs or 'Cards' or see more Cards.
     top left.
 
     ![A picture containing clock, ball Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image64.png){width="4.410527121609799in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image64.png){width="4.410527121609799in"
     height="1.8404418197725285in"}
 
 69. You will then see the Link options in the flyout
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image65.png){width="2.3993832020997377in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/cognos-intro/images/media/image65.png){width="2.3993832020997377in"
     height="4.6in"}
 
 70. Use this information to embed and link your Cognos Analytics
