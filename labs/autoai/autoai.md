@@ -115,6 +115,7 @@ A Data Scientist would best determine if and when to deviate from this recommend
 1. On either infographics map, you can scroll down to see the Pipeline leaderboard.  AutoAI begins building several different pipelines (possible solutions for the best model) ranking them as it goes along. You will see the pipelines complete and rank as the process continues.
  ![image](./images/media/image28.png)
 1. As AutoAI does its work, watch it flow through its various steps:
+
 |:---:|:---|
 | **Steps** | **Action**|
 | **Read dataset** | Reads the data set you provided for the experiment.|
