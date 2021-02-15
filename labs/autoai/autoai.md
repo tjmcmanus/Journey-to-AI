@@ -22,9 +22,9 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
 
 The Data Scientist persona is the most likely role to perform the Analyze tasks in this lab, that is, to create a machine learning model with AutoAI that can be deployed and infused into an AI application.
 
-|:---:|---|
-| **Persona (Role)** | **Capabilities**|
-| ![](./images/media/image2.png) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
+ |:---:|---|
+ | **Persona (Role)** | **Capabilities**|
+ | ![](./images/media/image2.png) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
 
 ## Logging into the CPD web client (if you have not already done so)
 
@@ -39,7 +39,7 @@ The Data Scientist persona is the most likely role to perform the Analyze tasks 
 In the lab, you will create an AutoAI experiment that will be used to automatically create the machine learning model that best fits the data to provide the desired outcome. One only needs to provide general guidance, and AutoAI will do the rest of the work.
 
 In our scenario, Trade Co. data scientists accelerate their time to value using this powerful tool.
-> ![](./images/media/image5.png)
+ > ![](./images/media/image5.png)
 
 1.  In the CPD web client, click the Navigation Menu ("hamburger" icon) a Projects.
   ![image](./images/media/image6.png)![](./images/media/image7.png)
@@ -60,11 +60,9 @@ In our scenario, Trade Co. data scientists accelerate their time to value using 
 1. Select **File name**: ***[customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv)***.
 **Click** ***Select asset***.
   ![image](./images/media/image13.png)
-
-|:---:|:---:|
-| **Persona (Role)** | **Capabilities** |
-| ![image](./images/media/image2.png) Data Scientist | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab. |
-
+  |:---:|:---:|
+  | **Persona (Role)** | **Capabilities** |
+  | ![image](./images/media/image2.png) Data Scientist | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab. |
 1. In the screen Select prediction column, select Column name: CHURNRISK.
    ![image](./images/media/image14.png)
 1. Notice that the bottom of this screen now fills in when CHURNRISK is select as the Prediction column.
@@ -76,31 +74,19 @@ This allows you to change the Holdout data split (for testing vs. training)
   ![image](./images/media/image16.png)
 If you scroll down you can see that you can optionally choose to select which columns to include in the experiment as well.
 Leave these settings as-is and click on the section: Prediction.
-1. The second setting you can change is Prediction.
-The first section in the Prediction settings is the Prediction type.
-
-Read what all three Prediction types are best suited for. The one chosen for you was derived from the column CHURNRISK, which, by the way, has three values - High, Medium and Low. Thus, AutoAI determined that Multiclass classification is best suited for this data.
-
-Leave these setting as-is.
+1. The second setting you can change is Prediction.  
+ - The first section in the Prediction settings is the Prediction type.  Read what all three Prediction types are best suited for. The one chosen for you was derived from the column CHURNRISK, which, by the way, has three values - High, Medium and Low. Thus, AutoAI determined that Multiclass classification is best suited for this data.
+1. Leave these setting as-is.
   ![](./images/media/image17.png)
-
 1. Scroll down to review the next section: Optimized metric. Notice that AutoAI chose Accuracy for you. Hover over a few of the other metrics you could choose if you so desired.
-
-A Data Scientist would best determine if and when to deviate from this recommended metric, but you will leave this choice as-is.
-
-![](./images/media/image18.png)
-
-16. Scroll to review third section which allows you to choose which algorithms to test. Remove the LGBM Classifier from the list by deselecting it.
-
-![image](./images/media/image19.png)
-
-17. Click the Runtime setting to review the last settings for your experiment.
-
-![image](./images/media/image20.png)
-
-18. Click Save settings to save your changes.
-
-![image](./images/media/image21.png)
+  **Note:**A Data Scientist would best determine if and when to deviate from this recommended metric, but you will leave this choice as-is.
+  ![](./images/media/image18.png)
+1. Scroll to review third section which allows you to choose which algorithms to test. Remove the LGBM Classifier from the list by deselecting it.
+  ![image](./images/media/image19.png)
+1. Click the Runtime setting to review the last settings for your experiment.
+  ![image](./images/media/image20.png)
+1. Click Save settings to save your changes.
+  ![image](./images/media/image21.png)
 
 ## Running the AutoAI experiment
 1. At the bottom of the screen, click Run experiment.
@@ -116,139 +102,86 @@ A Data Scientist would best determine if and when to deviate from this recommend
  ![image](./images/media/image28.png)
 1. As AutoAI does its work, watch it flow through its various steps:
 
-|:---:|:---|
-| **Steps** | **Action**|
-| **Read dataset** | Reads the data set you provided for the experiment.|
-| **Split holdout data** | Splits the data between testing and training. |
-| **Read training data** |  Reads training data to prepare for preprocessing. |
-| **Preprocessing** |  Most data sets contain different data formats and missing values, but standard ML algorithms work with numbers and no missing values. AutoAI applies various algorithms (estimators) to analyze, clean, and prepare your raw data for machine learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. It determines the best combination of strategies for missing value imputation, feature encoding, and feature scaling for your data. |
-| **Model selection** |  AutoAI uses a novel approach that enables testing and ranking candidate algorithms against small subsets of the data, gradually increasing the size of the subset for the most promising algorithms to arrive at the best match by ranking large numbers of candidate algorithms. This approach saves time without sacrificing performance.|
-| **Selected estimator** |  Shows the estimator chosen from the model selection step.|
-| **Hyperparameter optimization** | Refines the best performing model pipelines by using a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enables fast convergence to a good solution despite long evaluation times of each iteration. |
-| **Feature engineering** | Attempts to transform the raw data into the combination of features that best represents the problem to achieve the most accurate prediction. AutoAI uses a novel approach that explores various feature construction choices in a structured, non-exhaustive manner, while progressively maximizing model accuracy using reinforcement learning. This results in an optimized sequence of  transformations for the data that best match the algorithms of the model selection step.|
+  |:---:|-------|
+  | **Steps** | **Action**|
+  | **Read dataset** | Reads the data set you provided for the experiment.|
+  | **Split holdout data** | Splits the data between testing and training. |
+  | **Read training data** |  Reads training data to prepare for preprocessing. |
+  | **Preprocessing** |  Most data sets contain different data formats and missing values, but standard ML algorithms work with numbers and no missing values. AutoAI applies various algorithms (estimators) to analyze, clean, and prepare your raw data for machine learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. It determines the best combination of strategies for missing value imputation, feature encoding, and feature scaling for your data. |
+  | **Model selection** |  AutoAI uses a novel approach that enables testing and ranking candidate algorithms against small subsets of the data, gradually increasing the size of the subset for the most promising algorithms to arrive at the best match by ranking large numbers of candidate algorithms. This approach saves time without sacrificing performance.|
+  | **Selected estimator** |  Shows the estimator chosen from the model selection step.|
+  | **Hyperparameter optimization** | Refines the best performing model pipelines by using a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enables fast convergence to a good solution despite long evaluation times of each iteration. |
+  | **Feature engineering** | Attempts to transform the raw data into the combination of features that best represents the problem to achieve the most accurate prediction. AutoAI uses a novel approach that explores various feature construction choices in a structured, non-exhaustive manner, while progressively maximizing model accuracy using reinforcement learning. This results in an optimized sequence of  transformations for the data that best match the algorithms of the model selection step.|
 
 ## Running a Notebook
 
 While the AutoAI experiment is running, **open another** CPD web client to perform a parallel exercise.
-
-25. Minimize the CPD web client browser to be able to get to the desktop.
-
-![image](./images/media/image29.png)
-
-26. Double click the desktop icon: Cloud Pak for Data Web Client.
-
-![image](./images/media/image3.png)
-
-27. This will open a second CPD Web client browser tab.
-
-The AutoAI session is running in the first tab **[so don't close it!]{.ul}**
-
+1. Minimize the CPD web client browser to be able to get to the desktop.
+ ![image](./images/media/image29.png)
+1. Double click the desktop icon: Cloud Pak for Data Web Client.
+ ![image](./images/media/image3.png)
+1. This will open a second CPD Web client browser tab.
+  **Note:** The AutoAI session is running in the first tab **[so don't close it!]**
 ![](./images/media/image30.png)
-
-28. In the CPD web client, click the Navigation Menu a Projects.
-
-![image](./images/media/image31.png)![image](./images/media/image32.png)
-
-29. Select the project: CPD Workshop Analytics Project.
-
-![image](./images/media/image33.png)
-
-30. In the section Assets, scroll down to find Notebooks.
-
-Click TradingCustomerChurnClassifier-Py36.
-
-![image](./images/media/image34.png)
-
+1. In the CPD web client, click the Navigation Menu a Projects.
+  ![image](./images/media/image31.png)![image](./images/media/image32.png)
+1. Select the project: CPD Workshop Analytics Project.
+  ![image](./images/media/image33.png)
+1. In the section Assets, scroll down to find Notebooks.
+  - Click TradingCustomerChurnClassifier-Py36.
+  ![image](./images/media/image34.png)
 ![image](./images/media/image35.png)
-
-31. You will be presented with the opened notebook.
-
-![](./images/media/image36.png)
-
-32. Click the Edit (pencil) icon to put the Notebook in edit mode.
-
-(Note: If you are returning to the Notebook, it may already be in edit mode.)
-
-![image](./images/media/image37.png)
-
-|:---:|:---|
-| ![image](./images/media/image2.png) | Note: if you received an error like this "403: forbidden." |
-| | ![image](./images/media/image38.png)|
-| | Fix the problem by leaving this screen and going to My Instances a Environments and then delete the Runtime environment for Python 3.6 that is currently running. Try opening the notebook again after returning to the project. ![image](./images/media/image39.png)|
-
-
-
-33. The Notebook will start a runtime and present a screen with the top left looking like this:
-
-![](./images/media/image40.png)
-
-34. Click on the Fast Forward (double arrow) icon to re-run the whole notebook.
-
-![image](./images/media/image41.png)
-
-35. Click Restart and Run All Cells.
-
-![image](./images/media/image42.png)
-
-36. The notebook will now start running each cell in sequential order. A number will be placed next to each cell after it has executed.
-
-Scroll up to the first cells under 1. Load libraries.
-
-![image](./images/media/image43.png)
-
-|:---:|:---|
-| ![image](./images/media/image2.png) | **Note:** You can run the notebook cell by cell or all at once. Either way will give you the same result. Any cell that has not yet run is indicated like this: \[\*\] |
-
-37. Scroll to the 4^th^ cell (under 2. Load data example) to see the input file for this notebook. Notice it is the same input file from the same project that AutoAI is using.
-
-![image](./images/media/image44.png)
-
-Scroll through this section of the notebook to see various visualizations of the data.
-
-38. Review the cells in 3. Data preparation.
-
-![](./images/media/image45.png)
-
-39. The next section is self-explanatory: 4. Build Random Forest classification model.
-
-![](./images/media/image46.png)
-
-40. Scroll to find Model Results, then find the Accuracy.
-
-![image](./images/media/image47.png)
-
-41. Cell \[30\] shows the "Feature Importances," that is, the data columns that affected the model the most
-
-![](./images/media/image48.png)
-
-42. Finally, review the name listed in 5. Save the model into WML Deployment Space.
-
-We will be referring to this Deployment Space in a later lab.
-
-![image](./images/media/image49.png)
-
-43. Also note at the very end of the notebook in the last two cells that two files are created for batch scoring and evaluation.
-
-![image](./images/media/image50.png)
-
-Your notebook has NOT finished until you see that the last two code cells (above) have a number from the run.
-
-44. One key data point to take particular note of from this notebook run is found in cell 25, which is the accuracy of the Random Forest model created by this notebook.
-
-![image](./images/media/image51.png)
-
-|:---------------:|:---|
-| ![](./images/media/image2.png) | **Ten Reasons Why I Like my Jupyter Notebook**|
-|  | 1.  **All in one place**: The Jupyter Notebook is a web-based interactive environment that combines code, rich text, images, videos, animations, mathematical equations, plots, maps, interactive figures and widgets, and graphical user interfaces, into a single document.|
-|  | 2.  **Easy to share**: Notebooks are saved as structured text files (JSON format), which makes them easily shareable.|
-|  | 3.  **Easy to convert**: Jupyter comes with a special tool, nbconvert, which converts notebooks to other formats such as HTML and PDF.|
-|  | 4.  **Language independent**: The architecture of Jupyter is language independent. The decoupling between the client and kernel makes it possible to write kernels in any language.|
-|  | 5.  **Easy to create kernel wrappers**: Jupyter brings a lightweight interface for kernel languages that can be wrapped in Python. Wrapper kernels can implement optional methods, notably for code completion and code inspection.|
-|  | 6.  **Easy to customize**: Jupyter's interface can be used to create an entirely customized experience in the Jupyter Notebook (or another client application such as the console).|
-|  | 7.  **Extensions with custom magic commands**: Create IPython extensions with custom magic commands to make interactive computing even easier. Many third-party extensions and magic commands exist, for example, the %%cython magic that allows one to write Cython code directly in a notebook.|
-|  | 8.  **Stress-free Reproducible experiments**: Jupyter notebooks can help you conduct efficient and reproducible interactive computing experiments with ease. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you don't have to worry about reproducibility; just do all of your interactive work in notebooks, put them under version control, and commit regularly. Don't forget to refactor your code into independent reusable components.|
-|  | 9.  **Effective teaching-cum-learning tool**: The Jupyter Notebook is not only a tool for scientific research and data analysis but also a great tool for teaching.|
-|  | 10. **Interactive code and data exploration:** The ipywidgets package provides many common user interface controls for exploring code and data interactively.  |
+1. You will be presented with the opened notebook.
+  ![](./images/media/image36.png)
+1. Click the Edit (pencil) icon to put the Notebook in edit mode.
+  **Note:** If you are returning to the Notebook, it may already be in edit mode.
+  ![image](./images/media/image37.png)
+ |:---:|:---|
+ | ![image](./images/media/image2.png) | Note: if you received an error like this "403: forbidden." |
+ | | ![image](./images/media/image38.png)|
+ | | Fix the problem by leaving this screen and going to My Instances a Environments and then delete the Runtime environment for Python 3.6 that is currently running. Try opening the notebook again after returning to the project. ![image](./images/media/image39.png)|
+1. The Notebook will start a runtime and present a screen with the top left looking like this:
+ ![](./images/media/image40.png)
+1. Click on the Fast Forward (double arrow) icon to re-run the whole notebook.
+ ![image](./images/media/image41.png)
+1. Click Restart and Run All Cells.
+  ![image](./images/media/image42.png)
+1. The notebook will now start running each cell in sequential order. A number will be placed next to each cell after it has executed.
+  - Scroll up to the first cells under 1. Load libraries.
+  ![image](./images/media/image43.png)
+ |:---:|:---|
+ | ![image](./images/media/image2.png) | **Note:** You can run the notebook cell by cell or all at once. Either way will give you the same result. Any cell that has not yet run is indicated like this: \[\*\] |
+1. Scroll to the 4^th^ cell (under 2. Load data example) to see the input file for this notebook. Notice it is the same input file from the same project that AutoAI is using.
+ ![image](./images/media/image44.png)
+1. Scroll through this section of the notebook to see various visualizations of the data.
+1. Review the cells in 3. Data preparation.
+  ![](./images/media/image45.png)
+1. The next section is self-explanatory: 4. Build Random Forest classification model.
+  ![](./images/media/image46.png)
+1. Scroll to find Model Results, then find the Accuracy.
+  ![image](./images/media/image47.png)
+1. Cell \[30\] shows the "Feature Importances," that is, the data columns that affected the model the most
+  ![](./images/media/image48.png)
+1. Finally, review the name listed in 5. Save the model into WML Deployment Space.
+  **Note:** We will be referring to this Deployment Space in a later lab.
+  ![image](./images/media/image49.png)
+1. Also note at the very end of the notebook in the last two cells that two files are created for batch scoring and evaluation.
+ ![image](./images/media/image50.png)
+**Note:** Your notebook has NOT finished until you see that the last two code cells (above) have a number from the run.
+1. One key data point to take particular note of from this notebook run is found in cell 25, which is the accuracy of the Random Forest model created by this notebook.
+ ![image](./images/media/image51.png)
+ |:---------------:|---|
+ | ![](./images/media/image2.png) | **Ten Reasons Why I Like my Jupyter Notebook**|
+ |  | 1.  **All in one place**: The Jupyter Notebook is a web-based interactive environment that combines code, rich text, images, videos, animations, mathematical equations, plots, maps, interactive figures and widgets, and graphical user interfaces, into a single document.|
+ |  | 2.  **Easy to share**: Notebooks are saved as structured text files (JSON format), which makes them easily shareable.|
+ |  | 3.  **Easy to convert**: Jupyter comes with a special tool, nbconvert, which converts notebooks to other formats such as HTML and PDF.|
+ |  | 4.  **Language independent**: The architecture of Jupyter is language independent. The decoupling between the client and kernel makes it possible to write kernels in any language.|
+ |  | 5.  **Easy to create kernel wrappers**: Jupyter brings a lightweight interface for kernel languages that can be wrapped in Python. Wrapper kernels can implement optional methods, notably for code completion and code inspection.|
+ |  | 6.  **Easy to customize**: Jupyter's interface can be used to create an entirely customized experience in the Jupyter Notebook (or another client application such as the console).|
+ |  | 7.  **Extensions with custom magic commands**: Create IPython extensions with custom magic commands to make interactive computing even easier. Many third-party extensions and magic commands exist, for example, the %%cython magic that allows one to write Cython code directly in a notebook.|
+ |  | 8.  **Stress-free Reproducible experiments**: Jupyter notebooks can help you conduct efficient and reproducible interactive computing experiments with ease. It lets you keep a detailed record of your work. Also, the ease of use of the Jupyter Notebook means that you don't have to worry about reproducibility; just do all of your interactive work in notebooks, put them under version control, and commit regularly. Don't forget to refactor your code into independent reusable components.|
+ |  | 9.  **Effective teaching-cum-learning tool**: The Jupyter Notebook is not only a tool for scientific research and data analysis but also a great tool for teaching.|
+ |  | 10. **Interactive code and data exploration:** The ipywidgets package provides many common user interface controls for exploring code and data interactively.  |
 
 
 ## Reviewing the AutoAI results
