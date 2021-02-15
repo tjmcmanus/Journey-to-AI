@@ -3,12 +3,12 @@
 ## Lab overview
 
 Analyze is the third phase in the Cloud Pak for Data platform and workflow. This is where data scientists and business analysts can join forces to gain insights from their organization's data. Analyze capabilities can be delivered with a number of different CPD services. Examples:
- -   AutoAI (included with the Watson Machine Learning service)
- -   Notebook model creation (included with the Watson Studio service)
- -   SPSS Modeler
- -   Decision Optimization
- -   Cognos Analytics (or Cognos Analytics Embedded)
- -   IBM Streams (which could be "Collect" or "Analyze" depending on how it is used)
+ - AutoAI (included with the Watson Machine Learning service)
+ - Notebook model creation (included with the Watson Studio service)
+ - SPSS Modeler
+ - Decision Optimization
+ - Cognos Analytics (or Cognos Analytics Embedded)
+ - IBM Streams (which could be "Collect" or "Analyze" depending on how it is used)
  -   RStudio model creation\...and others
 
 In this lab you will explore AutoAI, which helps simplify the Machine Learning model AI lifecycle by automating the following:
@@ -16,19 +16,17 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
  - Model development
  - Feature engineering
  - Hyper-parameter optimization
-![](./images/media/image1.png | 6.034549431321085inx2.7847222222222223in)
+![](./images/media/image1.png | 6.034inx2.784in)
 
 ## Persona represented in this lab
 
 The Data Scientist persona is the most likely role to perform the Analyze tasks in this lab, that is, to create a machine learning model with AutoAI that can be deployed and infused into an AI application.
 
-+-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| **Persona (Role)**                                                                                              | **Capabilities**                                                                                                                              |
-+======+=====+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/autoai/images/media/image2.png){width="0.4in" height="0.4in"} | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions. |
-|                                                                                                                 |                                                                                                                                               |
-| Data Scientist                                                                                                  |                                                                                                                                               |
-+======+=====+
+|:---:|:---|
+| **Persona (Role)**| **Capabilities**|
+|:---:|:---|
+| ![Data Scientist](./images/media/image2.png | 0.4inx0.4in) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
+
 
 ## Logging into the CPD web client (if you have not already done so)
 
