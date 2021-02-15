@@ -258,7 +258,7 @@ Your notebook has NOT finished until you see that the last two code cells (above
 
 ![image](./images/media/image51.png)
 
-|:---:|:---|
+|:---------------:|:---|
 | ![](./images/media/image2.png) | **Ten Reasons Why I Like my Jupyter Notebook**|
 |  | 1.  **All in one place**: The Jupyter Notebook is a web-based interactive environment that combines code, rich text, images, videos, animations, mathematical equations, plots, maps, interactive figures and widgets, and graphical user interfaces, into a single document.|
 |  | 2.  **Easy to share**: Notebooks are saved as structured text files (JSON format), which makes them easily shareable.|
