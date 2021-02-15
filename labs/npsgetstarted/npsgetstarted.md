@@ -31,9 +31,9 @@ The Netezza Linux Container has the following default users:
 +----------------------------------+----------------------------------+
 | **Users**                        | **Capabilities**                 |
 +==================================+==================================+
-| ![](/U                           | Linux user with login permission |
-| sers/tjm/Documents/GitHub/CPD-wo | to NPS                           |
-| rkshop/labs/images/media/image1. |                                  |
+| ![](/Users/tjm/Docum             | Linux user with login permission |
+| ents/GitHub/CPD-workshop/labs/np | to NPS                           |
+| sgetstarted/images/media/image1. |                                  |
 | png){width="0.601852580927384in" | Has ownership to various NPS     |
 | height="0.601852580927384in"}    | files in the installation        |
 |                                  | directory                        |
@@ -41,9 +41,9 @@ The Netezza Linux Container has the following default users:
 |                                  | Usually not exposed to client    |
 |                                  | users                            |
 +----------------------------------+----------------------------------+
-| ![](/Us                          | Linux user with login permission |
-| ers/tjm/Documents/GitHub/CPD-wor | to NPS                           |
-| kshop/labs/images/media/image2.p |                                  |
+| ![](/Users/tjm/Docume            | Linux user with login permission |
+| nts/GitHub/CPD-workshop/labs/nps | to NPS                           |
+| getstarted/images/media/image2.p |                                  |
 | ng){width="0.5486395450568679in" | Has ownership to various NPS     |
 | height="0.6041972878390202in"}   | files in the installation        |
 |                                  | directory                        |
@@ -51,12 +51,13 @@ The Netezza Linux Container has the following default users:
 |                                  | Access to the Netezza command    |
 |                                  | tools                            |
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | Database super-user (not a Linux |
-| /GitHub/CPD-workshop/labs/images | user)                            |
-| /media/image3.png){width="0.4in" |                                  |
-| height="0.4in"}                  | Full access to all database      |
-|                                  | administration privileges and    |
-| admin                            | object                           |
+| ![](/U                           | Database super-user (not a Linux |
+| sers/tjm/Documents/GitHub/CPD-wo | user)                            |
+| rkshop/labs/npsgetstarted/images |                                  |
+| /media/image3.png){width="0.4in" | Full access to all database      |
+| height="0.4in"}                  | administration privileges and    |
+|                                  | object                           |
+| admin                            |                                  |
 +----------------------------------+----------------------------------+
 
 ## Connecting to the Netezza Performance Server Command Line
@@ -69,9 +70,9 @@ configured to allow remote secure login. In our environment ssh is
 listening on port 22.
 
 +----------------------------------+----------------------------------+
-| ![](/Use                         | Note: In Cloud Pak for Data      |
-| rs/tjm/Documents/GitHub/CPD-work | System with Netezza Performance  |
-| shop/labs/images/media/image4.pn | Server, sshd is listening on     |
+| ![](/Users/tjm/Documen           | Note: In Cloud Pak for Data      |
+| ts/GitHub/CPD-workshop/labs/npsg | System with Netezza Performance  |
+| etstarted/images/media/image4.pn | Server, sshd is listening on     |
 | g){width="0.36521762904636923in" | port 51022. In Netezza on Cloud  |
 | height="0.36521762904636923in"}  | ssh is disabled as the cloud     |
 |                                  | solution provides other          |
@@ -84,16 +85,16 @@ listening on port 22.
 1.  Double-click the Terminal desktop icon.
 
 ![A close up of a clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="0.5823206474190726in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image5.png){width="0.5823206474190726in"
 height="0.6944444444444444in"}
 
 +----------------------------------+----------------------------------+
 | ![A picture containing food,     | Note: You can be user ibmdemo to |
 | drawing, shirt Description       | ssh into node ips.               |
 | automatically                    |                                  |
-| generated](/Use                  |                                  |
-| rs/tjm/Documents/GitHub/CPD-work |                                  |
-| shop/labs/images/media/image4.pn |                                  |
+| generated](/Users/tjm/Documen    |                                  |
+| ts/GitHub/CPD-workshop/labs/npsg |                                  |
+| etstarted/images/media/image4.pn |                                  |
 | g){width="0.36521762904636923in" |                                  |
 | height="0.36521762904636923in"}  |                                  |
 |                                  |                                  |
@@ -106,7 +107,7 @@ height="0.6944444444444444in"}
 >
 > \$ ssh nz\@ips (password = nz)
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="5.75in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image6.png){width="5.75in"
 > height="1.6360279965004374in"}
 
 3.  You are now logged into the Netezza host Linux container as user nz.
@@ -115,9 +116,9 @@ height="0.6944444444444444in"}
 | ![A picture containing food,     | Note: In this lab the root user  |
 | drawing, shirt Description       | is not needed on the Netezza     |
 | automatically                    | host Linux container.            |
-| generated](/Use                  |                                  |
-| rs/tjm/Documents/GitHub/CPD-work | For reference, the root password |
-| shop/labs/images/media/image4.pn | is netezza.                      |
+| generated](/Users/tjm/Documen    |                                  |
+| ts/GitHub/CPD-workshop/labs/npsg | For reference, the root password |
+| etstarted/images/media/image4.pn | is netezza.                      |
 | g){width="0.36521762904636923in" |                                  |
 | height="0.36521762904636923in"}  |                                  |
 |                                  |                                  |
@@ -130,17 +131,17 @@ height="0.6944444444444444in"}
 
 > \$ nzstate
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="4.434027777777778in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image7.png){width="4.434027777777778in"
 > height="0.6572462817147856in"}
 
 +----------------------------------+----------------------------------+
 | ![A picture containing food,     | If the Netezza system is offline |
 | drawing, shirt Description       | (Stopped) then start Netezza     |
 | automatically                    | with the nzstart command.        |
-| generated](/Use                  |                                  |
-| rs/tjm/Documents/GitHub/CPD-work | ![](/U                           |
-| shop/labs/images/media/image4.pn | sers/tjm/Documents/GitHub/CPD-wo |
-| g){width="0.36521762904636923in" | rkshop/labs/images/media/image8. |
+| generated](/Users/tjm/Documen    |                                  |
+| ts/GitHub/CPD-workshop/labs/npsg | ![](/Users/tjm/Docum             |
+| etstarted/images/media/image4.pn | ents/GitHub/CPD-workshop/labs/np |
+| g){width="0.36521762904636923in" | sgetstarted/images/media/image8. |
 | height="0.36521762904636923in"}  | png){width="6.459722222222222in" |
 |                                  | height="1.5638888888888889in"}   |
 | nz                               |                                  |
@@ -156,7 +157,7 @@ height="0.6944444444444444in"}
 >
 > \$ ./setupLab.sh
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="4.599758311461067in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image9.png){width="4.599758311461067in"
 > height="3.6666666666666665in"}
 
 ## Connecting to the Netezza system database using nzsql
@@ -196,7 +197,7 @@ height="0.6944444444444444in"}
 >
 > \$ printenv NZ_PASSWORD
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="5.458333333333333in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image10.png){width="5.458333333333333in"
 > height="1.7202023184601924in"}
 >
 > Since the current values correspond to our desired values, no
@@ -209,7 +210,7 @@ height="0.6944444444444444in"}
 
 > \$ nzsql -?
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="5.477011154855643in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image11.png){width="5.477011154855643in"
 > height="2.4583333333333335in"}
 
 8.  The -? option will list the usage and all options for the nzsql
@@ -219,7 +220,7 @@ height="0.6944444444444444in"}
 > Open up another terminal window by double-clicking the Terminal
 > desktop icon.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="0.5823206474190726in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image5.png){width="0.5823206474190726in"
 height="0.6944444444444444in"}
 
 9.  Next, ssh into the Netezza Linux host container:
@@ -228,7 +229,7 @@ height="0.6944444444444444in"}
 >
 > \$ nzsql
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="5.164537401574803in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image12.png){width="5.164537401574803in"
 > height="2.173611111111111in"}
 >
 > This will bring up the nzsql prompt below that shows a connection to
@@ -248,12 +249,12 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> \\h
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="6.442753718285214in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image13.png){width="6.442753718285214in"
 > height="2.0694444444444446in"}
 >
 > SYSTEM.ADMIN(ADMIN)=\> \\?
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="6.442361111111111in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image14.png){width="6.442361111111111in"
 > height="3.170770997375328in"}
 >
 > From the output of the \\? command, you found the \\l internal command
@@ -263,7 +264,7 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> \\l
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="6.493055555555555in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image15.png){width="6.493055555555555in"
 > height="2.650188101487314in"}
 >
 > Secondly, you will use \\dSv to find the system views within the
@@ -273,9 +274,9 @@ height="0.6944444444444444in"}
 | ![A picture containing food,     | Note: There are system tables,   |
 | drawing, shirt Description       | but it is not recommended to     |
 | automatically                    | directly access those tables as  |
-| generated](/Use                  | they can change from release to  |
-| rs/tjm/Documents/GitHub/CPD-work | release and are restricted from  |
-| shop/labs/images/media/image4.pn | the normal user.                 |
+| generated](/Users/tjm/Documen    | they can change from release to  |
+| ts/GitHub/CPD-workshop/labs/npsg | release and are restricted from  |
+| etstarted/images/media/image4.pn | the normal user.                 |
 | g){width="0.36521762904636923in" |                                  |
 | height="0.36521762904636923in"}  |                                  |
 |                                  |                                  |
@@ -286,16 +287,16 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> \\dSv
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="6.402777777777778in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image16.png){width="6.402777777777778in"
 > height="2.707903543307087in"}
 
 +----------------------------------+----------------------------------+
 | ![A picture containing food,     | Note: Press the space bar to     |
 | drawing, shirt Description       | scroll down the result set when  |
 | automatically                    | you see \--More\-- on the        |
-| generated](/Use                  | screen.                          |
-| rs/tjm/Documents/GitHub/CPD-work |                                  |
-| shop/labs/images/media/image4.pn |                                  |
+| generated](/Users/tjm/Documen    | screen.                          |
+| ts/GitHub/CPD-workshop/labs/npsg |                                  |
+| etstarted/images/media/image4.pn |                                  |
 | g){width="0.36521762904636923in" |                                  |
 | height="0.36521762904636923in"}  |                                  |
 |                                  |                                  |
@@ -336,7 +337,7 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> \\d \_V_USER
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="5.680555555555555in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image17.png){width="5.680555555555555in"
 > height="2.7135990813648294in"}
 >
 > This will return all the columns of the \_V_USER system table.
@@ -348,7 +349,7 @@ height="0.6944444444444444in"}
 > SYSTEM.ADMIN(ADMIN)=\> SELECT COUNT(\*) FROM (SELECT \* FROM \_V_USER)
 > AS "Wrapper";
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image18.png){width="5.208333333333333in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image18.png){width="5.208333333333333in"
 > height="1.4304582239720034in"}
 
 15. The above query is essentially the same as SELECT COUNT (\*) FROM
@@ -361,21 +362,21 @@ height="0.6944444444444444in"}
 > SYSTEM.ADMIN(ADMIN)=\> SELECT OBJID, USERNAME, OWNER, CREATEDATE,
 > USEAUTH, PWD_EXPIRY FROM \_V_USER;
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image19.png){width="6.534722222222222in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image19.png){width="6.534722222222222in"
 > height="1.631124234470691in"}
 
 16. To exit nzsql, use the command \\q to return to NPS.
 
 > SYSTEM.ADMIN(ADMIN)=\> \\q
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="3.388888888888889in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image20.png){width="3.388888888888889in"
 > height="0.8982600612423447in"}
 
 17. Re-enter nzsql:
 
 > \$ nzsql
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image21.png){width="6.590277777777778in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image21.png){width="6.590277777777778in"
 > height="2.3218099300087487in"}
 >
 > You will be using the nzsql command line tool throughout the rest of
@@ -404,20 +405,20 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> CREATE DATABASE MYWORKSHOPDB;
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="6.428430664916886in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image22.png){width="6.428430664916886in"
 > height="1.2430555555555556in"}
 
 +----------------------------------+----------------------------------+
 | ![A picture containing food,     | If database MYWORKSHOPDB already |
 | drawing, shirt Description       | exists, you will get an error on |
 | automatically                    | the CREATE statement.            |
-| generated](/Use                  |                                  |
-| rs/tjm/Documents/GitHub/CPD-work | Simply drop it and then create   |
-| shop/labs/images/media/image4.pn | it like this:                    |
+| generated](/Users/tjm/Documen    |                                  |
+| ts/GitHub/CPD-workshop/labs/npsg | Simply drop it and then create   |
+| etstarted/images/media/image4.pn | it like this:                    |
 | g){width="0.36521762904636923in" |                                  |
-| height="0.36521762904636923in"}  | ![](/Us                          |
-|                                  | ers/tjm/Documents/GitHub/CPD-wor |
-| nz                               | kshop/labs/images/media/image23. |
+| height="0.36521762904636923in"}  | ![](/Users/tjm/Docume            |
+|                                  | nts/GitHub/CPD-workshop/labs/nps |
+| nz                               | getstarted/images/media/image23. |
 |                                  | png){width="6.356765091863517in" |
 |                                  | height="1.7774606299212599in"}   |
 +----------------------------------+----------------------------------+
@@ -426,7 +427,7 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> \\l
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="2.9545155293088365in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image24.png){width="2.9545155293088365in"
 > height="2.1180555555555554in"}
 >
 > Notice the end of the \\ commands do not require a terminator ; this
@@ -437,7 +438,7 @@ height="0.6944444444444444in"}
 
 > SYSTEM.ADMIN(ADMIN)=\> \\c myworkshopdb
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="4.434574584426946in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image25.png){width="4.434574584426946in"
 > height="1.1805555555555556in"}
 
 ## Creating a table
@@ -582,7 +583,7 @@ height="0.6944444444444444in"}
 > MYWORKSHOPDB.ADMIN(ADMIN)=\> \\! cat
 > /home/nz/labs/base/cli/customer_transactions.ddl
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image26.png){width="6.0in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image26.png){width="6.0in"
 > height="2.2024639107611548in"}
 
 22. Now create the table with the \\i option:
@@ -590,7 +591,7 @@ height="0.6944444444444444in"}
 > MYWORKSHOPDB.ADMIN(ADMIN)=\> \\i
 > /home/nz/labs/base/cli/customer_transactions.ddl
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="5.430555555555555in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image27.png){width="5.430555555555555in"
 > height="1.8696751968503937in"}
 
 23. Check that the table exists: (Note: there is a space before the
@@ -598,7 +599,7 @@ height="0.6944444444444444in"}
 
 > MYWORKSHOPDB.ADMIN(ADMIN)=\> \\d
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="5.25in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image28.png){width="5.25in"
 > height="1.72997375328084in"}
 >
 > Notice that the nzsql prompt schema changed, this was due to the SET
@@ -609,7 +610,7 @@ height="0.6944444444444444in"}
 > MYWORKSHOPDB.APPWORKSHOP_18_19(ADMIN)=\> SELECT \* FROM
 > CUSTOMER_TRANSACTIONS;
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="6.180555555555555in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image29.png){width="6.180555555555555in"
 > height="1.5644838145231845in"}
 >
 > There is no data in the table yet because you just created it. In the
@@ -632,7 +633,7 @@ height="0.6944444444444444in"}
 > MYWORKSHOPDB.APPWORKSHOP_18_19(ADMIN)=\> USING (DELIMITER ',' SkipRows
 > 1 QuotedValue double);
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="6.534722222222222in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image30.png){width="6.534722222222222in"
 > height="1.1204385389326335in"}
 
 26. Select 5 rows from the table CUSTOMER_TRANSACTIONS:
@@ -640,7 +641,7 @@ height="0.6944444444444444in"}
 > MYWORKSHOPDB.APPWORKSHOP_18_19(ADMIN)=\> SELECT \* FROM
 > CUSTOMER_TRANSACTIONS LIMIT 5;
 >
-> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="5.256944444444445in"
+> ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/npsgetstarted/images/media/image31.png){width="5.256944444444445in"
 > height="1.5975481189851268in"}
 
 ## Lab conclusion
