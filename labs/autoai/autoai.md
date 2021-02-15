@@ -130,20 +130,16 @@ AutoAI begins building several different pipelines (possible solutions for the b
 ![image](./images/media/image28.png)
 
 24. As AutoAI does its work, watch it flow through its various steps:
-
-|:---:|:---|
-| -   **Read dataset:** Reads the data set you provided for the experiment.|
-| |
-| -   **Split holdout data:** Splits the data between testing and training. |
-| | -   **Read training data:** Reads training data to prepare for preprocessing. |
-|  |
-| -   **Preprocessing:** Most data sets contain different data formats and missing values, but standard ML algorithms work with numbers and no missing values. AutoAI applies various algorithms (estimators) to analyze, clean, and prepare your raw data for machine learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. It determines the best combination of strategies for missing value imputation, feature encoding, and feature scaling for your data. |
-|  | | -   **Model selection:** AutoAI uses a novel approach that enables testing and ranking candidate algorithms against small subsets of the data, gradually increasing the size of the subset for the most promising algorithms to arrive at the best match by ranking large numbers of candidate algorithms. This approach saves time without sacrificing performance.|
-|  |
-| -   **Selected estimator:** Shows the estimator chosen from the model selection step.|
-|  | | -   **Hyperparameter optimization:** Refines the best performing model pipelines by using a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enables fast convergence to a good solution despite long evaluation times of each iteration. |
-||
-| -   **Feature engineering:** Attempts to transform the raw data into the combination of features that best represents the problem to achieve the most accurate prediction. AutoAI uses a novel approach that explores various feature construction choices in a structured, non-exhaustive manner, while progressively maximizing model accuracy using reinforcement learning. This results in an optimized sequence of  transformations for the data that best match the algorithms of the model selection step.          |
+| **Steps**| Action|
+|:---:| ---|
+| **Read dataset** | Reads the data set you provided for the experiment.|
+| **Split holdout data** | Splits the data between testing and training. |
+| **Read training data** |  Reads training data to prepare for preprocessing. |
+| **Preprocessing** |  Most data sets contain different data formats and missing values, but standard ML algorithms work with numbers and no missing values. AutoAI applies various algorithms (estimators) to analyze, clean, and prepare your raw data for machine learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. It determines the best combination of strategies for missing value imputation, feature encoding, and feature scaling for your data. |
+| **Model selection** |  AutoAI uses a novel approach that enables testing and ranking candidate algorithms against small subsets of the data, gradually increasing the size of the subset for the most promising algorithms to arrive at the best match by ranking large numbers of candidate algorithms. This approach saves time without sacrificing performance.|
+| **Selected estimator ** |  Shows the estimator chosen from the model selection step.|
+| **Hyperparameter optimization** | Refines the best performing model pipelines by using a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enables fast convergence to a good solution despite long evaluation times of each iteration. |
+| **Feature engineering** | Attempts to transform the raw data into the combination of features that best represents the problem to achieve the most accurate prediction. AutoAI uses a novel approach that explores various feature construction choices in a structured, non-exhaustive manner, while progressively maximizing model accuracy using reinforcement learning. This results in an optimized sequence of  transformations for the data that best match the algorithms of the model selection step.|
 
 ## Running a Notebook
 
