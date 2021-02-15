@@ -186,13 +186,10 @@ Click TradingCustomerChurnClassifier-Py36.
 ![image](./images/media/image37.png)
 
 |:---:|:---|
-| ![](./images/media/image2.png) | Note: if you received an error like this "403: forbidden."                                                                                                                                                                       |
-|                                                                                                                 |                                                                                                                                                                                                                                  |
-| Data                                                                                                            | ![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTML5bed53eb.PNG](./images/media/image38.png)                                   |
-|                                                                                                                 |                                                                                                                                                                                                                                  |
-| Scientist                                                                                                       | Fix the problem by leaving this screen and going to My Instances a Environments and then delete the Runtime environment for Python 3.6 that is currently running. Try opening the notebook again after returning to the project. |
-|                                                                                                                 |                                                                                                                                                                                                                                  |
-|                                                                                                                 | ![](./images/media/image39.png)                                                                                |
+| ![image](./images/media/image2.png) | Note: if you received an error like this "403: forbidden." |
+| | ![image](./images/media/image38.png)|
+| | Fix the problem by leaving this screen and going to My Instances a Environments and then delete the Runtime environment for Python 3.6 that is currently running. Try opening the notebook again after returning to the project. ![image](./images/media/image39.png)|
+
 
 
 33. The Notebook will start a runtime and present a screen with the top left looking like this:
