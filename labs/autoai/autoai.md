@@ -1,4 +1,4 @@
-# **[Analyze: AutoAI]{.smallcaps}**
+# Analyze: AutoAI
 
 ## Lab overview
 
