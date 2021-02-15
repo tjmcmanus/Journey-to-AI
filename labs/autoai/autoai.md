@@ -117,7 +117,7 @@ A Data Scientist would best determine if and when to deviate from this recommend
 
 ![image](./images/media/image24.png)
 
-![A screenshot of a social media post Description automatically generated](./images/media/image25.png)
+![image](./images/media/image25.png)
 
 22. Review the Legend for each infographic map.
 
@@ -131,35 +131,31 @@ AutoAI begins building several different pipelines (possible solutions for the b
 
 24. As AutoAI does its work, watch it flow through its various steps:
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   **Read dataset:** Reads the data set you provided for the experiment.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -   **Split holdout data:** Splits the data between testing and training.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -   **Read training data:** Reads training data to prepare for preprocessing.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:---:|:---|
+| -   **Read dataset:** Reads the data set you provided for the experiment.|
+| |
+| -   **Split holdout data:** Splits the data between testing and training. |
+| | -   **Read training data:** Reads training data to prepare for preprocessing. |
+|  |
 | -   **Preprocessing:** Most data sets contain different data formats and missing values, but standard ML algorithms work with numbers and no missing values. AutoAI applies various algorithms (estimators) to analyze, clean, and prepare your raw data for machine learning. It automatically detects and categorizes features based on data type, such as categorical or numerical. It determines the best combination of strategies for missing value imputation, feature encoding, and feature scaling for your data. |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -   **Model selection:** AutoAI uses a novel approach that enables testing and ranking candidate algorithms against small subsets of the data, gradually increasing the size of the subset for the most promising algorithms to arrive at the best match by ranking large numbers of candidate algorithms. This approach saves time without sacrificing performance.                                                                                                                                                       |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -   **Selected estimator:** Shows the estimator chosen from the model selection step.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -   **Hyperparameter optimization:** Refines the best performing model pipelines by using a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enables fast convergence to a good solution despite long evaluation times of each iteration.                                                                                                                                                     |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|  | | -   **Model selection:** AutoAI uses a novel approach that enables testing and ranking candidate algorithms against small subsets of the data, gradually increasing the size of the subset for the most promising algorithms to arrive at the best match by ranking large numbers of candidate algorithms. This approach saves time without sacrificing performance.|
+|  |
+| -   **Selected estimator:** Shows the estimator chosen from the model selection step.|
+|  | | -   **Hyperparameter optimization:** Refines the best performing model pipelines by using a novel hyper-parameter optimization algorithm optimized for costly function evaluations such as model training and scoring that are typical in machine learning. This approach enables fast convergence to a good solution despite long evaluation times of each iteration. |
+||
 | -   **Feature engineering:** Attempts to transform the raw data into the combination of features that best represents the problem to achieve the most accurate prediction. AutoAI uses a novel approach that explores various feature construction choices in a structured, non-exhaustive manner, while progressively maximizing model accuracy using reinforcement learning. This results in an optimized sequence of  transformations for the data that best match the algorithms of the model selection step.          |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Running a Notebook
 
-While the AutoAI experiment is running, **[open another]{.ul}** CPD web client to perform a parallel exercise.
+While the AutoAI experiment is running, **open another** CPD web client to perform a parallel exercise.
 
 25. Minimize the CPD web client browser to be able to get to the desktop.
 
-![A picture containing meter, clock Description automatically generated](./images/media/image29.png)
+![image](./images/media/image29.png)
 
 26. Double click the desktop icon: Cloud Pak for Data Web Client.
 
-![A picture containing object, clock Description automatically generated](./images/media/image3.png)
+![image](./images/media/image3.png)
 
 27. This will open a second CPD Web client browser tab.
 
@@ -191,9 +187,9 @@ Click TradingCustomerChurnClassifier-Py36.
 
 (Note: If you are returning to the Notebook, it may already be in edit mode.)
 
-![A picture containing clock Description automatically generated](./images/media/image37.png)
+![image](./images/media/image37.png)
 
-+-----------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:---:|:---|
 | ![](./images/media/image2.png) | Note: if you received an error like this "403: forbidden."                                                                                                                                                                       |
 |                                                                                                                 |                                                                                                                                                                                                                                  |
 | Data                                                                                                            | ![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTML5bed53eb.PNG](./images/media/image38.png)                                   |
@@ -201,7 +197,7 @@ Click TradingCustomerChurnClassifier-Py36.
 | Scientist                                                                                                       | Fix the problem by leaving this screen and going to My Instances a Environments and then delete the Runtime environment for Python 3.6 that is currently running. Try opening the notebook again after returning to the project. |
 |                                                                                                                 |                                                                                                                                                                                                                                  |
 |                                                                                                                 | ![](./images/media/image39.png)                                                                                |
-+-----------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 33. The Notebook will start a runtime and present a screen with the top left looking like this:
 
@@ -222,7 +218,7 @@ Scroll up to the first cells under 1. Load libraries.
 ![image](./images/media/image43.png)
 
 |:---:|:---|
-| ![A picture containing hat, light Description automatically generated](./images/media/image2.png) | **Note:** You can run the notebook cell by cell or all at once. Either way will give you the same result. Any cell that has not yet run is indicated like this: \[\*\] |
+| ![image](./images/media/image2.png) | **Note:** You can run the notebook cell by cell or all at once. Either way will give you the same result. Any cell that has not yet run is indicated like this: \[\*\] |
 
 37. Scroll to the 4^th^ cell (under 2. Load data example) to see the input file for this notebook. Notice it is the same input file from the same project that AutoAI is using.
 
@@ -250,17 +246,17 @@ Scroll through this section of the notebook to see various visualizations of the
 
 We will be referring to this Deployment Space in a later lab.
 
-![A screenshot of a social media post Description automatically generated](./images/media/image49.png)
+![image](./images/media/image49.png)
 
 43. Also note at the very end of the notebook in the last two cells that two files are created for batch scoring and evaluation.
 
-![A close up of a screen Description automatically generated](./images/media/image50.png)
+![image](./images/media/image50.png)
 
 Your notebook has NOT finished until you see that the last two code cells (above) have a number from the run.
 
 44. One key data point to take particular note of from this notebook run is found in cell 25, which is the accuracy of the Random Forest model created by this notebook.
 
-![A screenshot of a social media post Description automatically generated](./images/media/image51.png)
+![image](./images/media/image51.png)
 
 |:---:|:---|
 | ![](./images/media/image2.png) | **Ten Reasons Why I Like my Jupyter Notebook**|
@@ -295,31 +291,31 @@ If the AutoAI experiment has not completed yet, let it finish. You can tell if i
 
 Notice the Algorithm chose (Random Forest classifier) and the most accurate result.
 
-Click on the \#1 ranked Pipeline 4. ![image](./images/media/image53.png){width="6.3933333333333335in" height="1.6039610673665792in"}
+Click on the \#1 ranked Pipeline 4. ![image](./images/media/image53.png)
 
 47. Model Evaluation shows the various evaluation accuracy figures. Click through them but make sure to return to the original view - Multi-Class.
 
-![A screenshot of a social media post Description automatically generated](./images/media/image54.png){width="6.393055555555556in" height="5.693972003499563in"}
+![image](./images/media/image54.png)
 
 48. Precision Recall Curve Shows the tradeoff between precision and recall.
 
-![A screenshot of a social media post Description automatically generated](./images/media/image55.png){width="6.0in" height="4.3145538057742785in"}
+![image](./images/media/image55.png)
 
 49. Threshold Chart helps choose a threshold for best performance based on the chosen measure of performance.
 
-![](./images/media/image56.png){width="6.319444444444445in" height="2.307982283464567in"}
+![](./images/media/image56.png)
 
 50. Model Information gives info on type of model fitted.
 
-![](./images/media/image57.png){width="6.270833333333333in" height="1.9657688101487314in"}
+![](./images/media/image57.png)
 
 51. Feature Transformations displays new features created by AutoAI. This is a powerful capability of AutoAI because this is not something a Data Scientist may intuitively do themselves in a notebook. (Note: your results may vary from this screen shot.)
 
-![](./images/media/image58.png){width="6.270833333333333in" height="2.207426727909011in"}
+![](./images/media/image58.png)
 
 52. Feature Importance displays the relative importance of the feature in predicting the target.
 
-![](./images/media/image59.png){width="6.090277777777778in" height="2.5852701224846895in"}
+![](./images/media/image59.png)
 
 ## Saving the model
 
@@ -329,7 +325,7 @@ AutoAI gives you two options to save the model you decide is the best one for yo
 
 53. Hover your mouse over the right side of your Top Rank model, click Save as a Model.
 
-    ![A screenshot of a computer screen Description automatically generated](./images/media/image60.png){width="6.5in" height="3.129841426071741in"}
+    ![image](./images/media/image60.png)
 
 54. In the screen *Save as model*:
 
@@ -339,17 +335,17 @@ Description: CPD Workshop AutoAI experiment
 
 Click Save.
 
-![A screenshot of a social media post Description automatically generated](./images/media/image61.png){width="6.0in" height="2.984154636920385in"}
+![image](./images/media/image61.png)
 
 55. Exit the confirmation pop up by clicking x.
 
-![image](./images/media/image62.png){width="1.8606561679790026in" height="1.0124168853893263in"}
+![image](./images/media/image62.png)
 
 ### **Saving the model as a notebook**
 
 56. On the top right corner of the screen, click Save as a Notebook.
 
-![](./images/media/image63.png){width="5.673611111111111in" height="2.6576826334208223in"}
+![](./images/media/image63.png)
 
 57. In the screen *New notebook*:
 
@@ -359,7 +355,7 @@ Description: CPD Workshop AutoAI -- Notebook creation
 
 Click Create notebook.
 
-![image](./images/media/image64.png){width="5.89885498687664in" height="3.198675634295713in"}
+![image](./images/media/image64.png)
 
 58. You will be taken to the new notebook in edit mode in the project.\
     \
@@ -367,7 +363,7 @@ Click Create notebook.
     \
     Exit the notebook by clicking CPD Workshop Analytics Project on the breadcrumb trail.
 
-![A screenshot of a social media post Description automatically generated](./images/media/image65.png){width="5.499311023622047in" height="4.049179790026247in"}
+![image](./images/media/image65.png)
 
 ### **Reviewing the project**
 
@@ -375,21 +371,21 @@ Click Create notebook.
 
 Scroll down to find the Notebooks section. There you will find the AutoAI generated notebook you were just in.
 
-![](./images/media/image34.png){width="4.955527121609799in" height="1.0972222222222223in"}
+![](./images/media/image34.png)
 
-![A close up of a beach Description automatically generated](./images/media/image66.png){width="6.0in" height="1.24706583552056in"}
+![image](./images/media/image66.png)
 
 60. Scroll down farther to find the model you created from the AutoAI save feature. Select the ChurnRisk AutoAI experiment -- P4 RandomForestClassifierEstimator.
 
-![image](./images/media/image67.png){width="6.0in" height="1.1255872703412073in"}
+![image](./images/media/image67.png)
 
 61. Review your new AutoAI generated model.
 
-![](./images/media/image68.png){width="5.287582020997375in" height="1.7071905074365705in"}
+![](./images/media/image68.png)
 
 62. Close any extra browser tabs you may have open, leaving only one.
 
-![](./images/media/image69.png){width="3.129251968503937in" height="0.9583333333333334in"}
+![](./images/media/image69.png)
 
 ## Lab conclusion
 
@@ -407,8 +403,6 @@ Read here how AutoAI won the 2019 Alconics award for *"Best Innovation in Intell
 
 **Award for IBM's AutoAI**
 
-![](./images/media/image70.png){width="3.6041666666666665in" height="2.0254188538932634in"}
+![](./images/media/image70.png)
 
 **\*\* End of Lab 06 - Analyze: AutoAI**
-
-Lab by Burt Vialpando, Kent Rubin, Anjali Shah and Sidney Phoon - IBM
