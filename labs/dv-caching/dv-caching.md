@@ -53,29 +53,32 @@ lab.
 +----------------------------------+----------------------------------+
 | **Persona (Role)**               | **Capabilities**                 |
 +==================================+==================================+
-| ![](/Users/tjm/Documents         | Business Analysts deliver value  |
-| /GitHub/CPD-workshop/labs/images | by taking data, using it to      |
-| /media/image1.png){width="0.4in" | answer questions, and            |
-| height="0.4in"}                  | communicating the results to     |
-|                                  | help make better business        |
-| Business Analyst                 | decisions.                       |
+| ![]                              | Business Analysts deliver value  |
+| (/Users/tjm/Documents/GitHub/CPD | by taking data, using it to      |
+| -workshop/labs/dv-caching/images | answer questions, and            |
+| /media/image1.png){width="0.4in" | communicating the results to     |
+| height="0.4in"}                  | help make better business        |
+|                                  | decisions.                       |
+| Business Analyst                 |                                  |
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Data Engineers build and         |
 | Description generated with high  | optimize the systems to allow    |
-| confidence](/Users/tjm/Documents | data scientists and business     |
-| /GitHub/CPD-workshop/labs/images | analysts to perform their work.  |
-| /media/image2.png){width="0.4in" | The Data Engineer ensures that   |
-| height="0.4in"}                  | any data is properly received,   |
-|                                  | transformed, stored, and made    |
-| Data Engineer                    | accessible to other users.       |
+| confidence]                      | data scientists and business     |
+| (/Users/tjm/Documents/GitHub/CPD | analysts to perform their work.  |
+| -workshop/labs/dv-caching/images | The Data Engineer ensures that   |
+| /media/image2.png){width="0.4in" | any data is properly received,   |
+| height="0.4in"}                  | transformed, stored, and made    |
+|                                  | accessible to other users.       |
+| Data Engineer                    |                                  |
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Administrators set up and        |
 | Description automatically        | maintain the DV module within    |
-| generated](/Users/tjm/Documents  | the CPD environment itself. They |
-| /GitHub/CPD-workshop/labs/images | are responsible for granting DV  |
-| /media/image3.png){width="0.4in" | access to users and              |
-| height="0.4in"}                  | administration tasks such as     |
-|                                  | creating a data cache.           |
+| generated]                       | the CPD environment itself. They |
+| (/Users/tjm/Documents/GitHub/CPD | are responsible for granting DV  |
+| -workshop/labs/dv-caching/images | access to users and              |
+| /media/image3.png){width="0.4in" | administration tasks such as     |
+| height="0.4in"}                  | creating a data cache.           |
+|                                  |                                  |
 | Administrator (DV/CPD)           |                                  |
 +----------------------------------+----------------------------------+
 
@@ -92,14 +95,14 @@ lab.
 2.  Double-click the desktop icon: Cloud Pak for Data Web Client.
 
 ![A picture containing object, clock Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image4.png){width="0.7914905949256343in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image4.png){width="0.7914905949256343in"
 height="0.8936176727909011in"}
 
 3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess
     for the *Username* and *Password* and click Sign in.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image5.png){width="2.2121216097987753in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image5.png){width="2.2121216097987753in"
     height="2.908131014873141in"}
 
 ## Reviewing the dashboard: Stock Trading Analysis - Trade Co. 
@@ -110,7 +113,7 @@ most popular historically traded stocks. The dashboard shows the number
 of Shares Sold vs. the number of Daily Trades.
 
 ![A screen shot of a computer Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image6.png){width="6.457446412948381in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image6.png){width="6.457446412948381in"
 height="2.6084951881014873in"}
 
 The Business Analyst (BA) works with the Data Engineer (DE) to get
@@ -136,8 +139,8 @@ virtualize and is typically done by the Data Engineer.
 | **Persona (Role)**                                                   |
 +======================================================================+
 | ![A close up of a logo Description generated with high               |
-| confidence](/Users/tjm/Docum                                         |
-| ents/GitHub/CPD-workshop/labs/images/media/image2.png){width="0.4in" |
+| confidence](/Users/tjm/Documents/GitHub                              |
+| /CPD-workshop/labs/dv-caching/images/media/image2.png){width="0.4in" |
 | height="0.4in"}                                                      |
 |                                                                      |
 | Data Engineer (DV/CPD)                                               |
@@ -151,10 +154,10 @@ Click Collect Data virtualization.
 
 ![A picture containing sitting, dark, screen, sign Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image7.png){width="2.797871828521435in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image7.png){width="2.797871828521435in"
 height="1.1085903324584427in"} ![A picture containing clock Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image8.png){width="1.950819116360455in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image8.png){width="1.950819116360455in"
 height="1.796806649168854in"}
 
 **\
@@ -179,7 +182,7 @@ Note: You can also find this SQL to download/copy/paste here:
     Virtualization.
 
 ![Graphical user interface, application Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image9.png){width="7.1in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image9.png){width="7.1in"
 height="2.65in"}
 
 **\
@@ -193,19 +196,19 @@ height="2.65in"}
 From the top left go to SQL editor Virtualize.
 
 ![Text, application Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image10.png){width="1.9349748468941381in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image10.png){width="1.9349748468941381in"
 height="2.564815179352581in"}
 
 8.  In the search bar, enter the string STOCK and click the search icon
     (magnifying glass).
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image11.png){width="3.671804461942257in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image11.png){width="3.671804461942257in"
 height="2.1666666666666665in"}
 
 9.  Click the gear, then select Group tables with identical names.\
     ![A close up of a sign Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image12.png){width="2.4907403762029747in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image12.png){width="2.4907403762029747in"
     height="1.1116404199475065in"}
 
 This uses the DV feature of "Schema Folding" which groups tables with
@@ -219,16 +222,16 @@ different databases are treated as one.)
 View cart.
 
 ![Graphical user interface, application Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image13.png){width="2.8132939632545932in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image13.png){width="2.8132939632545932in"
 height="1.8675492125984252in"} ![Diagram Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image14.png){width="1.2516557305336833in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image14.png){width="1.2516557305336833in"
 height="1.390246062992126in"}
 
 11. In the Review cart and Virtualize tables section, select button My
     virtualized data Uncheck box Submit to catalog Click Virtualize.
 
 ![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image15.png){width="6.3971839457567805in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image15.png){width="6.3971839457567805in"
 height="1.1125in"}
 
 12. Notice the **two** virtual tables you just created, which are
@@ -241,7 +244,7 @@ height="1.1125in"}
 Click View my virtualized data.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image16.png){width="4.1123151793525805in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image16.png){width="4.1123151793525805in"
 height="1.7585126859142608in"}
 
 13. You will now be creating a virtualized view of these virtualized
@@ -250,7 +253,7 @@ height="1.7585126859142608in"}
 Select Menu (My virtualized data) SQL editor.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image17.png){width="1.3964905949256343in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image17.png){width="1.3964905949256343in"
 height="1.3178805774278215in"}
 
 14. Copy and paste the SQL below into the SQL editor.
@@ -258,12 +261,12 @@ height="1.3178805774278215in"}
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Note: You can copy and paste     |
 | Description generated with high  | this SQL directly from the       |
-| confidence](/User                | Unified Desktop by using the     |
-| s/tjm/Documents/GitHub/CPD-works | File Browser to open this file:  |
-| hop/labs/images/media/image18.pn |                                  |
-| g){width="0.36041666666666666in" | ![](/Use                         |
-| height="0.36041666666666666in"}  | rs/tjm/Documents/GitHub/CPD-work |
-|                                  | shop/labs/images/media/image19.p |
+| confidence](/Users/tjm/Docum     | Unified Desktop by using the     |
+| ents/GitHub/CPD-workshop/labs/dv | File Browser to open this file:  |
+| -caching/images/media/image18.pn |                                  |
+| g){width="0.36041666666666666in" | ![](/Users/tjm/Docu              |
+| height="0.36041666666666666in"}  | ments/GitHub/CPD-workshop/labs/d |
+|                                  | v-caching/images/media/image19.p |
 | Data                             | ng){width="0.5416666666666666in" |
 |                                  | height="0.5225164041994751in"}   |
 | Engineer                         | Home Downloads                   |
@@ -324,18 +327,18 @@ height="1.3178805774278215in"}
 
 15. Click Run all which should create the virtualized view successfully.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image20.png){width="6.572830271216098in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image20.png){width="6.572830271216098in"
 height="5.4375in"}
 
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Note: The first time this script |
 | Description generated with high  | is run, the DROP VIEW statement  |
-| confidence](/User                | will fail since the view does    |
-| s/tjm/Documents/GitHub/CPD-works | not exist. It will execute       |
-| hop/labs/images/media/image18.pn | cleanly on subsequent runs.      |
-| g){width="0.36041666666666666in" | ![](/Us                          |
-| height="0.36041666666666666in"}  | ers/tjm/Documents/GitHub/CPD-wor |
-|                                  | kshop/labs/images/media/image21. |
+| confidence](/Users/tjm/Docum     | will fail since the view does    |
+| ents/GitHub/CPD-workshop/labs/dv | not exist. It will execute       |
+| -caching/images/media/image18.pn | cleanly on subsequent runs.      |
+| g){width="0.36041666666666666in" | ![](/Users/tjm/Doc               |
+| height="0.36041666666666666in"}  | uments/GitHub/CPD-workshop/labs/ |
+|                                  | dv-caching/images/media/image21. |
 | Data                             | png){width="5.414893919510061in" |
 |                                  | height="1.9792136920384953in"}   |
 | Engineer                         |                                  |
@@ -348,22 +351,22 @@ Go to Menu (SQL editor) My virtualized data.
 
 ![A screenshot of a cell phone screen with text Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image22.png){width="1.7008661417322835in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image22.png){width="1.7008661417322835in"
 height="1.8263888888888888in"}
 
 17. On the view you just created, VIEW_CUST_TXN_SYMBOL_COM, click the
     ellipses at the end of that line ... and then select Preview.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image23.png){width="4.069444444444445in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image23.png){width="4.069444444444445in"
 height="1.929643482064742in"}
 
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | It may take a minute or two for  |
 | Description generated with high  | the view to render.              |
-| confidence](/User                |                                  |
-| s/tjm/Documents/GitHub/CPD-works | If this step fails, check to     |
-| hop/labs/images/media/image18.pn | make sure that you have copied   |
+| confidence](/Users/tjm/Docum     |                                  |
+| ents/GitHub/CPD-workshop/labs/dv | If this step fails, check to     |
+| -caching/images/media/image18.pn | make sure that you have copied   |
 | g){width="0.36041666666666666in" | the SQL code properly into the   |
 | height="0.36041666666666666in"}  | SQL editor and run it again.     |
 |                                  | Keep in mind that a successful   |
@@ -374,7 +377,7 @@ height="1.929643482064742in"}
 
 18. The Virtualized View preview should render as below.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image24.png){width="5.375in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image24.png){width="5.375in"
 height="2.3273786089238846in"}
 
 ## Creating a project to work in 
@@ -387,8 +390,8 @@ Analyst (BA) who can then work on creating the dashboard.
 | **Persona (Role)**                                                   |
 +======================================================================+
 | ![A picture containing clothing Description automatically            |
-| generated](/Users/tjm/Docum                                          |
-| ents/GitHub/CPD-workshop/labs/images/media/image1.png){width="0.4in" |
+| generated](/Users/tjm/Documents/GitHub                               |
+| /CPD-workshop/labs/dv-caching/images/media/image1.png){width="0.4in" |
 | height="0.4in"}                                                      |
 |                                                                      |
 | Business Analyst                                                     |
@@ -400,26 +403,26 @@ on the dashboard by creating an Analytics Project.
 19. Click Navigation Menu Projects New project.
 
 ![A screenshot of a video game Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image25.png){width="4.225in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image25.png){width="4.225in"
 height="1.879430227471566in"}
 
 20. Choose Analytics project Next.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image26.png){width="6.5098436132983375in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image26.png){width="6.5098436132983375in"
 height="2.1489359142607176in"}
 
 21. Click on tile Create an empty project.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image27.png){width="6.230544619422572in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image27.png){width="6.230544619422572in"
 height="2.6375in"}
 
 22. Provide a name of 'your initials-DV-Project' and description for the
     project and click Create.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image28.png){width="6.2944892825896765in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image28.png){width="6.2944892825896765in"
 height="2.5125in"}
 
 ### **Adding the previously created DV view to the new project**
@@ -428,18 +431,18 @@ height="2.5125in"}
     (Data Sources) My virtualized data.
 
 ![A picture containing meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image29.png){width="4.75in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image29.png){width="4.75in"
 height="1.7069149168853894in"}
 
 24. Check VIEW_CUST_TXN_SYMBOL_COM click Assign.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image30.png){width="4.93080927384077in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image30.png){width="4.93080927384077in"
 height="1.3542366579177603in"}
 
 25. Choose your_initials-DV-Project (whatever you have named it) Assign.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image31.png){width="6.1625in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image31.png){width="6.1625in"
 height="1.9179461942257219in"}
 
 26. The DV View is now successfully assigned to the project.
@@ -447,7 +450,7 @@ height="1.9179461942257219in"}
 Click Go to project.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image32.png){width="5.31875in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image32.png){width="5.31875in"
 height="2.6552132545931757in"}
 
 27. On the Project page, click the Assets tab.
@@ -458,7 +461,7 @@ render it from the data sources. (Your connection Name will vary from
 what is shown below.)
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image33.png){width="4.319149168853893in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image33.png){width="4.319149168853893in"
 height="3.4826946631671043in"}
 
 ### **Creating a dashboard within the project to use the data asset:**
@@ -466,38 +469,38 @@ height="3.4826946631671043in"}
 28. Click + Add to project and choose Dashboard as the asset type.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image34.png){width="5.68797353455818in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image34.png){width="5.68797353455818in"
 height="2.775in"}
 
 29. Under *Name* type: Company Stock Analysis Create.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image35.png){width="6.125314960629921in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image35.png){width="6.125314960629921in"
 height="2.5348523622047243in"}
 
 30. Choose the Freeform (default) layout OK.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image36.png){width="6.657364391951006in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image36.png){width="6.657364391951006in"
 height="3.1125in"}
 
 31. On top left of the dashboard canvas in Selected sources and click +
     (Add a source).
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image37.png){width="3.7234044181977253in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image37.png){width="3.7234044181977253in"
 height="1.9538396762904637in"}
 
 32. Click Data Assets USER1001.VIEW_CUST_TXN_SYMBOL_COM Select.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image38.png){width="5.927607174103237in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image38.png){width="5.927607174103237in"
 height="2.2553193350831147in"}
 
 33. Click the newly added data source to expand the view to see the
     columns available to be used in the dashboard.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image39.png){width="4.1in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image39.png){width="4.1in"
 height="1.7982458442694662in"}
 
 34. Drag and drop the COMPANY column on the canvas.
@@ -506,7 +509,7 @@ height="1.7982458442694662in"}
 please be patient.)
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image40.png){width="4.375in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image40.png){width="4.375in"
 height="2.8007020997375327in"}
 
 35. Make sure to select the COMPANY widget on the canvas.
@@ -514,7 +517,7 @@ height="2.8007020997375327in"}
 Then at the top right select the tab Fields.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image41.png){width="3.13128280839895in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image41.png){width="3.13128280839895in"
 height="1.7446806649168853in"}
 
 36. On the top left (above Tab 1) change visualization type from list to
@@ -525,13 +528,13 @@ List box All visualizations Column.
 Then close the visualization select box X.
 
 ![A screenshot of text Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image42.png){width="4.941674321959755in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image42.png){width="4.941674321959755in"
 height="5.5125in"}
 
 37. On the right of the screen, you should see this visualization
     formatting box.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image43.png){width="1.9293307086614173in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image43.png){width="1.9293307086614173in"
 height="2.4696970691163607in"}
 
 38. Format the visualization by performing these steps, in order:
@@ -543,13 +546,13 @@ there).
 
 3\. Drag and drop the TOTAL**\_**QUANTITY column for \# Length.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image44.png){width="4.803030402449694in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image44.png){width="4.803030402449694in"
 height="3.4018832020997376in"}
 
 39. Click the Save icon to ensure your work is saved.
 
 ![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image45.png){width="1.215521653543307in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image45.png){width="1.215521653543307in"
 height="1.075in"}
 
 40. Perform some analysis of various companies to see the quantity
@@ -559,17 +562,17 @@ height="1.075in"}
 Example: hover over the column for International Business Machines
 Corporation.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image46.png){width="6.560265748031496in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image46.png){width="6.560265748031496in"
 height="4.9125in"}
 
 +----------------------------------+----------------------------------+
-| ![](/Users/tjm/Documents         | I noticed a delay while          |
-| /GitHub/CPD-workshop/labs/images | retrieving my data in this       |
-| /media/image1.png){width="0.4in" | dashboard which in the long run  |
-| height="0.4in"}                  | will be unsuitable for me to use |
-|                                  | repeatedly.                      |
-| Business Analyst                 |                                  |
-|                                  | I need to reach out to my CPD    |
+| ![]                              | I noticed a delay while          |
+| (/Users/tjm/Documents/GitHub/CPD | retrieving my data in this       |
+| -workshop/labs/dv-caching/images | dashboard which in the long run  |
+| /media/image1.png){width="0.4in" | will be unsuitable for me to use |
+| height="0.4in"}                  | repeatedly.                      |
+|                                  |                                  |
+| Business Analyst                 | I need to reach out to my CPD    |
 |                                  | Administrator and Data Engineer  |
 |                                  | to find a way to make this       |
 |                                  | perform better.                  |
@@ -583,8 +586,8 @@ height="4.9125in"}
 | **Persona (Role)**                                                   |
 +======================================================================+
 | ![A close up of a logo Description automatically                     |
-| generated](/Users/tjm/Docum                                          |
-| ents/GitHub/CPD-workshop/labs/images/media/image3.png){width="0.4in" |
+| generated](/Users/tjm/Documents/GitHub                               |
+| /CPD-workshop/labs/dv-caching/images/media/image3.png){width="0.4in" |
 | height="0.4in"}                                                      |
 |                                                                      |
 | Administrator (DV/CPD)                                               |
@@ -601,26 +604,26 @@ performance for a better dashboard experience.
     Management.
 
 ![A picture containing clock, meter Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image47.png){width="4.518319116360455in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image47.png){width="4.518319116360455in"
 height="2.0770833333333334in"}
 
 43. You will be presented with your Cache management dashboard.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image48.png){width="5.474936570428697in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image48.png){width="5.474936570428697in"
 height="2.6625in"}
 
 44. Click tab Queries.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image49.png){width="2.640536964129484in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image49.png){width="2.640536964129484in"
 height="1.3936165791776027in"}
 
 45. At the far right of the screen select Filter Not using cache
     Response time: 1m-10m Last 24 hours Apply.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image50.png){width="6.491836176727909in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image50.png){width="6.491836176727909in"
 height="3.8116688538932633in"}
 
 46. The list of queries executed are shown with their average execution
@@ -635,12 +638,12 @@ VIEW_CUST_TXN_SYMBOL_COM at the start of the query, use the back-arrow
 key to return to the cache, scroll down and view another query.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image51.png){width="6.538893263342082in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image51.png){width="6.538893263342082in"
 height="3.0833333333333335in"}
 
 Click View details.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image52.png){width="1.4166666666666667in"
+![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image52.png){width="1.4166666666666667in"
 height="0.5486111111111112in"}
 
 47. Record (or screen shot) the Query ID, which will be used later in
@@ -648,7 +651,7 @@ height="0.5486111111111112in"}
     necessary.)
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image53.png){width="2.201388888888889in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image53.png){width="2.201388888888889in"
     height="1.3773720472440945in"}
 
 One could choose to create a cache from this particular query, but since
@@ -659,16 +662,16 @@ virtualized view instead.
 48. Go back the main Cache Management page and click Data caches.
 
 ![A close up of a logo Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image54.png){width="3.2384120734908137in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image54.png){width="3.2384120734908137in"
 height="1.0794706911636045in"} ![A screenshot of a cell phone
 Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image55.png){width="2.3934416010498687in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image55.png){width="2.3934416010498687in"
 height="1.455103893263342in"}
 
 49. At the right of the page, click Add new cache.
 
 ![A close up of a logo Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image56.png){width="2.2446806649168853in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image56.png){width="2.2446806649168853in"
 height="1.0693547681539808in"}
 
 50. This opens a SQL Editor to enter the query from which the cache will
@@ -681,14 +684,14 @@ Type in the query to select all columns from the virtualized view:
 Click Next.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image57.png){width="5.787234251968504in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image57.png){width="5.787234251968504in"
 height="1.1383147419072617in"}
 
 51. In the Refresh rate choose the default (None, manual only) and click
     Next.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image58.png){width="5.279165573053368in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image58.png){width="5.279165573053368in"
 height="2.2234044181977253in"}
 
 52. Enter your initials at the end of the Cache name (yours may vary)
@@ -697,17 +700,17 @@ height="2.2234044181977253in"}
 Click Create.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image59.png){width="2.540579615048119in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image59.png){width="2.540579615048119in"
 height="0.8609273840769903in"} ![A close up of a sign Description
 automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image60.png){width="2.3625in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image60.png){width="2.3625in"
 height="0.8127001312335957in"}
 
 The cache creation process may take some time and the main Cache
 Management page will reflect the work in progress.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image61.png){width="6.4125in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image61.png){width="6.4125in"
 height="3.20374343832021in"}
 
 53. Once the cache creation is complete, the newly created cache shows
@@ -715,13 +718,13 @@ height="3.20374343832021in"}
     size.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image62.png){width="6.28803258967629in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image62.png){width="6.28803258967629in"
 height="0.925in"}
 
 +----------------------------------+----------------------------------+
-| ![](/User                        | KNOWN ISSUE -- There exists a    |
-| s/tjm/Documents/GitHub/CPD-works | defect/issue wherein queries     |
-| hop/labs/images/media/image63.pn | executed before the cache is     |
+| ![](/Users/tjm/Docum             | KNOWN ISSUE -- There exists a    |
+| ents/GitHub/CPD-workshop/labs/dv | defect/issue wherein queries     |
+| -caching/images/media/image63.pn | executed before the cache is     |
 | g){width="0.36041666666666666in" | created and activated fails to   |
 | height="0.36041666666666666in"}  | use the cache. This is because   |
 |                                  | the query plan is already cached |
@@ -736,7 +739,7 @@ height="0.925in"}
 54. Click Menu (Cache management) SQL Editor.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image64.png){width="2.5125in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image64.png){width="2.5125in"
 height="3.5312882764654416in"}
 
 55. Remove the view SQL and replace it with the following:
@@ -746,7 +749,7 @@ height="3.5312882764654416in"}
 Click Run all.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image65.png){width="5.595744750656168in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image65.png){width="5.595744750656168in"
 height="1.7377241907261591in"}
 
 In a production setting, flushing the entire package may not always be a
@@ -778,15 +781,15 @@ particular queries. For more details on that see:
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Note: You can copy and paste     |
 | Description generated with high  | this SQL directly from the       |
-| confidence](/User                | Unified Desktop by using the     |
-| s/tjm/Documents/GitHub/CPD-works | File Browser to open this file:  |
-| hop/labs/images/media/image18.pn |                                  |
+| confidence](/Users/tjm/Docum     | Unified Desktop by using the     |
+| ents/GitHub/CPD-workshop/labs/dv | File Browser to open this file:  |
+| -caching/images/media/image18.pn |                                  |
 | g){width="0.36041666666666666in" | ![A picture containing monitor,  |
 | height="0.36041666666666666in"}  | computer, sitting, clock         |
 |                                  | Description automatically        |
-| Data                             | generated](/Use                  |
-|                                  | rs/tjm/Documents/GitHub/CPD-work |
-| Engineer                         | shop/labs/images/media/image19.p |
+| Data                             | generated](/Users/tjm/Docu       |
+|                                  | ments/GitHub/CPD-workshop/labs/d |
+| Engineer                         | v-caching/images/media/image19.p |
 |                                  | ng){width="0.5416666666666666in" |
 |                                  | height="0.5225164041994751in"}   |
 |                                  | Home Downloads                   |
@@ -802,7 +805,7 @@ particular queries. For more details on that see:
 57. Click Run all.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image66.png){width="5.904255249343832in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image66.png){width="5.904255249343832in"
 height="2.442782152230971in"}
 
 If the cardinality for the virtual tables created before shows -1, this
@@ -810,15 +813,15 @@ indicates that table statistics have not been collected. These
 statistics will be collected now.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image67.png){width="5.351064085739282in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image67.png){width="5.351064085739282in"
 height="1.9433202099737532in"}
 
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Note: The SYSPROC.NNSTATS is a   |
 | Description generated with high  | procedure to collect statistics  |
-| confidence](/User                | for remote tables:               |
-| s/tjm/Documents/GitHub/CPD-works | <                                |
-| hop/labs/images/media/image18.pn | http://ibm.biz/SYSPROC-NNSTATS>. |
+| confidence](/Users/tjm/Docum     | for remote tables:               |
+| ents/GitHub/CPD-workshop/labs/dv | <                                |
+| -caching/images/media/image18.pn | http://ibm.biz/SYSPROC-NNSTATS>. |
 | g){width="0.36041666666666666in" |                                  |
 | height="0.36041666666666666in"}  |                                  |
 |                                  |                                  |
@@ -843,15 +846,15 @@ height="1.9433202099737532in"}
 +----------------------------------+----------------------------------+
 | ![A close up of a logo           | Note: You can copy and paste     |
 | Description generated with high  | this SQL directly from the       |
-| confidence](/User                | Unified Desktop by using the     |
-| s/tjm/Documents/GitHub/CPD-works | File Browser to open this file:  |
-| hop/labs/images/media/image18.pn |                                  |
+| confidence](/Users/tjm/Docum     | Unified Desktop by using the     |
+| ents/GitHub/CPD-workshop/labs/dv | File Browser to open this file:  |
+| -caching/images/media/image18.pn |                                  |
 | g){width="0.36041666666666666in" | ![A picture containing monitor,  |
 | height="0.36041666666666666in"}  | computer, sitting, clock         |
 |                                  | Description automatically        |
-| Data                             | generated](/Use                  |
-|                                  | rs/tjm/Documents/GitHub/CPD-work |
-| Engineer                         | shop/labs/images/media/image19.p |
+| Data                             | generated](/Users/tjm/Docu       |
+|                                  | ments/GitHub/CPD-workshop/labs/d |
+| Engineer                         | v-caching/images/media/image19.p |
 |                                  | ng){width="0.5416666666666666in" |
 |                                  | height="0.5225164041994751in"}   |
 |                                  | Home Downloads                   |
@@ -868,7 +871,7 @@ height="1.9433202099737532in"}
 59. Click Run all.
 
     ![A screenshot of a cell phone Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image68.png){width="5.652753718285214in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image68.png){width="5.652753718285214in"
     height="1.9306933508311461in"}
 
 60. To confirm if the table statistics have now been collected, replace
@@ -889,7 +892,7 @@ height="1.9433202099737532in"}
 61. Click Run all.
 
     ![A screenshot of a social media post Description automatically
-    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image69.png){width="6.049504593175853in"
+    generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image69.png){width="6.049504593175853in"
     height="1.526576990376203in"}
 
     The actual rows counts for the virtual tables are shown as expected
@@ -907,8 +910,8 @@ height="1.9433202099737532in"}
 | **Persona (Role)**                                                   |
 +======================================================================+
 | ![A picture containing clothing Description automatically            |
-| generated](/Users/tjm/Docum                                          |
-| ents/GitHub/CPD-workshop/labs/images/media/image1.png){width="0.4in" |
+| generated](/Users/tjm/Documents/GitHub                               |
+| /CPD-workshop/labs/dv-caching/images/media/image1.png){width="0.4in" |
 | height="0.4in"}                                                      |
 |                                                                      |
 | Business Analyst                                                     |
@@ -934,26 +937,26 @@ previous step.)
 Click on the Search (magnifying glass) icon.
 
 ![A close up of a logo Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image70.png){width="6.430555555555555in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image70.png){width="6.430555555555555in"
 height="0.9377898075240595in"}
 
 Enter the Query ID to list the query.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image71.png){width="6.4845680227471565in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image71.png){width="6.4845680227471565in"
 height="1.5in"}
 
 65. Expand the entry to view the query details.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image72.png){width="6.409285870516185in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image72.png){width="6.409285870516185in"
 height="1.9847222222222223in"}
 
 66. Click on View details to show the number of executions and execution
     times.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image73.png){width="6.361160323709536in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image73.png){width="6.361160323709536in"
 height="2.924242125984252in"}
 
 Notice in the above example (yours may vary somewhat) the query took
@@ -964,7 +967,7 @@ minutes and 18 seconds.
     previous steps, by confirming the Query ID and by clicking on SQL.
 
 ![A screenshot of a social media post Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image74.png){width="6.393939195100613in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image74.png){width="6.393939195100613in"
 height="2.876147200349956in"}
 
 The query execution time has reduced **significantly** with the cache
@@ -975,7 +978,7 @@ The cache hits should also start showing up under Cache Management Data
 caches.
 
 ![A screenshot of a cell phone Description automatically
-generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image75.png){width="6.25794728783902in"
+generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image75.png){width="6.25794728783902in"
 height="0.9083333333333333in"}
 
 ## Reviewing the Cache Management UI
@@ -986,7 +989,7 @@ height="0.9083333333333333in"}
 > them.
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image76.png){width="6.575in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image76.png){width="6.575in"
 > height="2.150508530183727in"}
 >
 > The UI also provides details about the queries executed against DV.
@@ -997,7 +1000,7 @@ height="0.9083333333333333in"}
 > Play with some of the features of the Query section using Filters.
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image77.png){width="6.651515748031496in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image77.png){width="6.651515748031496in"
 > height="1.8970866141732283in"}
 
 ## Refreshing the Data Virtualization cache
@@ -1007,7 +1010,7 @@ height="0.9083333333333333in"}
 > creation process provides an option to set the cache refresh rate.
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image78.png){width="3.2407403762029747in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image78.png){width="3.2407403762029747in"
 > height="3.067367672790901in"}
 >
 > One can choose from the following options in the drop down:
@@ -1037,7 +1040,7 @@ height="0.9083333333333333in"}
 > Optimizer while generating the query plans.
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image79.png){width="5.231481846019247in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image79.png){width="5.231481846019247in"
 > height="2.044699256342957in"}
 >
 > An active cache can be deactivated so the Query Optimizer will not
@@ -1050,11 +1053,11 @@ height="0.9083333333333333in"}
 > needed, you could re-create them.
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image80.png){width="5.425926290463692in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image80.png){width="5.425926290463692in"
 > height="2.120696631671041in"}
 >
 > ![A screenshot of a cell phone Description automatically
-> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/images/media/image81.png){width="5.398148512685914in"
+> generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/dv-caching/images/media/image81.png){width="5.398148512685914in"
 > height="2.152607174103237in"}
 
 ## Caching guidelines
