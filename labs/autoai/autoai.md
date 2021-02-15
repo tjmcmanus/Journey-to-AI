@@ -65,43 +65,27 @@ In our scenario, Trade Co. data scientists accelerate their time to value using 
 
 |:---:|:---|
 | ![](./images/media/image2.png)| The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data.|
-| Data | If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view. |
-| Scientist | Since AutoAI requires a file as input, this virtualized view was exported to a CSV file (customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
-
-
-11. In the screen Select prediction column, select Column name: CHURNRISK.
-
-![image](./images/media/image14.png)
-
-12. Notice that the bottom of this screen now fills in when CHURNRISK is select as the Prediction column.
-
-AutoAI has determined for you a PREDICTION TYPE = Multiclass Classification.
-
-Click Experiment settings.
-
-![image](./images/media/image15.png){width="4.229507874015748in" height="1.2526356080489938in"}
-
-13. The first Experiment setting you can change from the values chosen for you is Data source
-
+| Data Scientist | If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file (customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
+1. In the screen Select prediction column, select Column name: CHURNRISK.
+   ![image](./images/media/image14.png)
+1. Notice that the bottom of this screen now fills in when CHURNRISK is select as the Prediction column.
+  - AutoAI has determined for you a PREDICTION TYPE = Multiclass Classification.
+  - Click Experiment settings.
+   ![image](./images/media/image15.png)
+1. The first Experiment setting you can change from the values chosen for you is Data source
 This allows you to change the Holdout data split (for testing vs. training)
-
-![image](./images/media/image16.png){width="5.490112642169729in" height="3.131147200349956in"}
-
+  ![image](./images/media/image16.png)
 If you scroll down you can see that you can optionally choose to select which columns to include in the experiment as well.
-
 Leave these settings as-is and click on the section: Prediction.
-
-14. The second setting you can change is Prediction.
-
+1. The second setting you can change is Prediction.
 The first section in the Prediction settings is the Prediction type.
 
 Read what all three Prediction types are best suited for. The one chosen for you was derived from the column CHURNRISK, which, by the way, has three values - High, Medium and Low. Thus, AutoAI determined that Multiclass classification is best suited for this data.
 
-Leave these setting as-is .
+Leave these setting as-is.
+  ![](./images/media/image17.png)
 
-![](./images/media/image17.png)
-
-15. Scroll down to review the next section: Optimized metric. Notice that AutoAI chose Accuracy for you. Hover over a few of the other metrics you could choose if you so desired.
+1. Scroll down to review the next section: Optimized metric. Notice that AutoAI chose Accuracy for you. Hover over a few of the other metrics you could choose if you so desired.
 
 A Data Scientist would best determine if and when to deviate from this recommended metric, but you will leave this choice as-is.
 
