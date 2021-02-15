@@ -16,7 +16,7 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
  - Model development
  - Feature engineering
  - Hyper-parameter optimization
-![](./images/media/image1.png | 6.034inx2.784in)
+ ![image](./images/media/image1.png){:height="6.034in" width="2.784in"}
 
 ## Persona represented in this lab
 
