@@ -63,7 +63,6 @@ In our scenario, Trade Co. data scientists accelerate their time to value using 
 
 |:---:|:---:|
 | **Persona (Role)** | **Capabilities** |
-|:---:|---|
 | ![image](./images/media/image2.png) Data Scientist | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab. |
 
 1. In the screen Select prediction column, select Column name: CHURNRISK.
@@ -104,34 +103,20 @@ A Data Scientist would best determine if and when to deviate from this recommend
 ![image](./images/media/image21.png)
 
 ## Running the AutoAI experiment
-
-19. At the bottom of the screen, click Run experiment.
-
-![](./images/media/image22.png)
-
-20. You will first see AutoAI go into a Preparing mode... then it will be Pending.
-
-![](./images/media/image23.png)
-
-21. Once it is running, you can click on \[Swap view\] to see each of the two different infographics: Relationship map and Progress map.
-
-![image](./images/media/image24.png)
-
-![image](./images/media/image25.png)
-
-22. Review the Legend for each infographic map.
-
-![image](./images/media/image26.png) ![image](./images/media/image27.png)
-
-23. On either infographics map, you can scroll down to see the Pipeline leaderboard.
-
-AutoAI begins building several different pipelines (possible solutions for the best model) ranking them as it goes along. You will see the pipelines complete and rank as the process continues.
-
-![image](./images/media/image28.png)
-
-24. As AutoAI does its work, watch it flow through its various steps:
-| **Steps**| Action|
-|:---:| ---|
+1. At the bottom of the screen, click Run experiment.
+ ![](./images/media/image22.png)
+1. You will first see AutoAI go into a Preparing mode... then it will be Pending.
+ ![](./images/media/image23.png)
+1. Once it is running, you can click on \[Swap view\] to see each of the two different infographics: Relationship map and Progress map.
+ ![image](./images/media/image24.png)
+ ![image](./images/media/image25.png)
+1. Review the Legend for each infographic map.
+ ![image](./images/media/image26.png) ![image](./images/media/image27.png)
+1. On either infographics map, you can scroll down to see the Pipeline leaderboard.  AutoAI begins building several different pipelines (possible solutions for the best model) ranking them as it goes along. You will see the pipelines complete and rank as the process continues.
+ ![image](./images/media/image28.png)
+1. As AutoAI does its work, watch it flow through its various steps:
+|:---:|:---|
+| **Steps** | **Action**|
 | **Read dataset** | Reads the data set you provided for the experiment.|
 | **Split holdout data** | Splits the data between testing and training. |
 | **Read training data** |  Reads training data to prepare for preprocessing. |
