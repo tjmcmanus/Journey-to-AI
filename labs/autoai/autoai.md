@@ -16,7 +16,7 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
  - Model development
  - Feature engineering
  - Hyper-parameter optimization
- [[ ./images/media/image1.png \| height="6.034in" width="2.784in"]]
+  > ![](./images/media/image1.png)
 
 ## Persona represented in this lab
 
@@ -27,71 +27,47 @@ The Data Scientist persona is the most likely role to perform the Analyze tasks 
 |:---:|:---|
 | ![](./images/media/image2.png) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
 
-
 ## Logging into the CPD web client (if you have not already done so)
 
 1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
-
-2.  Click the desktop icon: Cloud Pak for Data Web Client.
+1.  Click the desktop icon: Cloud Pak for Data Web Client.
 ![](./images/media/image3.png)
-
-3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image4.png){width="1.8032786526684164in" height="2.370650699912511in"}
+1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
+![image](./images/media/image4.png)
 
 ## Setting up the AutoAI experiment
 
 In the lab, you will create an AutoAI experiment that will be used to automatically create the machine learning model that best fits the data to provide the desired outcome. One only needs to provide general guidance, and AutoAI will do the rest of the work.
 
 In our scenario, Trade Co. data scientists accelerate their time to value using this powerful tool.
+> ![](./images/media/image5.png)
 
-![](./images/media/image5.png){width="0.5833333333333334in" height="0.4722222222222222in"}
+1.  In the CPD web client, click the Navigation Menu ("hamburger" icon) a Projects.
+  ![image](./images/media/image6.png)![](./images/media/image7.png)
+1.  Select the project: ***CPD Workshop Analytics Project***.
+  ![image](./images/media/image8.png)
+1.  Once the project is opened, at the top right corner of the screen click on: Add to project +.
+   ![image](./images/media/image9.png)
+   1. In the next screen hover over and then click on the tile: *AutoAI experiment*.
+      ![image](./images/media/image10.png)
+   1.  In Name, enter *ChurnRisk AutoAI* experiment.
+   1. Fill in anything you like in **Description**.
+   1. Leave the defaults for **Compute** configuration.
+   1. Click *Create*.
+     ![image](./images/media/image11.png)
+ **Note:** If you have to wait a long time for the spinning circle to complete, simply return to the CPD Workshop Analytics Project and select ChurnRisk AutoAI Experiment from the list of Assets.*
+1. In the screen Add data source, click Select from project.
+   ![image](./images/media/image12.png)
+1. Select **File name**: ***customer_demochurn_activity_analyze.csv***.
 
-4.  In the CPD web client, click the Navigation Menu ("hamburger" icon) a Projects.
+**Click** ***Select asset***.
+  ![image](./images/media/image13.png)
 
-![A picture containing clock, meter Description automatically generated](./images/media/image6.png){width="1.327869641294838in" height="1.1406058617672792in"}![A picture containing dark, clock, light, meter Description automatically generated](./images/media/image7.png){width="2.3114752843394575in" height="1.1525885826771654in"}
+|:---:|:---|
+| ![](./images/media/image2.png)| The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data.|
+| Data | If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view. |
+| Scientist | Since AutoAI requires a file as input, this virtualized view was exported to a CSV file (customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
 
-5.  Select the project: CPD Workshop Analytics Project.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image8.png){width="2.8934416010498687in" height="0.888069772528434in"}
-
-6.  Once the project is opened, at the top right corner of the screen click on: Add to project +.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image9.png){width="3.8196719160104986in" height="0.8536734470691164in"}
-
-7.  In the next screen hover over and then click on the tile: AutoAI experiment.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image10.png){width="3.721311242344707in" height="1.3641896325459317in"}
-
-8.  In Name, enter ChurnRisk AutoAI experiment.
-
-Fill in anything you like in Description.
-
-Leave the defaults for Compute configuration.
-
-Click Create.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image11.png){width="6.504553805774278in" height="3.2637292213473317in"}
-
-> *Note: If you have to wait a long time for the spinning circle to complete, simply return to the CPD Workshop Analytics Project and select ChurnRisk AutoAI Experiment from the list of Assets.*
-
-9.  In the screen Add data source, click Select from project.
-
-![A screenshot of a social media post Description automatically generated](./images/media/image12.png){width="4.590162948381452in" height="2.5797222222222222in"}
-
-10. Select File name: customer_demochurn_activity_analyze.csv.
-
-Click Select asset.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image13.png){width="6.38907261592301in" height="3.490741469816273in"}
-
-+-----------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](./images/media/image2.png){width="0.4in" height="0.4in"} | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data.                                                                                    |
-|                                                                                                                 |                                                                                                                                                                                                                               |
-| Data                                                                                                            | If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view. |
-|                                                                                                                 |                                                                                                                                                                                                                               |
-| Scientist                                                                                                       | Since AutoAI requires a file as input, this virtualized view was exported to a CSV file (customer_demochurn_activity_analyze.csv) to be used as input for this lab.                                                           |
-+-----------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 11. In the screen Select prediction column, select Column name: CHURNRISK.
 
