@@ -23,7 +23,7 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
 The **Data Scientist** persona is the most likely role to perform the **Analyze** tasks in this lab, that is, to create a machine learning model with AutoAI that can be deployed and infused into an AI application.
 
   |:---:|:---|
-  | **Persona ** | **Capabilities**|
+  | **Persona** | **Capabilities**|
   | ![](./images/media/image2.png) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
 
 ## Logging into the CPD web client (if you have not already done so)
@@ -101,7 +101,7 @@ Leave these settings as-is and click on the section: **Prediction**.
 1. As AutoAI does its work, watch it flow through its various steps:
 
   |:---:|-------|
-  | **Steps** | **Action**|
+  | **Steps** | **Action** |
   | **Read dataset** | Reads the data set you provided for the experiment.|
   | **Split holdout data** | Splits the data between testing and training. |
   | **Read training data** |  Reads training data to prepare for preprocessing. |
