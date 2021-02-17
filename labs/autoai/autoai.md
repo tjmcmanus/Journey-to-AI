@@ -58,7 +58,7 @@ In our scenario, Trade Co. data scientists accelerate their time to value using 
 **Click** ***Select asset***.
   ![image](./images/media/image13.png)
 
-  |:---:|:---:|
+  |:---:|:---|
   | **Persona (Role)** | **Capabilities** |
   | ![image](./images/media/image2.png) Data Scientist | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
 1. In the screen **Select prediction column**, select **Column name: CHURNRISK**.
