@@ -85,7 +85,7 @@ This shows how many instances of the Db2 Advanced Edition have been created usin
 
 We will review this instance in a different way later in this lab.
 
-![image](./images/media/image31.png)
+ ![image](./images/media/image31.png)
 
 ## Reviewing the profile settings
 
@@ -93,8 +93,7 @@ We will review this instance in a different way later in this lab.
  - Choose Profile and settings.
 **Note** this is also the location where you can Log out of the web client)
 ![image](./images/media/image32.png)
-1. Review the things you can change in your Profile, then review Permissions.
-  **Note** in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.
+1. Review the things you can change in your Profile, then review Permissions.<br/>**Note** in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.
   ![image](./images/media/image33.png)![](./images/media/image34.png)
 1. Now review Git Integrations Generate API key and New token.
   ![image](./images/media/image35.png)
@@ -105,17 +104,17 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
 
 1. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.
  ![image](./images/media/image36.png)
-1. This will bring up all available services for Cloud Pak for Data. \\ Click through the various categories to see what services you can install on CPD. \\For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this CPD cluster right now.
+1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on CPD.<br/>For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this CPD cluster right now.
   ![image](./images/media/image37.png)
 1. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.
   ![image](./images/media/image38.png)
-1. Click the browser back arrow to return to the Services catalog screen. \\ (Or you can click on the Services catalog link in the breadcrumb trail itself)
+1. Click the browser back arrow to return to the Services catalog screen.<br/>(Or you can click on the Services catalog link in the breadcrumb trail itself)
   ![image](./images/media/image39.png)
-1. Another convenient way to review these Services is to filter them in the Services Catalog options. \\ Click through Pricing, Source and Status. \\ In Status, check Enabled
+1. Another convenient way to review these Services is to filter them in the Services Catalog options.<br/>Click through Pricing, Source and Status.<br/>In Status, check Enabled
    ![image](./images/media/image40.png)
 1. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)
   ![](./images/media/image41.png)
-1. Explore through this Services page to find a few capabilities that you might find useful for your organization. \\
+1. Explore through this Services page to find a few capabilities that you might find useful for your organization.<br/>
   | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
 
 ## Reviewing instances
@@ -123,10 +122,10 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
 1. Click Navigation Menu My instances.
   ![image](./images/media/image21.png)![image](./images/media/image42.png)
 1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
-  ![image](./images/media/image43.png) \\
+  ![image](./images/media/image43.png)<br/>
   | ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the CPD platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
-1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty. \\
-  | ![](./images/media/image10.png) Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.  \\ The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
+1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.<br/>
+  | ![](./images/media/image10.png) Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
@@ -144,8 +143,7 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
   ![image](./images/media/image48.png)
 1. Click Navigation Menu Home.
   ![image](./images/media/image21.png)![image](./images/media/image49.png)
-1. Notice the Navigation bar is customized, and the Home Page can have a company logo on it. \\
-  **Note:** You may have to refresh your browser if it does not immediately show.
+1. Notice the Navigation bar is customized, and the Home Page can have a company logo on it.<br/>**Note:** You may have to refresh your browser if it does not immediately show.
   ![image](./images/media/image50.png)
 1. Let's reset this to the default setting so the rest of the lab workbooks will be consistent with your environment:
  - Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.
