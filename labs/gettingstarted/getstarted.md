@@ -24,9 +24,9 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 > We are using a CPD cloud cluster for this workshop. This software environment was built with the following key software components:
 
--   Red Hat OpenShift Container Platform (RHOCP) 4.3.21 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
+-   Red Hat OpenShift Container Platform (RHOCP) 4.5 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
 
--   Cloud Pak for Data v3.0.1 as the microservice-built, integrated data and analytics platform with various add-ons installed and enabled.
+-   Cloud Pak for Data v3.5.2 as the microservice-built, integrated data and analytics platform with various add-ons installed and enabled.
 
 ## Audience for this IBM workshop
 
