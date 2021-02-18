@@ -60,7 +60,7 @@ In our scenario, Trade Co. data scientists accelerate their time to value using 
   ![image](./images/media/image13.png)
   | **Persona** | **Capabilities** |
   |:-:|:--|
-  | ![Data Scientist](./images/media/image2.png) | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
+  | ![Data Scientist](./images/media/image2.png) | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data.<br/>If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.<br/>Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
 1. In the screen **Select prediction column**, select **Column name: CHURNRISK**.
    ![image](./images/media/image14.png)
 1. Notice that the bottom of this screen now fills in when CHURNRISK is select as the Prediction column.
@@ -99,7 +99,6 @@ Leave these settings as-is and click on the section: **Prediction**.
 1. On either infographics map, you can scroll down to see the **Pipeline** leaderboard.  AutoAI begins building several different pipelines (possible solutions for the best model) ranking them as it goes along. You will see the pipelines complete and rank as the process continues.
  ![image](./images/media/image28.png)
 1. As AutoAI does its work, watch it flow through its various steps:
-
 
   | **Steps** | **Action** |
   |:-:|:--|
@@ -190,10 +189,10 @@ While the AutoAI experiment is running, open another CPD web client to perform a
 1. Return to your first CPD Web client browser tab. If the AutoAI experiment has not completed yet, let it finish. You can tell if it is finished by looking at the **Relationship map** view.
  ![image](./images/media/image52.png)
  |:---:|:---|
- |  ![](./images/media/image2.png) | Note: this experiment may take 25 minutes or more to complete, but this is not normal. We have turned off AVX/AVX2 processor support for this workshop so that the Cloud Pak for Data workshop image can run on servers that do not have AVX nor AVX2 processors. If we did not do that and the workshop was run on servers without AVX/AVX2 processors, the experiment would fail. So, we took this route to make sure the AutoAI experiment would run under any circumstances on any server, with or without AVX/AVX2 processors. |
+ |  ![](./images/media/image2.png) | **Note:** this experiment may take 25 minutes or more to complete, but this is not normal. We have turned off AVX/AVX2 processor support for this workshop so that the Cloud Pak for Data workshop image can run on servers that do not have AVX nor AVX2 processors.<br/>If we did not do that and the workshop was run on servers without AVX/AVX2 processors, the experiment would fail. So, we took this route to make sure the AutoAI experiment would run under any circumstances on any server, with or without AVX/AVX2 processors. |
  | | **That said, with a CPD cluster on AVX/AVX2 supported processors this experiment completes on average, in around 3 minutes.**|
  | | Servers with AVX/AVX2 processors were released in 2011 and are mostly ubiquitous. Your organization probably has them.|
- |  ![](./images/media/image2.png) | Note: the results from your AutoAI experiment may vary from the illustrations in this workbook. This is especially true for Feature Transformations. |
+ |  ![](./images/media/image2.png) | **Note:** the results from your AutoAI experiment may vary from the illustrations in this workbook. This is especially true for Feature Transformations. |
 1. AutoAI chooses the best model from the various pipeline leaderboard options as Rank \#1. You can scroll down in either map infographic screen to see the leaderboard.  
   - Notice the Algorithm chose (Random Forest classifier) and the most accurate result.
   - Click on the \#1 ranked **Pipeline 4**. ![image](./images/media/image53.png)
