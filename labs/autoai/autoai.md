@@ -20,18 +20,16 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
 
 ## Persona represented in this lab
 
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
-
 The **Data Scientist** persona is the most likely role to perform the **Analyze** tasks in this lab, that is, to create a machine learning model with AutoAI that can be deployed and infused into an AI application.
 
-  | **Persona** | **Capabilities**|
-  | ![](./images/media/image2.png) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
+ | **Persona** | **Capabilities**|
+ | ![](./images/media/image2.png) | Data Scientists bring expertise in statistics and the process of building ML-AI models to make predictions and answer key business questions. |
 
 ## Logging into the CPD web client (if you have not already done so)
 ***Need to rewrite this to match new environment***
 1. Add [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) as an asset.
+1. Add [TradingCustomerChurnClassifier-Py36.ipynb](./TradingCustomerChurnClassifier-Py36.ipynb) as an asset.
+
 
 
 ## Setting up the AutoAI experiment
@@ -114,14 +112,12 @@ Leave these settings as-is and click on the section: **Prediction**.
 
 ## Running a Notebook
 
-***While the AutoAI experiment is running, **open another** CPD web client to perform a parallel exercise.
+While the AutoAI experiment is running, open another CPD web client to perform a parallel exercise.
+***UPDATE THIS FOR MORE PORTABLE VERSION***
 1. Minimize the CPD web client browser to be able to get to the desktop.
  ![image](./images/media/image29.png)
-1. Double click the desktop icon: Cloud Pak for Data Web Client.
- ![image](./images/media/image3.png)
-1. This will open a second CPD Web client browser tab.
   **Note:** The AutoAI session is running in the first tab **[so don't close it!]**
-![](./images/media/image30.png)***
+![](./images/media/image30.png)
 1. In the CPD web client, click the **Navigation Menu** > **Projects**.
   ![image](./images/media/image31.png)![image](./images/media/image32.png)
 1. Select the project: **CPD Workshop Analytics Project**.
