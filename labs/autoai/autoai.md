@@ -59,6 +59,7 @@ In our scenario, Trade Co. data scientists accelerate their time to value using 
 **Click** ***Select asset***.
   ![image](./images/media/image13.png)
   | **Persona** | **Capabilities** |
+  |:-:|:--|
   | ![Data Scientist](./images/media/image2.png) | The CSV file used in this AutoAI experiment is a join of Db2 CUSTOMER_CHURN, Db2 CUSTOMER_DEMOGRAPHICS and MongoDB CUSTOMER_ACTIVITY data. If you have been doing all the labs so far in this workshop, you would have completed the previous Data Flow Designer and Data Virtualization labs that transformed and joined these tables together as one virtualized view.  Since AutoAI requires a file as input, this virtualized view was exported to a CSV file [customer_demochurn_activity_analyze.csv](./customer_demochurn_activity_analyze.csv) to be used as input for this lab.|
 1. In the screen **Select prediction column**, select **Column name: CHURNRISK**.
    ![image](./images/media/image14.png)
@@ -99,8 +100,9 @@ Leave these settings as-is and click on the section: **Prediction**.
  ![image](./images/media/image28.png)
 1. As AutoAI does its work, watch it flow through its various steps:
 
-  |:---:|-------|
+
   | **Steps** | **Action** |
+  |:-:|:--|
   | **Read dataset** | Reads the data set you provided for the experiment.|
   | **Split holdout data** | Splits the data between testing and training. |
   | **Read training data** |  Reads training data to prepare for preprocessing. |
@@ -131,6 +133,7 @@ While the AutoAI experiment is running, open another CPD web client to perform a
 1. Click the **Edit** (pencil) **icon** to put the Notebook in edit mode.
   **Note:** If you are returning to the Notebook, it may already be in edit mode.
   ![image](./images/media/image37.png)
+ | **Persona** | **Capabilities** |
  |:---:|:---|
  | ![image](./images/media/image2.png) | Note: if you received an error like this "403: forbidden." |
  | | ![image](./images/media/image38.png)|
@@ -144,6 +147,7 @@ While the AutoAI experiment is running, open another CPD web client to perform a
 1. The notebook will now start running each cell in sequential order. A number will be placed next to each cell after it has executed.
   - Scroll up to the first cells under **1. Load libraries**.
   ![image](./images/media/image43.png)
+ | **Persona** | **Capabilities** |
  |:---:|:---|
  | ![image](./images/media/image2.png) | **Note:** You can run the notebook cell by cell or all at once. Either way will give you the same result. Any cell that has not yet run is indicated like this: \[\*\] |
 1. Scroll to the 4^th^ cell (under **2. Load data example**) to see the input file for this notebook. Notice it is the same input file from the same project that AutoAI is using.
@@ -168,6 +172,7 @@ While the AutoAI experiment is running, open another CPD web client to perform a
 
  |:---------------:|---|
  | ![](./images/media/image2.png) | **Ten Reasons Why I Like my Jupyter Notebook**|
+ |:-:|:--|
  |  | 1.  **All in one place**: The Jupyter Notebook is a web-based interactive environment that combines code, rich text, images, videos, animations, mathematical equations, plots, maps, interactive figures and widgets, and graphical user interfaces, into a single document.|
  |  | 2.  **Easy to share**: Notebooks are saved as structured text files (JSON format), which makes them easily shareable.|
  |  | 3.  **Easy to convert**: Jupyter comes with a special tool, nbconvert, which converts notebooks to other formats such as HTML and PDF.|
