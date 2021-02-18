@@ -33,13 +33,13 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
 
  | **Persona** | **Capabilities** |
- | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the CPD environment itself.<br/>**Note:** while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.\\The exercises in this first lab represent some typical CPD Administrator activities.|
- | ![ ](./images/media/image2.png) \\ Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
- | ![](./images/media/image3.png) \\  Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
- | ![ ](./images/media/image4.png) \\ Data Quality Analyst | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
- | ![](./images/media/image5.png) \\ Business Analyst | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
- | ![](./images/media/image6.png) \\ Data Scientist | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
- | ![](./images/media/image7.png) \\ Developer | Developers create and maintain the end-user applications that utilize the output from all the other personas on the CPD platform.|
+ | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the CPD environment itself.<br/>**Note:** while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical CPD Administrator activities.|
+ | ![ ](./images/media/image2.png)<br/>Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
+ | ![](./images/media/image3.png)<br/>Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
+ | ![ ](./images/media/image4.png)<br/>Data Quality Analyst | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
+ | ![](./images/media/image5.png)<br/>Business Analyst | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
+ | ![](./images/media/image6.png)<br/>Data Scientist | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
+ | ![](./images/media/image7.png)<br/>Developer | Developers create and maintain the end-user applications that utilize the output from all the other personas on the CPD platform.|
 
 ## Getting started
 
@@ -54,13 +54,13 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
   - Navigation Menu ("hamburger" icon)
   - Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
-1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client. \\
-  | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. \\ CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
+1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.<br/>
+  |:---:|:---|
+  | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. <br/> CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
-![](./images/media/image25.png)
-
- | ![](./images/media/image10.png) Admin | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. \\ In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
+![](./images/media/image25.png)<br/>
+  | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
 
 ##  Managing platform options
