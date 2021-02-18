@@ -20,6 +20,10 @@ In this lab you will explore AutoAI, which helps simplify the Machine Learning m
 
 ## Persona represented in this lab
 
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
+
 The **Data Scientist** persona is the most likely role to perform the **Analyze** tasks in this lab, that is, to create a machine learning model with AutoAI that can be deployed and infused into an AI application.
 
   | **Persona** | **Capabilities**|
