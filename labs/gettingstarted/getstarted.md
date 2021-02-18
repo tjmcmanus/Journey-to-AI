@@ -115,90 +115,58 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
    ![image](./images/media/image40.png)
 1. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)
   ![](./images/media/image41.png)
-1. Explore through this Services page to find a few capabilities that you might find useful for your organization.
+1. Explore through this Services page to find a few capabilities that you might find useful for your organization. \\
   | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
 
 ## Reviewing instances
 
-32. Click Navigation Menu My instances.
-
-![image](./images/media/image21.png)![image](./images/media/image42.png)
-
-33. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
-
-![image](./images/media/image43.png)
-
-| ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the CPD platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
-
-34. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.
-
-| ![](./images/media/image10.png) Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc. |
-|  |  The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
+1. Click Navigation Menu My instances.
+  ![image](./images/media/image21.png)![image](./images/media/image42.png)
+1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
+  ![image](./images/media/image43.png) \\
+  | ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the CPD platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
+1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty. \\
+  | ![](./images/media/image10.png) Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.  \\ The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
-35. Click Navigation Menu Administer Customize branding.
-
-![images](./images/media/image21.png) ![images](./images/media/image44.png)
-
-36. In section Product name, click Custom name, then fill in TradeCo. Platform Services.
-
-![](./images/media/image45.png)
-
-37. In section Home page logo, check Use your own logo.
-
-Click on the box: Drop your JPG or PNG file here or browse for a file to upload.
-
-![image](./images/media/image46.png)
-
-38. For Browser Only: Download TradeCoLogo.png from <https://ibm.biz/BdqhHa>.\
-    For Unified Desktop: Under directory Pictures, select file TradeCoLogo.png Open.
-
-![image](./images/media/image47.png)
-
-39. Click button Apply.
-
-![image](./images/media/image48.png)
-
-40. Click Navigation Menu Home.
-
-    ![image](./images/media/image21.png)![image](./images/media/image49.png)
-
-41. Notice the Navigation bar is customized, and the Home Page can have a company logo on it.\
-    *Note: You may have to refresh your browser if it does not immediately show.*
-
-![image](./images/media/image50.png)
-
-42. Let's reset this to the default setting so the rest of the lab workbooks will be consistent with your environment:
-
-Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.
-
-![image](./images/media/image51.png) ![image](./images/media/image52.png)
+1. Click Navigation Menu Administer Customize branding.
+  ![images](./images/media/image21.png) ![images](./images/media/image44.png)
+1. In section Product name, click Custom name, then fill in TradeCo. Platform Services.
+  ![](./images/media/image45.png)
+1. In section Home page logo, check Use your own logo.
+  - Click on the box: Drop your JPG or PNG file here or browse for a file to upload.
+  ![image](./images/media/image46.png)
+1. For Browser Only: Download TradeCoLogo.png from <https://ibm.biz/BdqhHa>.
+    -- For Unified Desktop: Under directory Pictures, select file TradeCoLogo.png Open.
+   ![image](./images/media/image47.png)
+1. Click button Apply.
+  ![image](./images/media/image48.png)
+1. Click Navigation Menu Home.
+  ![image](./images/media/image21.png)![image](./images/media/image49.png)
+1. Notice the Navigation bar is customized, and the Home Page can have a company logo on it. \\
+  **Note:** You may have to refresh your browser if it does not immediately show.
+  ![image](./images/media/image50.png)
+1. Let's reset this to the default setting so the rest of the lab workbooks will be consistent with your environment:
+ - Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.
+ ![image](./images/media/image51.png) ![image](./images/media/image52.png)
 
 ## Lab conclusion
 
 Cloud Pak for Data is useful in the following business macro use-case scenarios:
 
 1.  **Manage Your Data Anywhere**: Use data virtualization, streaming, cataloging, governance and more to prepare your data for analysis.
-
-2.  **Operationalize Data Science & AI**: Build, deploy, manage & govern models and data at scale to improve business outcomes like controlling customer churn, cross selling and up selling, predictive maintenance and more.
-
-3.  **Shift to Next-Gen workloads**: Shift to Cloud Native to be able to provision and scale in minutes, build once and deploy anywhere with multi-cloud support, and use built-in automation and collaboration to increase productivity.
-
-4.  **Smarter Governance:** Enable self-service analytics with auto-discovery of meta data, implementing governance rules and policies, enforcement of privacy to mitigate risk and to ensure compliance for regulatory requirements like GDPR.
-
-![image](./images/media/image53.png)
+1.  **Operationalize Data Science & AI**: Build, deploy, manage & govern models and data at scale to improve business outcomes like controlling customer churn, cross selling and up selling, predictive maintenance and more.
+1.  **Shift to Next-Gen workloads**: Shift to Cloud Native to be able to provision and scale in minutes, build once and deploy anywhere with multi-cloud support, and use built-in automation and collaboration to increase productivity.
+1.  **Smarter Governance:** Enable self-service analytics with auto-discovery of meta data, implementing governance rules and policies, enforcement of privacy to mitigate risk and to ensure compliance for regulatory requirements like GDPR.
+ ![image](./images/media/image53.png)
 
 Make Cloud Pak for Data your platform for data and analytics. Why? Because IBM understands data and provides an integrated, end-to-end data platform that enables enterprises to:
 
 -   Collect relevant data and make it simple and accessible
-
 -   Use federation, virtualization and/or transformation to combine and refine data sets
-
 -   Organize data so it can be trusted
-
 -   Analyze insights on demand
-
 -   Infuse machine learning into your applications
 
 All of the above and much more will be demonstrated in the following workshop labs.
