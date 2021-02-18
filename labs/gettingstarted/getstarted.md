@@ -32,9 +32,7 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
 
-
 | **Persona** | **Capabilities** |
-
 | ![](./images/media/image1.png) Administrator| Administrators set up and maintain the CPD environment itself.|
 || Note: while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.|
 | | The exercises in this first lab represent some typical CPD Administrator activities.|
@@ -49,65 +47,37 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 1.  To launch your CPD cluster, you will select the virtual machine with the label Master1.
 
-Click on this node (VM) to expand the image and then click on the display option in the top bar and select Fullscreen.
-
-![image](./images/media/image8.png) ![image](./images/media/image9.png)
-
-You are now in the first (headed) virtual machine image of a cluster of virtual machines that comprise your Cloud Pak for Data cluster. Everything you will be doing in the labs will be driven from this first image.
-
-| ![](./images/media/image10.png) | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.|
-| Admin | ![](./images/media/image11.png) |
-| | If necessary, you can log back into the Linux OS with: User ibmdemo, Password passw0rd.|
-
-2.  In this VM, notice the lab desktop looks like this:
-
-![image](./images/media/image12.png)
-
-3.  Make sure to run in "Fullscreen" mode to make the most of your computer screen's real estate.
-
-![image](./images/media/image13.png)
-
-4.  Double-click the icon IBM Cloud Pak for Data.
-
+ - Click on this node (VM) to expand the image and then click on the display option in the top bar and select Fullscreen.
+  ![image](./images/media/image8.png) ![image](./images/media/image9.png)
+ - You are now in the first (headed) virtual machine image of a cluster of virtual machines that comprise your Cloud Pak for Data cluster. Everything you will be doing in the labs will be driven from this first image.
+ | ![](./images/media/image10.png) | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.|
+ | Admin | ![](./images/media/image11.png) |
+ | | If necessary, you can log back into the Linux OS with: User ibmdemo, Password passw0rd.|
+1. In this VM, notice the lab desktop looks like this:
+  ![image](./images/media/image12.png)
+1. Make sure to run in "Fullscreen" mode to make the most of your computer screen's real estate.
+ ![image](./images/media/image13.png)
+1. Double-click the icon IBM Cloud Pak for Data.
 ![image](./images/media/image14.png)
-
-5.  After launching, maximize the browser window.
-
-![image](./images/media/image15.png)
-
-6.  The CPD web client GUI displays as shown below.
-
-Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-
-![image](./images/media/image16.png)
-
-7.  You should now be at the Home Page.
-
-![](./images/media/image17.png)
-
-8.  Scroll down to review the quick navigation and resources links on this page.
-
-You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
-
-![](./images/media/image18.png)
-
-9.  If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
-
-Navigation Menu ("hamburger" icon) Home
-
-![image](./images/media/image19.png) ![image](./images/media/image20.png)
-
-10. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
-
+1. After launching, maximize the browser window.
+ ![image](./images/media/image15.png)
+1. The CPD web client GUI displays as shown below.
+   Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
+   ![image](./images/media/image16.png)
+1.  You should now be at the Home Page.
+  ![](./images/media/image17.png)
+1. Scroll down to review the quick navigation and resources links on this page.
+  You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
+  ![](./images/media/image18.png)
+1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
+  Navigation Menu ("hamburger" icon)
+  Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
+1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
 | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. |
 | Admin | CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user (acting as one or more personas) can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
-
-14. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
-
+1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
-
 ![](./images/media/image25.png)
-
 | ![](./images/media/image10.png) | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. |
 | Admin | In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
