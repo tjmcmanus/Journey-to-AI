@@ -104,43 +104,20 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
 
 ## Reviewing CPD services
 
-25. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.
-
-![image](./images/media/image36.png)
-
-26. This will bring up all available services for Cloud Pak for Data.
-
-Click through the various categories to see what services you can install on CPD.
-
-For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this CPD cluster right now.
-
-![image](./images/media/image37.png)
-
-27. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.
-
-> ![image](./images/media/image38.png)
-
-28. Click the browser back arrow to return to the Services catalog screen.
-
-(Or you can click on the Services catalog link in the breadcrumb trail itself)
-
-> ![image](./images/media/image39.png)
-
-29. Another convenient way to review these Services is to filter them in the Services Catalog options.
-
-Click through Pricing, Source and Status.
-
-In Status, check Enabled
-
-> ![image](./images/media/image40.png)
-
-30. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)
-
-![](./images/media/image41.png)
-
-31. Explore through this Services page to find a few capabilities that you might find useful for your organization.
-
-| ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
+1. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.
+ ![image](./images/media/image36.png)
+1. This will bring up all available services for Cloud Pak for Data. \\ Click through the various categories to see what services you can install on CPD. \\For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this CPD cluster right now.
+  ![image](./images/media/image37.png)
+1. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.
+  ![image](./images/media/image38.png)
+1. Click the browser back arrow to return to the Services catalog screen. \\ (Or you can click on the Services catalog link in the breadcrumb trail itself)
+  ![image](./images/media/image39.png)
+1. Another convenient way to review these Services is to filter them in the Services Catalog options. \\ Click through Pricing, Source and Status. \\ In Status, check Enabled
+   ![image](./images/media/image40.png)
+1. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)
+  ![](./images/media/image41.png)
+1. Explore through this Services page to find a few capabilities that you might find useful for your organization.
+  | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
 
 ## Reviewing instances
 
