@@ -1,4 +1,4 @@
-# **[Getting Started]{.smallcaps}**
+# Getting Started
 
 ## IBM Journey to Cloud and AI: Analytics Modernization Workshop
 
@@ -32,39 +32,18 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Persona (Role)**                                                                                                                                                                                                      | **Capabilities**                                                                                                                                                                                                                           |
-+=========================================================================================================================================================================================================================+============================================================================================================================================================================================================================================+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image1.png){width="0.4in" height="0.4in"}                                                                                                 | Administrators set up and maintain the CPD environment itself.                                                                                                                                                                             |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Administrator                                                                                                                                                                                                           | Note: while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.                                                        |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-|                                                                                                                                                                                                                         | The exercises in this first lab represent some typical CPD Administrator activities.                                                                                                                                                       |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of a logo Description generated with high confidence](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image2.png){width="0.4in" height="0.4in"}                                  | Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Data Engineer                                                                                                                                                                                                           |                                                                                                                                                                                                                                            |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A picture containing cup Description generated with very high confidence](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image3.png){width="0.4in" height="0.4in"}                         | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.                                                                                                    |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Data Steward                                                                                                                                                                                                            |                                                                                                                                                                                                                                            |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A person posing for the camera Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image4.png){width="0.4166666666666667in" height="0.4166666666666667in"} | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.                                                                                                                                           |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Data Quality Analyst                                                                                                                                                                                                    |                                                                                                                                                                                                                                            |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image5.png){width="0.4in" height="0.4in"}                                                                                                 | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions.                                                                                                |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Business Analyst                                                                                                                                                                                                        |                                                                                                                                                                                                                                            |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image6.png){width="0.4in" height="0.4in"}                                                                                                 | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.                                                                                              |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Data Scientist                                                                                                                                                                                                          |                                                                                                                                                                                                                                            |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of sunglasses Description generated with high confidence](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image7.png){width="0.4in" height="0.4in"}                              | Developers create and maintain the end-user applications that utilize the output from all the other personas on the CPD platform.                                                                                                          |
-|                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            |
-| Developer                                                                                                                                                                                                               |                                                                                                                                                                                                                                            |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| **Persona** | **Capabilities** |
+
+| ![](./images/media/image1.png) Administrator| Administrators set up and maintain the CPD environment itself.|
+|| Note: while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.|
+| | The exercises in this first lab represent some typical CPD Administrator activities.|
+| ![A close up of a logo Description generated with high confidence](./images/media/image2.png) Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
+| ![A picture containing cup Description generated with very high confidence](./images/media/image3.png)  Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
+| ![A person posing for the camera Description automatically generated](./images/media/image4.png)Data Quality Analyst | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
+| ![](./images/media/image5.png)Business Analyst | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
+| ![](./images/media/image6.png)Data Scientist | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
+| ![A close up of sunglasses Description generated with high confidence](./images/media/image7.png)Developer | Developers create and maintain the end-user applications that utilize the output from all the other personas on the CPD platform.|
 
 ## Getting started
 
@@ -72,99 +51,70 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 Click on this node (VM) to expand the image and then click on the display option in the top bar and select Fullscreen.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image8.png){width="1.875in" height="1.2573851706036745in"} ![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image9.png){width="3.4016393263342084in" height="1.2446741032370954in"}
+![image](./images/media/image8.png) ![image](./images/media/image9.png)
 
 You are now in the first (headed) virtual machine image of a cluster of virtual machines that comprise your Cloud Pak for Data cluster. Everything you will be doing in the labs will be driven from this first image.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.      |
+| ![](./images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.      |
 |                                                                                                                                                          |                                                                                            |
-| Admin                                                                                                                                                    | ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image11.png) |
+| Admin                                                                                                                                                    | ![](./images/media/image11.png) |
 |                                                                                                                                                          |                                                                                            |
 |                                                                                                                                                          | If necessary, you can log back into the Linux OS with: User ibmdemo, Password passw0rd.    |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
 2.  In this VM, notice the lab desktop looks like this:
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image12.png){width="5.627040682414698in" height="3.0694444444444446in"}
+![image](./images/media/image12.png)
 
 3.  Make sure to run in "Fullscreen" mode to make the most of your computer screen's real estate.
 
-![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTML14e02f92.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image13.png){width="1.1111111111111112in" height="0.3916557305336833in"}
+![image](./images/media/image13.png)
 
 4.  Double-click the icon IBM Cloud Pak for Data.
 
-![A picture containing object, clock Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image14.png){width="0.8688517060367454in" height="0.9809612860892388in"}
+![image](./images/media/image14.png)
 
 5.  After launching, maximize the browser window.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image15.png){width="1.7289982502187227in" height="1.0245909886264217in"}
+![image](./images/media/image15.png)
 
 6.  The CPD web client GUI displays as shown below.
 
 Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image16.png){width="2.6748086176727908in" height="3.5163943569553804in"}
+![image](./images/media/image16.png)
 
 7.  You should now be at the Home Page.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image17.png){width="5.6621686351706035in" height="2.1969695975503063in"}
+![](./images/media/image17.png)
 
 8.  Scroll down to review the quick navigation and resources links on this page.
 
 You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image18.png){width="3.844261811023622in" height="2.643305993000875in"}
+![](./images/media/image18.png)
 
 9.  If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
 
 Navigation Menu ("hamburger" icon) Home
 
-![A picture containing clock, drawing Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image19.png){width="1.8360651793525808in" height="0.9339162292213473in"} ![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image20.png){width="1.1639337270341208in" height="0.7797976815398076in"}
+![image](./images/media/image19.png) ![image](./images/media/image20.png)
 
 10. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. |
-|                                                                                                                                                          |                                                                                                                                                                                               |
-| Admin                                                                                                                                                    |                                                                                                                                                                                               |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-## User management: Persona-based roles and teams
-
-This section explores user authorizations for the various stages of the data analytics pipeline.
-
-11. Click on the Navigation Menu ("hamburger" icon) at the top left of the screen.
-
-![A picture containing clock, meter Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image21.png){width="1.327869641294838in" height="1.1406058617672792in"}
-
-12. Click on the Administer Group (to display the drop-down menu) then click Manage users.
-
-![A picture containing computer Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image22.png){width="1.8606561679790026in" height="1.3264676290463693in"}
-
-13. Review the Users first, then click on the Roles section to review the various personas that can be represented by any given user. A user can be granted more than one role if needed.
-
-Hover over the permissions of any role to see what individual permissions exist for that role.
-
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image23.png){width="6.5in" height="2.8386636045494313in"}
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | These existing roles can be edited (customized) or new ones created, to suit your organization's needs.                                                                                                                                                                      |
-|                                                                                                                                                          |                                                                                                                                                                                                                                                                              |
-| Admin                                                                                                                                                    | CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user (acting as one or more personas) can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. |
+| Admin | CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user (acting as one or more personas) can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 
 14. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 
-![A picture containing screenshot Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image24.png){width="6.5in" height="1.0051345144356956in"}
+![image](./images/media/image24.png)
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image25.png){width="6.5in" height="2.770637576552931in"}
+![](./images/media/image25.png)
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. |
-|                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                           |
-| Admin                                                                                                                                                    | In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks.                                                                                                 |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/media/image10.png) | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. |
+| Admin | In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
+
 
 ##  Managing platform options
 
@@ -172,27 +122,27 @@ You can view the underlying OpenShift services and pods by doing the following:
 
 15. Click Navigation Menu Administer Manage platform.
 
-![A picture containing clock, meter Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image21.png){width="1.327869641294838in" height="1.1406058617672792in"} ![A close up of a sign Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image26.png){width="2.942622484689414in" height="0.8615791776027997in"}
+![image](./images/media/image21.png) ![Aimage](./images/media/image26.png)
 
 16. In the Search area, type db2.
 
 17. Click the deployment link Db2 Advanced Edition.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image27.png){width="3.6639337270341206in" height="2.3523140857392826in"}
+![image](./images/media/image27.png)
 
 18. Under the tab Fixed resources, notice the Deployment CPU and Memory usage.
 
 Click on any Deployment to review the pods for it.
 
-![A screenshot of a social media post Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image28.png){width="6.569444444444445in" height="3.147859798775153in"}
+![image](./images/media/image28.png)
 
 19. The next screen shows the underlying OpenShift/Kubernetes pods for this deployment. (Your pod names will differ.)
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image29.png){width="5.983605643044619in" height="1.051111111111111in"}
+![image](./images/media/image29.png)
 
 20. Click on Fixed resources in the bread crumb line (or use the back arrow).
 
-![A picture containing meter Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image30.png){width="6.098363954505687in" height="0.7622954943132109in"}
+![image](./images/media/image30.png)
 
 21. Click on tab Service Instances.
 
@@ -200,9 +150,9 @@ This shows how many instances of the Db2 Advanced Edition have been created usin
 
 We will review this instance in a different way later in this lab.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image31.png){width="5.991802274715661in" height="1.8173490813648294in"}
+![image](./images/media/image31.png)
 
-## Reviewing the profile settings 
+## Reviewing the profile settings
 
 22. Click the top right circle of your web client screen that has your user icon on it. This provides a drop down.
 
@@ -210,17 +160,17 @@ Choose Profile and settings.
 
 (Note: this is also the location where you can Log out of the web client)
 
-![A screen shot of a smart phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image32.png){width="1.7459011373578304in" height="2.112325021872266in"}
+![image](./images/media/image32.png)
 
 23. Review the things you can change in your Profile, then review Permissions.
 
 Note: in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image33.png){width="1.8196719160104986in" height="1.3361231408573928in"}![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image34.png){width="3.5416666666666665in" height="1.264880796150481in"}
+![image](./images/media/image33.png)![](./images/media/image34.png)
 
 24. Now review Git Integrations Generate API key and New token.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image35.png){width="5.998327865266842in" height="1.4027777777777777in"}
+![image](./images/media/image35.png)
 
 These allow you to configure Git with CPD, which allows you to integrate CPD projects with your current CI/CD (Continuous Integration and Continuous Delivery) pipeline to automate delivery of the artifacts you create in the CPD platform. You can use the capabilities from the underlying OpenShift platform to build cloud native microservice applications which are tied to the ML / AI model development with a delivery pipeline.
 
@@ -228,7 +178,7 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
 
 25. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.
 
-![A screen shot of a person Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image36.png){width="1.9754090113735783in" height="0.8357502187226596in"}
+![image](./images/media/image36.png)
 
 26. This will bring up all available services for Cloud Pak for Data.
 
@@ -236,17 +186,17 @@ Click through the various categories to see what services you can install on CPD
 
 For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this CPD cluster right now.
 
-![A screenshot of a social media post Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image37.png){width="6.0in" height="2.670774278215223in"}
+![image](./images/media/image37.png)
 
 27. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.
 
-> ![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image38.png){width="6.0in" height="2.313966535433071in"}
+> ![image](./images/media/image38.png)
 
 28. Click the browser back arrow to return to the Services catalog screen.
 
 (Or you can click on the Services catalog link in the breadcrumb trail itself)
 
-> ![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image39.png){width="2.0473228346456693in" height="0.9607305336832895in"}
+> ![image](./images/media/image39.png)
 
 29. Another convenient way to review these Services is to filter them in the Services Catalog options.
 
@@ -254,83 +204,72 @@ Click through Pricing, Source and Status.
 
 In Status, check Enabled
 
-> ![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image40.png){width="1.625in" height="2.3942825896762905in"}
+> ![image](./images/media/image40.png)
 
 30. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image41.png){width="5.680555555555555in" height="3.2519827209098864in"}
+![](./images/media/image41.png)
 
 31. Explore through this Services page to find a few capabilities that you might find useful for your organization.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
-|                                                                                                                                                          |                                                                                                                                                                                                                               |
-| Admin                                                                                                                                                    |                                                                                                                                                                                                                               |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
 
 ## Reviewing instances
 
 32. Click Navigation Menu My instances.
 
-![A picture containing clock, meter Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image21.png){width="1.327869641294838in" height="1.1406058617672792in"}![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image42.png){width="2.0245898950131234in" height="1.1099726596675417in"}
+![image](./images/media/image21.png)![image](./images/media/image42.png)
 
 33. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image43.png){width="6.5in" height="1.8888396762904638in"}
+![image](./images/media/image43.png)
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | The term "instance" in this context means a copy of a persistent data store within the CPD platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
-|                                                                                                                                                          |                                                                                                                                                                                                                                  |
-| Admin                                                                                                                                                    |                                                                                                                                                                                                                                  |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the CPD platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
 
 34. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc. |
-|                                                                                                                                                          |                                                                                                                                                                                                                         |
-| Admin                                                                                                                                                    | The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc.                      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](./images/media/image10.png) Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc. |
+|  |  The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
 35. Click Navigation Menu Administer Customize branding.
 
-![A picture containing clock, meter Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image21.png){width="1.327869641294838in" height="1.1406058617672792in"} ![A picture containing clock, phone, laptop, computer Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image44.png){width="2.0819674103237094in" height="1.2412576552930883in"}
+![images](./images/media/image21.png) ![images](./images/media/image44.png)
 
 36. In section Product name, click Custom name, then fill in TradeCo. Platform Services.
 
-![](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image45.png){width="3.6043482064741905in" height="1.1319444444444444in"}
+![](./images/media/image45.png)
 
 37. In section Home page logo, check Use your own logo.
 
 Click on the box: Drop your JPG or PNG file here or browse for a file to upload.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image46.png){width="3.065574146981627in" height="1.370573053368329in"}
+![image](./images/media/image46.png)
 
 38. For Browser Only: Download TradeCoLogo.png from <https://ibm.biz/BdqhHa>.\
     For Unified Desktop: Under directory Pictures, select file TradeCoLogo.png Open.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image47.png){width="4.301556211723534in" height="2.9754101049868766in"}
+![image](./images/media/image47.png)
 
 39. Click button Apply.
 
-![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image48.png){width="6.0in" height="2.0809853455818024in"}
+![image](./images/media/image48.png)
 
 40. Click Navigation Menu Home.
 
-    ![A picture containing clock, meter Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image21.png){width="1.327869641294838in" height="1.1406058617672792in"}![A picture containing object, meter, black, player Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image49.png){width="2.1885247156605425in" height="0.7072681539807524in"}
+    ![image](./images/media/image21.png)![image](./images/media/image49.png)
 
 41. Notice the Navigation bar is customized, and the Home Page can have a company logo on it.\
     *Note: You may have to refresh your browser if it does not immediately show.*
 
-![A close up of a computer screen Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image50.png){width="6.0in" height="1.2670188101487314in"}
+![image](./images/media/image50.png)
 
 42. Let's reset this to the default setting so the rest of the lab workbooks will be consistent with your environment:
 
 Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.
 
-![A close up of a logo Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image51.png){width="3.139343832020997in" height="0.6331496062992126in"} ![A screenshot of a cell phone Description automatically generated](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image52.png){width="2.7377045056867892in" height="0.867849956255468in"}
+![image](./images/media/image51.png) ![image](./images/media/image52.png)
 
 ## Lab conclusion
 
@@ -344,7 +283,7 @@ Cloud Pak for Data is useful in the following business macro use-case scenarios:
 
 4.  **Smarter Governance:** Enable self-service analytics with auto-discovery of meta data, implementing governance rules and policies, enforcement of privacy to mitigate risk and to ensure compliance for regulatory requirements like GDPR.
 
-![C:\\Users\\BURTVI\~1\\AppData\\Local\\Temp\\SNAGHTML8245fda.PNG](/Users/tjm/Documents/GitHub/CPD-workshop/labs/gettingstarted/images/media/image53.png){width="6.657448600174978in" height="1.2013888888888888in"}
+![image](./images/media/image53.png)
 
 Make Cloud Pak for Data your platform for data and analytics. Why? Because IBM understands data and provides an integrated, end-to-end data platform that enables enterprises to:
 
@@ -361,5 +300,3 @@ Make Cloud Pak for Data your platform for data and analytics. Why? Because IBM u
 All of the above and much more will be demonstrated in the following workshop labs.
 
 **\*\* End of Lab 01 -- Getting Started**
-
-Lab by Burt Vialpando and Kent Rubin, IBM
