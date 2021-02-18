@@ -26,14 +26,14 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 -   Red Hat OpenShift Container Platform (RHOCP) 4.5 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
 
--   Cloud Pak for Data v3.5.2 as the microservice-built, integrated data and analytics platform with various add-ons installed and enabled.
+-   Cloud Pak for Data v3.5.3 as the microservice-built, integrated data and analytics platform with various add-ons installed and enabled.
 
 ## Audience for this IBM workshop
 
 This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
 
- | :--: | :-- |
  | **Persona** | **Capabilities** |
+ | :--: | :-- |
  | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the CPD environment itself.<br/>**Note:** while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical CPD Administrator activities.|
  | ![ ](./images/media/image2.png)<br/>Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
  | ![](./images/media/image3.png)<br/>Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
