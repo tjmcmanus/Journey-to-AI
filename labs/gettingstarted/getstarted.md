@@ -45,72 +45,43 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 ## Getting started
 
-1.  To launch your CPD cluster, you will select the virtual machine with the label Master1.
-
- - Click on this node (VM) to expand the image and then click on the display option in the top bar and select Fullscreen.
-  ![image](./images/media/image8.png) ![image](./images/media/image9.png)
- - You are now in the first (headed) virtual machine image of a cluster of virtual machines that comprise your Cloud Pak for Data cluster. Everything you will be doing in the labs will be driven from this first image.
- | ![](./images/media/image10.png) | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.|
- | Admin | ![](./images/media/image11.png) |
- | | If necessary, you can log back into the Linux OS with: User ibmdemo, Password passw0rd.|
-1. In this VM, notice the lab desktop looks like this:
-  ![image](./images/media/image12.png)
-1. Make sure to run in "Fullscreen" mode to make the most of your computer screen's real estate.
- ![image](./images/media/image13.png)
-1. Double-click the icon IBM Cloud Pak for Data.
-![image](./images/media/image14.png)
-1. After launching, maximize the browser window.
- ![image](./images/media/image15.png)
+1.  To launch your CPD cluster,
 1. The CPD web client GUI displays as shown below.
    Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
    ![image](./images/media/image16.png)
 1.  You should now be at the Home Page.
   ![](./images/media/image17.png)
-1. Scroll down to review the quick navigation and resources links on this page.
-  You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
+1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
   ![](./images/media/image18.png)
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
-  Navigation Menu ("hamburger" icon)
-  Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
+  - Navigation Menu ("hamburger" icon)
+  - Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
-| ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. |
-| Admin | CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user (acting as one or more personas) can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
+ | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. |
+ |  | CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user (acting as one or more personas) can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
-| ![](./images/media/image10.png) | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. |
-| Admin | In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
+ | ![](./images/media/image10.png) Admin | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
 
 ##  Managing platform options
 
 You can view the underlying OpenShift services and pods by doing the following:
 
-15. Click Navigation Menu Administer Manage platform.
-
+1. Click Navigation Menu Administer Manage platform.
 ![image](./images/media/image21.png) ![Aimage](./images/media/image26.png)
-
-16. In the Search area, type db2.
-
-17. Click the deployment link Db2 Advanced Edition.
-
-![image](./images/media/image27.png)
-
-18. Under the tab Fixed resources, notice the Deployment CPU and Memory usage.
-
-Click on any Deployment to review the pods for it.
-
-![image](./images/media/image28.png)
-
-19. The next screen shows the underlying OpenShift/Kubernetes pods for this deployment. (Your pod names will differ.)
-
-![image](./images/media/image29.png)
-
-20. Click on Fixed resources in the bread crumb line (or use the back arrow).
-
-![image](./images/media/image30.png)
-
-21. Click on tab Service Instances.
+1. In the Search area, type db2.
+1. Click the deployment link Db2 Advanced Edition.
+ ![image](./images/media/image27.png)
+1. Under the tab Fixed resources, notice the Deployment CPU and Memory usage.
+ - Click on any Deployment to review the pods for it.
+   ![image](./images/media/image28.png)
+1. The next screen shows the underlying OpenShift/Kubernetes pods for this deployment. (Your pod names will differ.)
+  ![image](./images/media/image29.png)
+1.. Click on Fixed resources in the bread crumb line (or use the back arrow).
+  ![image](./images/media/image30.png)
+1. Click on tab Service Instances.
 
 This shows how many instances of the Db2 Advanced Edition have been created using the Db2 Advanced Edition deployment. In our case, it is only one.
 
@@ -120,23 +91,15 @@ We will review this instance in a different way later in this lab.
 
 ## Reviewing the profile settings
 
-22. Click the top right circle of your web client screen that has your user icon on it. This provides a drop down.
-
-Choose Profile and settings.
-
-(Note: this is also the location where you can Log out of the web client)
-
+1. Click the top right circle of your web client screen that has your user icon on it. This provides a drop down.
+ - Choose Profile and settings.
+**Note** this is also the location where you can Log out of the web client)
 ![image](./images/media/image32.png)
-
-23. Review the things you can change in your Profile, then review Permissions.
-
-Note: in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.
-
-![image](./images/media/image33.png)![](./images/media/image34.png)
-
-24. Now review Git Integrations Generate API key and New token.
-
-![image](./images/media/image35.png)
+1. Review the things you can change in your Profile, then review Permissions.
+  **Note** in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.
+  ![image](./images/media/image33.png)![](./images/media/image34.png)
+1. Now review Git Integrations Generate API key and New token.
+  ![image](./images/media/image35.png)
 
 These allow you to configure Git with CPD, which allows you to integrate CPD projects with your current CI/CD (Continuous Integration and Continuous Delivery) pipeline to automate delivery of the artifacts you create in the CPD platform. You can use the capabilities from the underlying OpenShift platform to build cloud native microservice applications which are tied to the ML / AI model development with a delivery pipeline.
 
