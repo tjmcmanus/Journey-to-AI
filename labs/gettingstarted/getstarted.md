@@ -55,12 +55,9 @@ Click on this node (VM) to expand the image and then click on the display option
 
 You are now in the first (headed) virtual machine image of a cluster of virtual machines that comprise your Cloud Pak for Data cluster. Everything you will be doing in the labs will be driven from this first image.
 
-| ![](./images/media/image10.png){width="0.36041666666666666in" height="0.36041666666666666in"} | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.      |
-|                                                                                                                                                          |                                                                                            |
-| Admin                                                                                                                                                    | ![](./images/media/image11.png) |
-|                                                                                                                                                          |                                                                                            |
-|                                                                                                                                                          | If necessary, you can log back into the Linux OS with: User ibmdemo, Password passw0rd.    |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| ![](./images/media/image10.png) | If a screensaver function has locked the screen, hit \[Enter\] to get to the desktop.|
+| Admin | ![](./images/media/image11.png) |
+| | If necessary, you can log back into the Linux OS with: User ibmdemo, Password passw0rd.|
 
 2.  In this VM, notice the lab desktop looks like this:
 
@@ -111,7 +108,6 @@ Navigation Menu ("hamburger" icon) Home
 
 ![](./images/media/image25.png)
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ![](./images/media/image10.png) | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab. |
 | Admin | In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
