@@ -1,7 +1,7 @@
-# CPD-workshop
+# Journey to AI using Cloud Pak for Data
  - [Getting Started with Cloud Pak for Data](labs/gettingstarted/getstarted.md)
  - [Business Use case](labs/usecase/usecase.md)
- 
+
 Collect:
  - [Building Connection to Data](labs/collect-connections/collect-connections.md)
  - [Virtualizing Data](labs/collect-virtualize/collect-virtualize.md)
