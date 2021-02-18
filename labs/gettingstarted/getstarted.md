@@ -54,9 +54,8 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
   - Navigation Menu ("hamburger" icon)
   - Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
-1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
+1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client. \\
   | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application. \\ CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
-
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
