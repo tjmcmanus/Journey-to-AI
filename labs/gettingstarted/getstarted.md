@@ -104,7 +104,9 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 1. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)<br/>![](./images/media/image41.png)
 1. Explore through this Services page to find a few capabilities that you might find useful for your organization.
 
-  | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
+  | **Persona** | **Capabilities** |
+  | :-: | :-: |
+  | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3rd party vendor. |
 
 ## Reviewing instances
 
