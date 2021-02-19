@@ -53,8 +53,8 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
    ![](./images/media/image18.png)
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
-  - Navigation Menu ("hamburger" icon)
-  - Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
+  - Navigation Menu ("hamburger" icon) > Home
+    ![image](./images/media/image19.png) ![image](./images/media/image20.png)
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
    | **Persona** | **Capabilities** |
    | :---: | :--- |
