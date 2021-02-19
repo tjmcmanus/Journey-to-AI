@@ -34,37 +34,35 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
  | **Persona** | **Capabilities** |
  | :-: | :-: |
- | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the Cloud Pak for Data environment itself.<br/>**Note:** while some of the Admin work can be done in the Cloud Pak for Data web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical Cloud Pak for Data Administrator activities.|
- | ![ ](./images/media/image2.png)<br/>Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
- | ![](./images/media/image3.png)<br/>Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
- | ![ ](./images/media/image4.png)<br/>Data Quality Analyst | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
- | ![](./images/media/image5.png)<br/>Business Analyst | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
- | ![](./images/media/image6.png)<br/>Data Scientist | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
- | ![](./images/media/image7.png)<br/>Developer | Developers create and maintain the end-user applications that utilize the output from all the other personas on the Cloud Pak for Data platform.|
+ | ![](./images/media/image1.png)<br/>**Admin**| Administrators set up and maintain the Cloud Pak for Data environment itself.<br/>**Note:** while some of the Admin work can be done in the Cloud Pak for Data web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical Cloud Pak for Data Administrator activities.|
+ | ![ ](./images/media/image2.png)<br/>**Data Engineer**| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
+ | ![](./images/media/image3.png)<br/>**Data Steward** | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
+ | ![ ](./images/media/image4.png)<br/>**Data Quality Analyst** | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
+ | ![](./images/media/image5.png)<br/>**Business Analyst** | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
+ | ![](./images/media/image6.png)<br/>**Data Scientist** | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
+ | ![](./images/media/image7.png)<br/>**Developer** | Developers create and maintain the end-user applications that utilize the output from all the other personas on the Cloud Pak for Data platform.|
 
 ## Getting started
 
 1. To launch your Cloud Pak for Data cluster,
 1. The Cloud Pak for Data web client GUI displays as shown below.
    Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![image](./images/media/image16.png)
-1. You should now be at the Home Page.
-    ![](./images/media/image17.png)
-1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
-   ![](./images/media/image18.png)
+1. You should now be at the Home Page.<br/>![](./images/media/image17.png)
+1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.<br/>![](./images/media/image18.png)
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
   - **Navigation Menu** ("hamburger" icon) > **Home**<br/>![image](./images/media/image19.png) ![image](./images/media/image20.png)
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the Cloud Pak for Data web client.
 
    | **Persona** | **Capabilities** |
    | :---: | :-: |
-   | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> Cloud Pak for Data is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
+   | ![](./images/media/image10.png)<br/>**Admin**| In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> Cloud Pak for Data is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
 
    | **Persona** | **Capabilities** |
    | :-: | :-: |
-   | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the Cloud Pak for Data web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature Cloud Pak for Data environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
+   | ![](./images/media/image10.png)<br/>**Admin** | For the sake of simplicity, you will remain logged into the Cloud Pak for Data web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature Cloud Pak for Data environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
 
 ##  Managing platform options
@@ -115,12 +113,12 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 
    | **Persona** | **Capabilities** |
    | :-: | :-: |
-   | ![](./images/media/image10.png)<br/>Admin | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
+   | ![](./images/media/image10.png)<br/>**Admin** | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
 1. Check the tabs for Environments and Jobs. **Note:** the cluster may not have any of these running at this time, so these pages could be empty.
 
    | **Persona** | **Capabilities** |
    | :-: | :-: |
-   | ![](./images/media/image10.png)<br/>Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
+   | ![](./images/media/image10.png)<br/>**Admin** | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
