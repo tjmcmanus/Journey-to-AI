@@ -33,7 +33,7 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
 
  | **Persona** | **Capabilities** |
- | :-: | :-- |
+ | :-: | :-: |
  | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the Cloud Pak for Data environment itself.<br/>**Note:** while some of the Admin work can be done in the Cloud Pak for Data web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical Cloud Pak for Data Administrator activities.|
  | ![ ](./images/media/image2.png)<br/>Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
  | ![](./images/media/image3.png)<br/>Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
@@ -56,14 +56,14 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the Cloud Pak for Data web client.
 
    | **Persona** | **Capabilities** |
-   | :---: | :--- |
+   | :---: | :-: |
    | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> Cloud Pak for Data is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
 
    | **Persona** | **Capabilities** |
-   | :-------------: | :-- |
+   | :-: | :-: |
    | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the Cloud Pak for Data web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature Cloud Pak for Data environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
 
@@ -108,28 +108,27 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 
 ## Reviewing instances
 
-1. Click Navigation Menu My instances.
-  ![image](./images/media/image21.png)![image](./images/media/image42.png)
+1. Click Navigation Menu My instances.<br/>![image](./images/media/image21.png)![image](./images/media/image42.png)
 1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
-  ![image](./images/media/image43.png)<br/>
+  ![image](./images/media/image43.png)
+
   | ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
-1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.<br/>
+1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.
+
   | **Persona** | **Capabilities** |
-  |:---:|:---|
+  | :-: | :-: |
   | ![](./images/media/image10.png) Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
-1. Click Navigation Menu Administer Customize branding.
-  ![images](./images/media/image21.png) ![images](./images/media/image44.png)
+1. Click Navigation Menu Administer Customize branding.<br/>![images](./images/media/image21.png) ![images](./images/media/image44.png)
 1. In section Product name, click Custom name, then fill in TradeCo. Platform Services.
   ![](./images/media/image45.png)
 1. In section Home page logo, check Use your own logo.
   - Click on the box: Drop your JPG or PNG file here or browse for a file to upload.
   ![image](./images/media/image46.png)
 1. For Browser Only: Download TradeCoLogo.png from <https://ibm.biz/BdqhHa>.
-    -- For Unified Desktop: Under directory Pictures, select file TradeCoLogo.png Open.
-   ![image](./images/media/image47.png)
+    -- For Unified Desktop: Under directory Pictures, select file TradeCoLogo.png Open.<br/>![image](./images/media/image47.png)
 1. Click button Apply.
   ![image](./images/media/image48.png)
 1. Click Navigation Menu Home.
@@ -137,8 +136,7 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 1. Notice the Navigation bar is customized, and the Home Page can have a company logo on it.<br/>**Note:** You may have to refresh your browser if it does not immediately show.
   ![image](./images/media/image50.png)
 1. Let's reset this to the default setting so the rest of the lab workbooks will be consistent with your environment:
- - Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.
- ![image](./images/media/image51.png) ![image](./images/media/image52.png)
+ - Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.<br/>![image](./images/media/image51.png) ![image](./images/media/image52.png)
 
 ## Lab conclusion
 
