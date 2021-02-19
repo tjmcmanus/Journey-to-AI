@@ -63,7 +63,7 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 ![](./images/media/image25.png)
 
    | **Persona** | **Capabilities** |
-   | :---: | :--- |
+   | :-------------: | :-- |
    | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the Cloud Pak for Data web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature Cloud Pak for Data environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
 
