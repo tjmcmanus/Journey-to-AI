@@ -111,16 +111,16 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 ## Reviewing instances
 
 1. Click Navigation Menu My instances.<br/>![image](./images/media/image21.png)![image](./images/media/image42.png)
-1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.<br/>![image](./images/media/image43.png)
+1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.<br/>![image](./images/media/image43.png)<br/>
 
-  | **Persona** | **Capabilities** |
-  | :-: | :-: |
-  | ![](./images/media/image10.png)<br/>Admin | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
+   | **Persona** | **Capabilities** |
+   | :-: | :-: |
+   | ![](./images/media/image10.png)<br/>Admin | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
 1. Check the tabs for Environments and Jobs. **Note:** the cluster may not have any of these running at this time, so these pages could be empty.
 
-  | **Persona** | **Capabilities** |
-  | :-: | :-: |
-  | ![](./images/media/image10.png)<br/>Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
+   | **Persona** | **Capabilities** |
+   | :-: | :-: |
+   | ![](./images/media/image10.png)<br/>Admin | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
