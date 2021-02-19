@@ -31,6 +31,7 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 ## Audience for this IBM workshop
 
 This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
+
  | :-: | :-: |
  | **Persona** | **Capabilities** |
  | :-: | :-- |
