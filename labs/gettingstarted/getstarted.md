@@ -109,8 +109,7 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 ## Reviewing instances
 
 1. Click Navigation Menu My instances.<br/>![image](./images/media/image21.png)![image](./images/media/image42.png)
-1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
-  ![image](./images/media/image43.png)
+1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.<br/>![image](./images/media/image43.png)
 
   | **Persona** | **Capabilities** |
   | :-: | :-: |
