@@ -4,13 +4,13 @@
 
 This workshop provides hands-on experience with Cloud Pak for Data that will show you how to modernize your microservices applications by enriching them with Machine Learning (ML) and Artificial Intelligence (AI).
 
-The Journey to AI requires a strong information architecture (IA) that supports self-service capabilities and balances the needs of both the agility required by lines of business as well as the "Enterprise class" delivery required by IT. This journey can move significantly faster and with more efficiency when you use a single integrated platform like Cloud Pak for Data. It is the world's leading platform that allows you to Collect, Organize and Analyze data, and then Deploy the results to Infuse your applications with AI.
+The Journey to AI requires a strong information architecture (IA) that supports self-service capabilities and balances the needs of both the agility required by lines of business as well as the **Enterprise class** delivery required by IT. This journey can move significantly faster and with more efficiency when you use a single integrated platform like Cloud Pak for Data. It is the world's leading platform that allows you to Collect, Organize and Analyze data, and then Deploy the results to Infuse your applications with AI.
 
 ## Cloud Pak for Data: defined
 
 Cloud Pak for Data is an integrated end-to-end data and analytics platform designed to help make data more accessible and trusted, as well as to provide access to many analytical tools to help your organization gain insights from your data.
 
-Cloud Pak for Data provides the data platform that accelerates the journey up the "AI Ladder." With it, you can quickly build, train, deploy, and manage machine learning (ML) models to create applications with Artificial intelligence (AI). Cloud Pak for Data provides inventory and cataloging of your data sources, self-service shopping for data, and data integration and refinement capabilities. Thus, high quality and trusted data can be more easily prepared, assembled and used in one modern, integrated, collaborative and scalable platform.
+Cloud Pak for Data provides the data platform that accelerates the journey up the **AI Ladder.** With it, you can quickly build, train, deploy, and manage machine learning (ML) models to create applications with Artificial intelligence (AI). Cloud Pak for Data provides inventory and cataloging of your data sources, self-service shopping for data, and data integration and refinement capabilities. Thus, high quality and trusted data can be more easily prepared, assembled and used in one modern, integrated, collaborative and scalable platform.
 
 Cloud Pak for Data is installed on the foundation of OpenShift for the cluster this workshop uses.
 
@@ -50,12 +50,12 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 1. You should now be at the Home Page.<br/>![](./images/media/image17.png)
 1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.<br/>![](./images/media/image18.png)
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
-  - **Navigation Menu** ("hamburger" icon) > **Home**<br/>![image](./images/media/image19.png) ![image](./images/media/image20.png)
+  - **Navigation Menu** > **Home**<br/>![image](./images/media/image19.png) ![image](./images/media/image20.png)
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the Cloud Pak for Data web client.
 
    | **Persona** | **Capabilities** |
    | :---: | :-: |
-   | ![](./images/media/image10.png)<br/>**Admin**| In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> Cloud Pak for Data is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
+   | ![](./images/media/image10.png)<br/>**Admin**| In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> Cloud Pak for Data is very much **persona driven** in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
@@ -95,7 +95,7 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 ## Reviewing Cloud Pak for Data services
 
 1. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.<br/>![image](./images/media/image36.png)
-1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on Cloud Pak for Data.<br/>For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this Cloud Pak for Data cluster right now.<br/>![image](./images/media/image37.png)
+1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on Cloud Pak for Data.<br/>For example, click on category AI and notice what is available there. Those with **Enabled** are accessible by this Cloud Pak for Data cluster right now.<br/>![image](./images/media/image37.png)
 1. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.<br/>![image](./images/media/image38.png)
 1. Click the browser back arrow to return to the Services catalog screen.<br/>(Or you can click on the Services catalog link in the breadcrumb trail itself)<br/>![image](./images/media/image39.png)
 1. Another convenient way to review these Services is to filter them in the Services Catalog options.<br/>Click through Pricing, Source and Status.<br/>In Status, check Enabled<br/>![image](./images/media/image40.png)
@@ -104,7 +104,7 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 
   | **Persona** | **Capabilities** |
   | :-: | :-: |
-  | ![](./images/media/image10.png)<br/>**Admin** | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3rd party vendor. |
+  | ![](./images/media/image10.png)<br/>**Admin** | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM **cartridges,** and still other are purchasable through a 3rd party vendor. |
 
 ## Reviewing instances
 
@@ -113,12 +113,12 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 
    | **Persona** | **Capabilities** |
    | :-: | :-: |
-   | ![](./images/media/image10.png)<br/>**Admin** | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
+   | ![](./images/media/image10.png)<br/>**Admin** | The term **instance** in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
 1. Check the tabs for Environments and Jobs. **Note:** the cluster may not have any of these running at this time, so these pages could be empty.
 
    | **Persona** | **Capabilities** |
    | :-: | :-: |
-   | ![](./images/media/image10.png)<br/>**Admin** | The term "environment" in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term "job" in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
+   | ![](./images/media/image10.png)<br/>**Admin** | The term **environment** in this context means a copy of an analytics runtime that is running (taking up resources) on the cluster. These can be Jupyter/Python, Zeppelin/Anaconda, R Studio, Decision Optimization, etc.<br/>The term **job** in this context means a task scheduled within the platform. These can be analytics related (like a scheduled batch scoring job) or they can be a scheduled ETL or Streams job, etc. |
 
 ## Customizing branding
 
