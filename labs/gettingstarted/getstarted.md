@@ -55,13 +55,15 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
   - Navigation Menu ("hamburger" icon) > Home
     ![image](./images/media/image19.png) ![image](./images/media/image20.png)
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
+
    | **Persona** | **Capabilities** |
    | :---: | :--- |
    | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
-   | **Persona1** | **Capabilities** |
+
+   | **Persona** | **Capabilities** |
    | :---: | :--- |
    | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
