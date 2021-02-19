@@ -44,24 +44,25 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 ## Getting started
 
-1.  To launch your CPD cluster,
+1. To launch your CPD cluster,
 1. The CPD web client GUI displays as shown below.
    Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-   ![image](./images/media/image16.png)
-1.  You should now be at the Home Page.
-  ![](./images/media/image17.png)
+    ![image](./images/media/image16.png)
+1. You should now be at the Home Page.
+    ![](./images/media/image17.png)
 1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
-  ![](./images/media/image18.png)
+   ![](./images/media/image18.png)
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
   - Navigation Menu ("hamburger" icon)
   - Home ![image](./images/media/image19.png) ![image](./images/media/image20.png)
 1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
+
    | **Persona** | **Capabilities** |
    | :---: | :--- |
    | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
-![](./images/media/image25.png)<br/>
+![](./images/media/image25.png)
    | **Persona** | **Capabilities** |
    | :---: | :--- |
    | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
