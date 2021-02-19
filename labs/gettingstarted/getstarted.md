@@ -46,8 +46,7 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 1. To launch your CPD cluster,
 1. The CPD web client GUI displays as shown below.
-   Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-    ![image](./images/media/image16.png)
+   Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![image](./images/media/image16.png)
 1. You should now be at the Home Page.
     ![](./images/media/image17.png)
 1. Scroll down to review the quick navigation and resources links on this page. You will be exploring many of these in more detail in this workshop, so don't follow these links right now.
