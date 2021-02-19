@@ -106,7 +106,7 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 
   | **Persona** | **Capabilities** |
   | :-: | :-: |
-  | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3rd party vendor. |
+  | ![](./images/media/image10.png)<br/>**Admin** | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3rd party vendor. |
 
 ## Reviewing instances
 
