@@ -123,19 +123,14 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 ## Customizing branding
 
 1. Click Navigation Menu Administer Customize branding.<br/>![images](./images/media/image21.png) ![images](./images/media/image44.png)
-1. In section Product name, click Custom name, then fill in TradeCo. Platform Services.
-  ![](./images/media/image45.png)
+1. In section Product name, click Custom name, then fill in TradeCo. Platform Services.<br/>![](./images/media/image45.png)
 1. In section Home page logo, check Use your own logo.
-  - Click on the box: Drop your JPG or PNG file here or browse for a file to upload.
-  ![image](./images/media/image46.png)
+  - Click on the box: Drop your JPG or PNG file here or browse for a file to upload.<br/>![image](./images/media/image46.png)
 1. For Browser Only: Download TradeCoLogo.png from <https://ibm.biz/BdqhHa>.
     -- For Unified Desktop: Under directory Pictures, select file TradeCoLogo.png Open.<br/>![image](./images/media/image47.png)
-1. Click button Apply.
-  ![image](./images/media/image48.png)
-1. Click Navigation Menu Home.
-  ![image](./images/media/image21.png)![image](./images/media/image49.png)
-1. Notice the Navigation bar is customized, and the Home Page can have a company logo on it.<br/>**Note:** You may have to refresh your browser if it does not immediately show.
-  ![image](./images/media/image50.png)
+1. Click button Apply.<br/>![image](./images/media/image48.png)
+1. Click Navigation Menu Home.<br/>![image](./images/media/image21.png)![image](./images/media/image49.png)
+1. Notice the Navigation bar is customized, and the Home Page can have a company logo on it.<br/>**Note:** You may have to refresh your browser if it does not immediately show.<br/>![image](./images/media/image50.png)
 1. Let's reset this to the default setting so the rest of the lab workbooks will be consistent with your environment:
  - Click Navigation Menu Administer Customize branding, then Restore defaults Restore defaults.<br/>![image](./images/media/image51.png) ![image](./images/media/image52.png)
 
