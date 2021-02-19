@@ -71,54 +71,39 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 You can view the underlying OpenShift services and pods by doing the following:
 
-1. Click Navigation Menu Administer Manage platform.
- ![image](./images/media/image21.png)![image](./images/media/image26.png)
+1. Click Navigation Menu Administer Manage platform.<br/>![image](./images/media/image21.png)![image](./images/media/image26.png)
 1. In the Search area, type db2.
-1. Click the deployment link Db2 Advanced Edition.
- ![image](./images/media/image27.png)
+1. Click the deployment link Db2 Advanced Edition.<br/>![image](./images/media/image27.png)
 1. Under the tab Fixed resources, notice the Deployment CPU and Memory usage.
- - Click on any Deployment to review the pods for it.
-   ![image](./images/media/image28.png)
-1. The next screen shows the underlying OpenShift/Kubernetes pods for this deployment. (Your pod names will differ.)
-  ![image](./images/media/image29.png)
-1.. Click on Fixed resources in the bread crumb line (or use the back arrow).
-  ![image](./images/media/image30.png)
+ - Click on any Deployment to review the pods for it.<br/>![image](./images/media/image28.png)
+1. The next screen shows the underlying OpenShift/Kubernetes pods for this deployment. (Your pod names will differ.)<br/>![image](./images/media/image29.png)
+1.. Click on Fixed resources in the bread crumb line (or use the back arrow)<br/>![image](./images/media/image30.png)
 1. Click on tab Service Instances.
 
 This shows how many instances of the Db2 Advanced Edition have been created using the Db2 Advanced Edition deployment. In our case, it is only one.
 
-We will review this instance in a different way later in this lab.
-
- ![image](./images/media/image31.png)
+We will review this instance in a different way later in this lab.<br/>![image](./images/media/image31.png)
 
 ## Reviewing the profile settings
 
 1. Click the top right circle of your web client screen that has your user icon on it. This provides a drop down.
  - Choose Profile and settings.
-**Note** this is also the location where you can Log out of the web client)
-![image](./images/media/image32.png)
-1. Review the things you can change in your Profile, then review Permissions.<br/>**Note** in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.
-  ![image](./images/media/image33.png)![](./images/media/image34.png)
-1. Now review Git Integrations Generate API key and New token.
-  ![image](./images/media/image35.png)
+**Note** this is also the location where you can Log out of the web client)<br/>![image](./images/media/image32.png)
+1. Review the things you can change in your Profile, then review Permissions.<br/>**Note** in Permissions, your user has all permissions to allow you to do anything required in the workshop lab exercises. In the real world, your permissions would be more limited and controlled by an administrator.<br/>![image](./images/media/image33.png)![](./images/media/image34.png)
+1. Now review Git Integrations Generate API key and New token.<br/>![image](./images/media/image35.png)
 
 These allow you to configure Git with Cloud Pak for Data, which allows you to integrate Cloud Pak for Data projects with your current CI/CD (Continuous Integration and Continuous Delivery) pipeline to automate delivery of the artifacts you create in the Cloud Pak for Data platform. You can use the capabilities from the underlying OpenShift platform to build cloud native microservice applications which are tied to the ML / AI model development with a delivery pipeline.
 
 ## Reviewing Cloud Pak for Data services
 
-1. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.
- ![image](./images/media/image36.png)
-1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on Cloud Pak for Data.<br/>For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this Cloud Pak for Data cluster right now.
-  ![image](./images/media/image37.png)
-1. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.
-  ![image](./images/media/image38.png)
-1. Click the browser back arrow to return to the Services catalog screen.<br/>(Or you can click on the Services catalog link in the breadcrumb trail itself)
-  ![image](./images/media/image39.png)
-1. Another convenient way to review these Services is to filter them in the Services Catalog options.<br/>Click through Pricing, Source and Status.<br/>In Status, check Enabled
-   ![image](./images/media/image40.png)
-1. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)
-  ![](./images/media/image41.png)
-1. Explore through this Services page to find a few capabilities that you might find useful for your organization.<br/>
+1. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.<br/>![image](./images/media/image36.png)
+1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on Cloud Pak for Data.<br/>For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this Cloud Pak for Data cluster right now.<br/>![image](./images/media/image37.png)
+1. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.<br/>![image](./images/media/image38.png)
+1. Click the browser back arrow to return to the Services catalog screen.<br/>(Or you can click on the Services catalog link in the breadcrumb trail itself)<br/>![image](./images/media/image39.png)
+1. Another convenient way to review these Services is to filter them in the Services Catalog options.<br/>Click through Pricing, Source and Status.<br/>In Status, check Enabled<br/>![image](./images/media/image40.png)
+1. This will show all the enabled services in your cluster (as long as you did not check a filter for Categories, Pricing or Source.)<br/>![](./images/media/image41.png)
+1. Explore through this Services page to find a few capabilities that you might find useful for your organization.
+
   | ![](./images/media/image10.png) Admin | IBM continues to provide more services with each release of Cloud Pak for Data. Some are part of the base offering, others are purchasable as IBM "cartridges," and still other are purchasable through a 3^rd^ party vendor. |
 
 ## Reviewing instances
