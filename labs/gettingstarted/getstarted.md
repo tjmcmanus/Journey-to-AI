@@ -8,9 +8,9 @@ The Journey to AI requires a strong information architecture (IA) that supports 
 
 ## Cloud Pak for Data: defined
 
-Cloud Pak for Data (CPD) is an integrated end-to-end data and analytics platform designed to help make data more accessible and trusted, as well as to provide access to many analytical tools to help your organization gain insights from your data.
+Cloud Pak for Data is an integrated end-to-end data and analytics platform designed to help make data more accessible and trusted, as well as to provide access to many analytical tools to help your organization gain insights from your data.
 
-CPD provides the data platform that accelerates the journey up the "AI Ladder." With it, you can quickly build, train, deploy, and manage machine learning (ML) models to create applications with Artificial intelligence (AI). CPD provides inventory and cataloging of your data sources, self-service shopping for data, and data integration and refinement capabilities. Thus, high quality and trusted data can be more easily prepared, assembled and used in one modern, integrated, collaborative and scalable platform.
+Cloud Pak for Data provides the data platform that accelerates the journey up the "AI Ladder." With it, you can quickly build, train, deploy, and manage machine learning (ML) models to create applications with Artificial intelligence (AI). Cloud Pak for Data provides inventory and cataloging of your data sources, self-service shopping for data, and data integration and refinement capabilities. Thus, high quality and trusted data can be more easily prepared, assembled and used in one modern, integrated, collaborative and scalable platform.
 
 Cloud Pak for Data is installed on the foundation of OpenShift for the cluster this workshop uses.
 
@@ -22,7 +22,7 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 ## Lab workshop environment
 
-> We are using a CPD cloud cluster for this workshop. This software environment was built with the following key software components:
+> We are using a Cloud Pak for Data cloud cluster for this workshop. This software environment was built with the following key software components:
 
 -   Red Hat OpenShift Container Platform (RHOCP) 4.5 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
 
@@ -34,18 +34,18 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
  | **Persona** | **Capabilities** |
  | :-: | :-- |
- | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the CPD environment itself.<br/>**Note:** while some of the Admin work can be done in the CPD web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical CPD Administrator activities.|
+ | ![](./images/media/image1.png)<br/>Administrator| Administrators set up and maintain the Cloud Pak for Data environment itself.<br/>**Note:** while some of the Admin work can be done in the Cloud Pak for Data web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical Cloud Pak for Data Administrator activities.|
  | ![ ](./images/media/image2.png)<br/>Data Engineer| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
  | ![](./images/media/image3.png)<br/>Data Steward | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
  | ![ ](./images/media/image4.png)<br/>Data Quality Analyst | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
  | ![](./images/media/image5.png)<br/>Business Analyst | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
  | ![](./images/media/image6.png)<br/>Data Scientist | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
- | ![](./images/media/image7.png)<br/>Developer | Developers create and maintain the end-user applications that utilize the output from all the other personas on the CPD platform.|
+ | ![](./images/media/image7.png)<br/>Developer | Developers create and maintain the end-user applications that utilize the output from all the other personas on the Cloud Pak for Data platform.|
 
 ## Getting started
 
-1. To launch your CPD cluster,
-1. The CPD web client GUI displays as shown below.
+1. To launch your Cloud Pak for Data cluster,
+1. The Cloud Pak for Data web client GUI displays as shown below.
    Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![image](./images/media/image16.png)
 1. You should now be at the Home Page.
     ![](./images/media/image17.png)
@@ -53,18 +53,18 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
    ![](./images/media/image18.png)
 1. If you do happen leave this page by clicking on a link and you want to return to it, you can do so by clicking:
   - **Navigation Menu** ("hamburger" icon) > **Home**<br/>![image](./images/media/image19.png) ![image](./images/media/image20.png)
-1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the CPD web client.
+1. You can, of course, also use the browser back and forward arrow keys to navigate through main screens in the Cloud Pak for Data web client.
 
    | **Persona** | **Capabilities** |
    | :---: | :--- |
-   | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> CPD is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
+   | ![](./images/media/image10.png) Admin | In this workshop, we will demonstrate the Collect, Organize and Analyze capabilities to create a machine learning model that you can Deploy and then Infuse into a microservices application.<br/> Cloud Pak for Data is very much "persona driven" in that each user can play their particular part in your organization's journey to AI. Each user can hand off and/or share their work with other users/personas, for a totally collaborative environment. |
 1. Click back to the Users section and then click on Configure LDAP. You can review the fields required to do this here.
 ![image](./images/media/image24.png)
 ![](./images/media/image25.png)
 
    | **Persona** | **Capabilities** |
    | :---: | :--- |
-   | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the CPD web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature CPD environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
+   | ![](./images/media/image10.png)<br/>Admin | For the sake of simplicity, you will remain logged into the Cloud Pak for Data web client throughout this workshop as the user cpduser, which has been granted all persona roles. This was done so that you will not be required to log off and log on again as different users to represent the varying personas as you make your way through each lab.<br/>In your organization, however, it is likely that once you have a mature Cloud Pak for Data environment set up, separation of duties will be defined by persona where different users will be assigned one or more personas to do their particular tasks. |
 
 
 ##  Managing platform options
@@ -102,13 +102,13 @@ We will review this instance in a different way later in this lab.
 1. Now review Git Integrations Generate API key and New token.
   ![image](./images/media/image35.png)
 
-These allow you to configure Git with CPD, which allows you to integrate CPD projects with your current CI/CD (Continuous Integration and Continuous Delivery) pipeline to automate delivery of the artifacts you create in the CPD platform. You can use the capabilities from the underlying OpenShift platform to build cloud native microservice applications which are tied to the ML / AI model development with a delivery pipeline.
+These allow you to configure Git with Cloud Pak for Data, which allows you to integrate Cloud Pak for Data projects with your current CI/CD (Continuous Integration and Continuous Delivery) pipeline to automate delivery of the artifacts you create in the Cloud Pak for Data platform. You can use the capabilities from the underlying OpenShift platform to build cloud native microservice applications which are tied to the ML / AI model development with a delivery pipeline.
 
-## Reviewing CPD services
+## Reviewing Cloud Pak for Data services
 
 1. Click the Services icon (four little squares over one bigger square) on the top right corner of your screen.
  ![image](./images/media/image36.png)
-1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on CPD.<br/>For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this CPD cluster right now.
+1. This will bring up all available services for Cloud Pak for Data.<br/>Click through the various categories to see what services you can install on Cloud Pak for Data.<br/>For example, click on category AI and notice what is available there. Those with "Enabled" are accessible by this Cloud Pak for Data cluster right now.
   ![image](./images/media/image37.png)
 1. Now, click on the Watson Machine Learning service tile to get more details on what this service can do.
   ![image](./images/media/image38.png)
@@ -127,7 +127,7 @@ These allow you to configure Git with CPD, which allows you to integrate CPD pro
   ![image](./images/media/image21.png)![image](./images/media/image42.png)
 1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
   ![image](./images/media/image43.png)<br/>
-  | ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the CPD platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
+  | ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
 1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.<br/>
   | **Persona** | **Capabilities** |
   |:---:|:---|
