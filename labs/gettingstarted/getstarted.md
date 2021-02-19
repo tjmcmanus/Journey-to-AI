@@ -111,7 +111,9 @@ These allow you to configure Git with Cloud Pak for Data, which allows you to in
 1. Click Navigation Menu My instances.<br/>![image](./images/media/image21.png)![image](./images/media/image42.png)
 1. Click tab Provisioned Instances and then click the twistie to sort the instances that were provisioned for this workshop.
   ![image](./images/media/image43.png)
-
+  
+  | **Persona** | **Capabilities** |
+  | :-: | :-: |
   | ![](./images/media/image10.png) Admin | The term "instance" in this context means a copy of a persistent data store within the Cloud Pak for Data platform. These instances are stateful Kubernetes services like Db2, MongoDB, Streams, Data Virtualization and even Cognos Analytics. |
 1. Check the tabs for Environments and Jobs. Note: the cluster may not have any of these running at this time, so these pages could be empty.
 
