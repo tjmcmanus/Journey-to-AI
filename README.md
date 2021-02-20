@@ -1,4 +1,8 @@
 # Journey to AI using Cloud Pak for Data
+
+## Labs
+
+Admin/Dashboard:
  - [Getting Started with Cloud Pak for Data - First Pass Edit](labs/gettingstarted/getstarted.md)
  - [Business Use case - First Pass Edit](labs/usecase/usecase.md)
 
