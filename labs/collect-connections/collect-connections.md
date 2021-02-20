@@ -33,14 +33,14 @@ The Db2 data in our Trade Co. scenario (Demographics and Churn) have two key fac
 
 Although you will be doing the actual Data Transformation in the next lab, you will prepare for it in this one by reviewing some steps in this Connections lab.
 
-### **Logging into the CPD web client (if you have not already done so)**
+### Logging into the CPD web client (if you have not already done so)
 
 1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
 1.  Double-click the desktop icon: Cloud Pak for Data Web Client.<br/>![](./images/media/image5.png)
 1.  The CPD web client GUI displays as shown.
   > Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![A screenshot of a cell phone Description automatically generated](./images/media/image6.png){width="1.57376968503937in" height="2.0689304461942255in"}
 
-### **Reviewing the Db2 Advanced Edition data**
+### Reviewing the Db2 Advanced Edition data
 
 1.  To review this data, you will be launching the *Db2 Advanced Edition Data Management* *Console*.
   - In the CPD web client, click the Navigation Menu ("hamburger" icon).<br/>![](./images/media/image7.png)
@@ -51,7 +51,7 @@ Although you will be doing the actual Data Transformation in the next lab, you w
   - Click on View Data.<br/>![](./images/media/image13.png)<br/>![](./images/media/image14.png){width="2.7622944006999126in" height="1.170949256342957in"}<br/><br/>*This data represents churn risk that was determined through a manual methodology by Trade Co. It will be enhanced by a machine learning methodology created in this workshop.*
 1.  Click on the Back icon, then table CUSTOMER_DEMOGRAPHICS a view Data.<br/>![](./images/media/image15.png) ![](./images/media/image16.png)<br/>![](./images/media/image17.png){width="3.4016393263342084in" height="1.2323622047244094in"}<br/><br/>*This data represents the known characteristics of the Trade Co. customers themselves. The machine learning methodology of this workshop will take advantage of this data to determine churn risk more accurately.*
 
-### **Reviewing the Db2 connection**
+### Reviewing the Db2 connection
 
 1. In order to create a connection to a CPD data source, you would first need the connection information. To review what that looks like for the in-cluster Db2 Advanced Edition, click:
   -Navigation Menu a Collect a My Data a Databases a Db2 Advanced Edition a ellipsis ![](./images/media/image8.png) a Details<br/>![](./images/media/image18.png)
@@ -79,7 +79,7 @@ Semi-structured (and even unstructured) data is commonly used in many systems of
 
 Our scenario presumes that this data comes from a mobile application that will be constantly changing the data, and that we would require the latest data for our analytics workflow.
 
-### **Reviewing the MongoDB data**
+### Reviewing the MongoDB data
 
 The MongoDB database was provisioned after the MongoDB Enterprise service was installed, which is also located in My data.
 
@@ -91,47 +91,23 @@ The MongoDB database was provisioned after the MongoDB Enterprise service was in
 1. Now return to the My data screen and choose Databases a MongoDB-1 a ellipsis ![](./images/media/image8.png) a Open Database.<br/>![](./images/media/image9.png)<br/><br/>![](./images/media/image30.png) ![](./images/media/image31.png){
 
   | ![](./images/media/image26.png)<br/>Data Engineer | The very first time you log into this *MongoDB Ops Manager* console it may not ask you for user and password credentials. We have saved these for you in a browser setting. <br/>However, if the credentials were not saved and should you encounter this Login screen (as above) you can use the password copied from the Details screen.<br/>Note: if the copy/paste of the password does not work for you using Details screen icon, then try this technique:<br/><br/>1.  In the Details screen, perform the "copy" by highlighting the password and right-click a copy.<br/> 2. In the Ops Manager login screen use right-click a paste.|
+1. In the *MongoDB Ops Manager* console tab, click Deployment on the top left of the screen.
+  - In the Processes tab, click on the Replica Set link,<br/>![](./images/media/image32.png)
+1. Click on the Data tab to review the JSON documents in database mongodb.activity01.<br/>![](./images/media/image33.png)
+1. When finished, close the tab Data \| MongoDB Ops Manager.<br/>![](./images/media/image34.png)
 
-22. In the *MongoDB Ops Manager* console tab, click Deployment on the top left of the screen.
+### Reviewing the MongoDB connection
 
-In the Processes tab, click on the Replica Set link,
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image32.png){width="5.6375in" height="1.8946062992125985in"}
-
-23. Click on the Data tab to review the JSON documents in database mongodb.activity01.
-
-![A screenshot of a social media post Description automatically generated](./images/media/image33.png){width="6.55172353455818in" height="4.318472222222222in"}
-
-24. When finished, close the tab Data \| MongoDB Ops Manager.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image34.png){width="2.6224529746281715in" height="0.7459011373578303in"}
-
-### **Reviewing the MongoDB connection**
-
-25. Go to Navigation Menu a Connections
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image35.png){width="1.7131146106736659in" height="1.3969356955380579in"}
-
-26. Click on connection MongoDB line and choose the Edit icon.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image36.png){width="5.9375in" height="1.2816961942257217in"}
-
-27. Note that the credentials information is taken from the Details screen you reviewed earlier.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image37.png){width="4.7826093613298335in" height="4.441127515310586in"}
+1. Go to Navigation Menu a Connections<br/>![](./images/media/image35.png)
+1. Click on connection MongoDB line and choose the Edit icon.<br/>![](./images/media/image36.png)
+1. Note that the credentials information is taken from the Details screen you reviewed earlier.<br/>![](./images/media/image37.png)
 
 ## Lab conclusion
 
-In this Collect: Connections lab, you reviewed connections for the Db2 Advanced Edition and MongoDB data. This prepares you for the Organize and Collect: Virtualize labs in this workshop.
-
-![](./images/media/image3.png){width="0.5819728783902012in" height="0.47515529308836396in"}
-
-![](./images/media/image38.png){width="6.527777777777778in" height="2.408174759405074in"}
+In this Collect: Connections lab, you reviewed connections for the Db2 Advanced Edition and MongoDB data. This prepares you for the Organize and Collect: Virtualize labs in this workshop.<br/>![](./images/media/image3.png)<br/>![](./images/media/image38.png)
 
 In the Organize lab coming up, we will be transforming the Db2 data sets into one.
 
 After that, we will finish up the Collect processing by virtualizing the results from both the Db2 Transformation output and the MongoDB data together.
 
 **\*\* End of Lab 03 - Collect: Connections**
-
-Lab by Burt Vialpando and Kent Rubin, IBM
