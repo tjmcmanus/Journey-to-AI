@@ -72,41 +72,24 @@ The top visualizations give Total Units Traded and Dollar Value Traded. You will
 
 ## Devising a plan
 
-Armed with his findings, the Business Analyst brings this to the Data Scientists on the team. Together they come up with a plan to fix their current Rules Based system of predicting churn.
-
-![](./images/media/image25.png){width="6.354166666666667in" height="3.3442650918635173in"}
-
-The intent is to use a better approach: Leverage Cloud Pak for Data to build a data driven Machine Learning model to infuse into their Stock Trader application.
-
-![](./images/media/image26.png){width="6.305555555555555in" height="3.3433508311461066in"}
-
-With this better model that more accurately predicts churn, the developers will infuse it into their Stock Trader application that will act upon this information in real time. Once a customer (trader) logs into the application, the new ML model will predict the risk of churn for this customer and will then make one of three offers designed to retain them.
-
-![](./images/media/image27.png){width="6.402777777777778in" height="3.388011811023622in"}
+Armed with his findings, the Business Analyst brings this to the Dat<br/>![](./images/media/image25.png)
+<br/>
+The intent is to use a better approach: Leverage Cloud Pak for Data to build a data driven Machine Learning model to infuse into their Stock Trader application.<br/>![](./images/media/image26.png)
+<br/>
+With this better model that more accurately predicts churn, the developers will infuse it into their Stock Trader application that will act upon this information in real time. Once a customer (trader) logs into the application, the new ML model will predict the risk of churn for this customer and will then make one of three offers designed to retain them.<br/>![](./images/media/image27.png)
 
 In this case, infusing the new ML model into the Stock Trader application will be as simple as writing one extra microservice that is invoked upon sign in. It will be called the "Predictive Analysis" service (indicated by the green arrow below) and will make the offer after sign in.
 
-![](./images/media/image28.png){width="5.486393263342082in" height="3.2362773403324585in"}
+![](./images/media/image28.png)
 
 ## Reviewing the dashboard: Monthly Metrics After AI
 
 The model was created and infused into the Stock Trader application, which ran for three months. New activity data was captured for this period. The Business Analyst created another dashboard similar to the first that displays the results.
 
-20. Still in the same project, under Assets, scroll down until you find Dashboards.
-
-Click Monthly Metrics - After AI Trade Co.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image9.png){width="3.0163932633420822in" height="1.0860083114610675in"}
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image29.png){width="3.1721303587051617in" height="1.7120319335083114in"}
-
-21. This dashboard is similar to the first one in the two visualizations:
-
-Shares sold per month and Number of Traders per month
-
-Notice however, new data is present for October, November, and December.
-
-![A screen shot of a computer Description automatically generated](./images/media/image30.png){width="6.488926071741032in" height="2.791304680664917in"}
+1. Still in the same project, under Assets, scroll down until you find Dashboards.
+  - Click Monthly Metrics - After AI Trade Co.<br/>![\](./images/media/image9.png)<br/><br/>![](./images/media/image29.png)
+1. This dashboard is similar to the first one in the two visualizations:
+    - Shares sold per month and Number of Traders per month<br/><br/>Notice however, new data is present for October, November, and December.<br/>![](./images/media/image30.png)
 
 **The data is very encouraging: both data points have gone up!**
 
@@ -116,7 +99,7 @@ Trade Co. is back in business with their successful customer retention offer dri
 
 This workshop will walk you through how Trade Co. was able to pull off their business success using the Cloud Pak for Data platform.
 
-Each subsequent lab will walk you through one of the steps (Collect, Organize, Analyze, Deploy, Infuse) taken by Trade Co. in their Journey to Cloud and AI using this amazing, industry leading Analytics Modernization platform called Cloud Pak for Data. You will also take on the roles of the various personas involved along the way. The steps in the journey are depicted in the illustration below.![](./images/media/image31.png){width="6.339130577427822in" height="3.488257874015748in"}
+Each subsequent lab will walk you through one of the steps (Collect, Organize, Analyze, Deploy, Infuse) taken by Trade Co. in their Journey to Cloud and AI using this amazing, industry leading Analytics Modernization platform called Cloud Pak for Data. You will also take on the roles of the various personas involved along the way. The steps in the journey are depicted in the illustration below.![](./images/media/image31.png)
 
 **\*\* End of Lab 02 -- Business Use Case: Customer Churn**
 
