@@ -4,9 +4,9 @@
 
 Trade Co. is experiencing a decline in review, which appears to be due to losing customers. The current process of predicting customer churn seems to be ineffective as well. The company's executives have asked their senior Business Analyst to help them understand why and to help find a solution.
 
-![images](./images/media/image1.png){width="0.5819728783902012in" height="0.47515529308836396in"}
+![images](./images/media/image1.png)
 
-![images](./images/media/image2.png){width="6.381944444444445in" height="3.4856003937007873in"}
+![images](./images/media/image2.png)
 
 ## Persona represented in this lab
 
