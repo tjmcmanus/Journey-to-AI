@@ -14,7 +14,7 @@ When embarking on machine learning projects, many organizations engage Business 
 
 The Business Analyst persona is the likely role to perform the exercises in this lab.
 
- | **Persona **| **Capabilities** |
+ | **Persona** | **Capabilities** |
  | :---: | :-: |
  | ![](./images/media/image3.png)<br/>Business Analyst | Business Analysts deliver value by taking data, using it to answer questions, and communicating the results to help make better business decisions. |
 
@@ -41,7 +41,8 @@ This first dashboard was built with the recent trading information delivered to 
      | ![](./images/media/image3.png)<br/>Business Analyst   | Use \[Ctrl\] -- and \[Ctrl\] + keys to adjust the zoom on the dashboard to best suit your screen.<br/>You can also use \[Ctrl\] \[Mouse-Scroll-Button\]|
 1. Notice that from January to September, Shares sold per month remains flat while Number of Traders per month are declining.<br/><br/>This verifies that customer churn is in fact occurring, even though the remaining traders are trading more each month, keeping shares sold nearly even.<br/><br/>If Trade Co. could somehow find a way to retain their customers, shares sold per month would go up, thus driving revenue up.<br/>![](./images/media/image11.png)
 1.  Leave this dashboard by clicking on the breadcrumb trail to navigate to the project again.<br/>![](./images/media/image12.png)<br/>![](./images/media/image13.png)
-  | **Persona **| **Capabilities** |
+
+  | **Persona** | **Capabilities** |
   | :---: | :-: |
   | ![](./images/media/image3.png)<br/>Business Analyst  | If you would like to see how this dashboard was built, you can build it yourself by doing the following lab: (Deeper Dive) -- Cognos Dashboard Embedded |
 
