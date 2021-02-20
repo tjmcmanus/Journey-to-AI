@@ -1,9 +1,9 @@
 # Journey to AI using Cloud Pak for Data
- - [Getting Started with Cloud Pak for Data](labs/gettingstarted/getstarted.md)
- - [Business Use case](labs/usecase/usecase.md)
+ - [Getting Started with Cloud Pak for Data - First Pass Edit](labs/gettingstarted/getstarted.md)
+ - [Business Use case - First Pass Edit](labs/usecase/usecase.md)
 
 Collect:
- - [Building Connection to Data](labs/collect-connections/collect-connections.md)
+ - [Building Connection to Data - First Pass Edit](labs/collect-connections/collect-connections.md)
  - [Virtualizing Data](labs/collect-virtualize/collect-virtualize.md)
  - [Caching Virtualized Data](labs/dv-caching/dv-caching.md)
 
@@ -16,7 +16,7 @@ Analyze:
  - [Introduction to Cognos](labs/cde-embed/cde-embed.md)
 
 Data Science use cases
- - [Running AutoAI](labs/autoai/autoai.md)
+ - [Running AutoAI - First Pass Edit](labs/autoai/autoai.md)
  - [Deploying Machine Learning Models](labs/deploy/deploy.md)
  - [Monitoring AI with OpenScale](labs/monitor-ai/monitor-ai.md)
 
