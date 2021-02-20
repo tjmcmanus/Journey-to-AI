@@ -35,7 +35,7 @@ This first dashboard was built with the recent trading information delivered to 
 1.  Select the project: CPD Workshop Analytics Project.<br/>![](./images/media/image8.png)
 1.  Under tab Assets, scroll down until you find Dashboards.
    - Click Monthly Metrics -- Trade Co.<br/>![](./images/media/image9.png)<br/>![](./images/media/image10.png)
-     | **Persona **| **Capabilities** |
+     | **Persona** | **Capabilities** |
      | :---: | :-: |
      | ![](./images/media/image3.png)<br/>Business Analyst   | Use \[Ctrl\] -- and \[Ctrl\] + keys to adjust the zoom on the dashboard to best suit your screen.<br/>You can also use \[Ctrl\] \[Mouse-Scroll-Button\]|
 1. Notice that from January to September, Shares sold per month remains flat while Number of Traders per month are declining.
