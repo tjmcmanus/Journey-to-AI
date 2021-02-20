@@ -102,5 +102,3 @@ This workshop will walk you through how Trade Co. was able to pull off their bus
 Each subsequent lab will walk you through one of the steps (Collect, Organize, Analyze, Deploy, Infuse) taken by Trade Co. in their Journey to Cloud and AI using this amazing, industry leading Analytics Modernization platform called Cloud Pak for Data. You will also take on the roles of the various personas involved along the way. The steps in the journey are depicted in the illustration below.![](./images/media/image31.png)
 
 **\*\* End of Lab 02 -- Business Use Case: Customer Churn**
-
-Lab by Burt Vialpando and Kent Rubin, IBM
