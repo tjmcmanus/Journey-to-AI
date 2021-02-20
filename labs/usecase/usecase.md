@@ -34,13 +34,12 @@ This first dashboard was built with the recent trading information delivered to 
 1.  In the CPD web client, click the Navigation Menu ("hamburger" icon) Projects.<br/>![](./images/media/image6.png)![](./images/media/image7.png)
 1.  Select the project: CPD Workshop Analytics Project.<br/>![](./images/media/image8.png)
 1.  Under tab Assets, scroll down until you find Dashboards.
-   - Click Monthly Metrics -- Trade Co.<br/>![](./images/media/image9.png)<br/>![](./images/media/image10.png)
+   - Click Monthly Metrics -- Trade Co.<br/>![](./images/media/image9.png)<br/>![](./images/media/image10.png)<br/>
+
      | **Persona** | **Capabilities** |
      | :---: | :-: |
      | ![](./images/media/image3.png)<br/>Business Analyst   | Use \[Ctrl\] -- and \[Ctrl\] + keys to adjust the zoom on the dashboard to best suit your screen.<br/>You can also use \[Ctrl\] \[Mouse-Scroll-Button\]|
-1. Notice that from January to September, Shares sold per month remains flat while Number of Traders per month are declining.
-
-This verifies that customer churn is in fact occurring, even though the remaining traders are trading more each month, keeping shares sold nearly even.<br/><br/>If Trade Co. could somehow find a way to retain their customers, shares sold per month would go up, thus driving revenue up.<br/>![](./images/media/image11.png)
+1. Notice that from January to September, Shares sold per month remains flat while Number of Traders per month are declining.<br/><br/>This verifies that customer churn is in fact occurring, even though the remaining traders are trading more each month, keeping shares sold nearly even.<br/><br/>If Trade Co. could somehow find a way to retain their customers, shares sold per month would go up, thus driving revenue up.<br/>![](./images/media/image11.png)
 1.  Leave this dashboard by clicking on the breadcrumb trail to navigate to the project again.<br/>![](./images/media/image12.png)<br/>![](./images/media/image13.png)
   | **Persona **| **Capabilities** |
   | :---: | :-: |
