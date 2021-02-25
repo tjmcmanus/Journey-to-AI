@@ -244,7 +244,7 @@ In this set of exercises, you will use the CPD built-in Data Flow Designer (DFD)
 1. Review the data by opening the Data Server Manager (DSM) for the Db2 Warehouse.<br/>Navigation Menu a Collect a My Data a Databases a Db2 Warehouse a ellipsis ![](./images/media/image75.png) a Open database<br/>![](./images/media/image111.png)
 1. At the top left of the Db2 DSM console, click on: Summary a Explore a Tables.<br/>![](./images/media/image112.png)
 1. Select schema CPDUSER a table CUSTOMER_DEMOCHURN a View Data.<br/>![](./images/media/image113.png)
-1. The new column AGE_GROUP contains the derived data, and the output is also the join of the two tables in this schema.<br/>![](./images/media/image114.png){width="2.9166666666666665in" height="1.762153324584427in"}
+1. The new column AGE_GROUP contains the derived data, and the output is also the join of the two tables in this schema.<br/>![](./images/media/image114.png)
   | **Persona (Role)** | **Capabilities**  |
   | :-: | :-- |
   | ![](./images/media/image81.png)<br/>Data Engineer | If you want to try your hand at building a transformation job from scratch, please see the Organize Deeper Dive lab, section "Transformation Data -- Creating a job." |
