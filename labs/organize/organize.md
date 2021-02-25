@@ -39,32 +39,21 @@ Some of the more interesting "Organize" capabilities can be done on a data asset
 
 1. In the CPD web client, click the Navigation Menu ("hamburger" icon) a Projects.
   ![](./images/media/image6.png)![](./images/media/image7.png)
-1. Select the project: CPD Workshop Analytics Project.
-  ![](./images/media/image8.png)
-1. Under tab Assets a Data assets, click ***CPDUSER.CUSTOMER.DEMOGRAPHICS***.
-  ![](./images/media/image9.png)
-1. Close (x) the Information window on the top left.
-  ![](./images/media/image10.png)
-1. In the Preview section, general information about the data asset is displayed, as well as column specific information and sample data.
-  ![](./images/media/image11.png)
-1. Click on the down arrow for column TAXID to see how Profiling categorized the data.<br/>The identifier is: US Social Security Number.
-  ![](./images/media/image12.png)
-1. Click Profile to see more details on the profiling information. (It may take a minute or two to render -- be patient.)<br/>Notice column GENDER was assigned Identifier Gender, which has 2 of 2 values (M and F) and a displayed frequency for each.
-  ![](./images/media/image13.png)![](./images/media/image14.png)
-1. Scroll over to column TAXID and click the twisty to see how this data is profiled.
-  ![](./images/media/image15.png)
+1. Select the project: CPD Workshop Analytics Project.<br/>![](./images/media/image8.png)
+1. Under tab Assets a Data assets, click ***CPDUSER.CUSTOMER.DEMOGRAPHICS***.<br/>![](./images/media/image9.png)
+1. Close (x) the Information window on the top left.<br/>![](./images/media/image10.png)
+1. In the Preview section, general information about the data asset is displayed, as well as column specific information and sample data.<br/>![](./images/media/image11.png)
+1. Click on the down arrow for column TAXID to see how Profiling categorized the data.<br/>The identifier is: US Social Security Number.<br/>![](./images/media/image12.png)
+1. Click Profile to see more details on the profiling information. (It may take a minute or two to render -- be patient.)<br/>Notice column GENDER was assigned Identifier Gender, which has 2 of 2 values (M and F) and a displayed frequency for each.<br/>![](./images/media/image13.png)![](./images/media/image14.png)
+1. Scroll over to column TAXID and click the twisty to see how this data is profiled.<br/>![](./images/media/image15.png)
 
 ### Refine visualizations
 
-1. Click back to Preview then click Refine
-  ![](./images/media/image16.png)
-1. Click Visualizations a Map<br/>(Hint: you may have to select the double down arrow to see Map.)
-  ![](./images/media/image17.png)
-1. Fill in the Details as World, Scatter plot, LONGITUDE, LATITUDE, CITY,ESTINCOME and Income by City
-  ![](./images/media/image18.png)
+1. Click back to Preview then click Refine<br/>![](./images/media/image16.png)
+1. Click Visualizations a Map<br/>(Hint: you may have to select the double down arrow to see Map.)<br/>![](./images/media/image17.png)
+1. Fill in the Details as World, Scatter plot, LONGITUDE, LATITUDE, CITY,ESTINCOME and Income by City<br/>![](./images/media/image18.png)
 1. Use your mouse's wheel to Scroll up and center the United States on the visualization.<br/>Use the \[Ctrl\] -- and \[Ctrl\] + to zoom in and out to properly size the visualization.
-1. Hover over any circle on the map to see the Estimated Income for that City.
-  ![](./images/media/image19.png)
+1. Hover over any circle on the map to see the Estimated Income for that City.<br/>![](./images/media/image19.png)
 1. If the Data Scientist or Business Analyst wants to keep a visualization, they can download it by clicking on the image icon shown.<br/>They can save or review it by downloading it from the ACTIONS section and then using Open with Image Viewer.<br/>![](./images/media/image20.png)![](./images/media/image21.png)
 1. Close the Image viewer (if you have it open) and click on the breadcrumb back to the link for the CPD Workshop Analytics project a then Leave Page.<br/>![](./images/media/image22.png) ![](./images/media/image23.png)
 
