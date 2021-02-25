@@ -65,8 +65,7 @@ Some of the more interesting "Organize" capabilities can be done on a data asset
 1. Use your mouse's wheel to Scroll up and center the United States on the visualization.<br/>Use the \[Ctrl\] -- and \[Ctrl\] + to zoom in and out to properly size the visualization.
 1. Hover over any circle on the map to see the Estimated Income for that City.
   ![](./images/media/image19.png)
-1. If the Data Scientist or Business Analyst wants to keep a visualization, they can download it by clicking on the image icon shown.<br/>They can save or review it by downloading it from the ACTIONS section and then using Open with Image Viewer.
-  ![](./images/media/image20.png)![](./images/media/image21.png)
+1. If the Data Scientist or Business Analyst wants to keep a visualization, they can download it by clicking on the image icon shown.<br/>They can save or review it by downloading it from the ACTIONS section and then using Open with Image Viewer.<br/>![](./images/media/image20.png)![](./images/media/image21.png)
 1. Close the Image viewer (if you have it open) and click on the breadcrumb back to the link for the CPD Workshop Analytics project a then Leave Page.<br/>![](./images/media/image22.png) ![](./images/media/image23.png)
 
 ### Data refinery flows
@@ -78,9 +77,7 @@ You should be back at the project CPD Workshop Analytics Project. If you are not
  - There is only one step in this job, which is a "Text" operation on the ZIP4 column.
  - Hover over the step to see the icons for it.
  - Click the edit (pencil) icon (2) to review the details of the step.<br/>![](./images/media/image26.png)
-1. This step refines the ZIP4 column by padding 4 characters of "0" to the Right.
-
-This means if the column is already filled in, it will not do anything. If it is empty or filled with 0, it will fill it in with 0000.
+1. This step refines the ZIP4 column by padding 4 characters of "0" to the Right.<br/>This means if the column is already filled in, it will not do anything. If it is empty or filled with 0, it will fill it in with 0000.
   - Click Cancel (the job is OK as it is, but you could have changed it here if you needed to).<br/>![](./images/media/image27.png)
 1. Click on the Jobs (arrow by a clock) icon, then Save and create a job.<br/>![](./images/media/image28.png)
 1. Give the job a name of Customer Demographics Flow Job then select Create and Run
@@ -88,9 +85,11 @@ This means if the column is already filled in, it will not do anything. If it is
  - Hit the refresh icon to see status more quickly.<br/>![](./images/media/image29.png) ![](./images/media/image30.png)
 1. Once completed, you can check the logs of the job if you want to. This can be especially useful if the job is complex.
   - Click on it to review the details of the job.<br/>![](./images/media/image31.png)
-  | **Persona (Role)** | **Capabilities**  |
-  | :-: | :-- |
-  | ![](./images/media/image32.png)<br/>Data Steward | If the job run fails, simply click the ellipses on that job run and delete it, then run it again. |
+
+ | **Persona (Role)** | **Capabilities**  |
+ | :-: | :-- |
+ | ![](./images/media/image32.png)<br/>Data Steward | If the job run fails, simply click the ellipses on that job run and delete it, then run it again. |
+
 1. Click on the breadcrumb trail to return back to the project.<br/>![](./images/media/image33.png)
 1. A new Data Asset was created as output from the Flow (refine job).
   - Scroll down to find and then click on Customer Demographics_shaped.csv<br/>![](./images/media/image34.png)
