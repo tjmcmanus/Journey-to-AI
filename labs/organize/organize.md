@@ -125,7 +125,7 @@ An information governance Policy is a natural-language description of a governan
 
 An information Governance Rule is a natural-language description of the criteria that are used to determine whether information assets are compliant with business objectives. Generally, information governance rules are derived from information governance policies and are more specific. The Rules define the actions to take in specific situations to implement the Policy. An information Governance Rule can be referenced by one or more information Governance Policies.
 
-1. Click Navigation Menu a Organize a Data and AI governance a Policies.br/>![](./images/media/image41.png) ![](./images/media/image47.png)<br/>**Note:** the first time using the page may take a minute or two to render. **be please patient**.
+1. Click Navigation Menu a Organize a Data and AI governance a Policies.<br/>![](./images/media/image41.png) ![](./images/media/image47.png)<br/>**Note:** the first time using the page may take a minute or two to render. **be please patient**.
 1. Review the Published Policy that has been associated with our previously reviewed Category.<br/>![](./images/media/image48.png)
 1. Scroll down until you find the Rule that is associated with this Policy.<br/>Notice you could add another rule to this policy here. (Don't do this now.)<br/>Review the Rule by clicking on it.<br/>![](./images/media/image49.png)<br/>![](./images/media/image50.png)
  | **Persona (Role)** | **Capabilities**  |
@@ -237,7 +237,7 @@ In this set of exercises, you will use the CPD built-in Data Flow Designer (DFD)
   | ![](./images/media/image81.png)<br/>Data Engineer | The compile action does the following:<br/> -   *Primary Input* If you have more than one input link to a Transformer stage, the compiler checks that one is defined as the primary input link. <br/>- *Reference Input* If you have reference inputs defined in a Transformer stage, the compiler checks that these are not from sequential files.<br/>- *Key Expressions*.*** If you have key fields specified in your column definitions, the compiler checks that there are key expressions joining the data tables.<br/>-   *Transforms* If you have specified a transform, the compiler checks that this is a suitable transform for the data type. |
 1. The job should complete successfully.<br/>![](./images/media/image107.png)
 1. Click the Run icon. When the Job run options box appears, select Run.<br/>![](./images/media/image108.png) ![](./images/media/image109.png)
-1. Watch the job run...<br/>When it completes, it should look like this:<br/>![](./images/media/image110.png)
+1. Watch the job run...<br/> When it completes, it should look like this:<br/>![](./images/media/image110.png)
   | **Persona (Role)** | **Capabilities**  |
   | :-: | :-- |
   | ![](./images/media/image81.png)<br/>Data Engineer  |  You can select the Log to view any warnings or errors during this process. This is helpful when troubleshooting. In this case, you notice a warning that the script attempted to drop a table that didn't exist. No need to worry. |
