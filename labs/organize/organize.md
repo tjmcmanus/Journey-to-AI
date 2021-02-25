@@ -82,7 +82,7 @@ You should be back at the project CPD Workshop Analytics Project. If you are not
 1. Click on the Jobs (arrow by a clock) icon, then Save and create a job.<br/>![](./images/media/image28.png)
 1. Give the job a name of Customer Demographics Flow Job then select Create and Run
 1. The job takes about a minute to complete. You can see it Running on the screen.
- - Hit the refresh icon to see status more quickly.<br/>![](./images/media/image29.png) ![](./images/media/image30.png)
+  - Hit the refresh icon to see status more quickly.<br/>![](./images/media/image29.png) ![](./images/media/image30.png)
 1. Once completed, you can check the logs of the job if you want to. This can be especially useful if the job is complex.
   - Click on it to review the details of the job.<br/>![](./images/media/image31.png)
 
@@ -94,6 +94,7 @@ You should be back at the project CPD Workshop Analytics Project. If you are not
 1. A new Data Asset was created as output from the Flow (refine job).
   - Scroll down to find and then click on Customer Demographics_shaped.csv<br/>![](./images/media/image34.png)
 1. Scroll over to find the ZIP4 column.<br/><br/>Notice the data is padded with four zeroes if it was less than four zeroes. If the row already had a four-digit value, it was left alone.<br/>![](./images/media/image35.png)
+
   | **Persona (Role)** | **Capabilities**  |
   | :-: | :-- |
   | ![](./images/media/image32.png)<br/>Data Steward  | The power of Refine can be used by more than just the Data Steward because it is launched from a Project, which enables many more personas the ability to shape and refine data assets to which the Data Steward may have given them access. This gives anyone the ability to explore and shape data on their own with self-service capabilities.<br/>If the need is to make a permanent change to the data, for example, to write it back to a database from where it came, that is where Transform comes in. We will explore Transform later in this lab.|
