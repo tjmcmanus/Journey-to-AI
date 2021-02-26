@@ -44,7 +44,7 @@ Some of the more interesting "Organize" capabilities can be done on a data asset
 1. Close (x) the Information window on the top left.<br/>![](./images/media/image10.png)
 1. In the Preview section, general information about the data asset is displayed, as well as column specific information and sample data.<br/>![](./images/media/image11.png)
 1. Click on the down arrow for column TAXID to see how Profiling categorized the data.<br/>The identifier is: US Social Security Number.<br/>![](./images/media/image12.png)
-1. Click Profile to see more details on the profiling information. (It may take a minute or two to render -- be patient.)<br/>Notice column GENDER was assigned Identifier Gender, which has 2 of 2 values (M and F) and a displayed frequency for each.<br/>![](./images/media/image13.png)![](./images/media/image14.png)
+1. Click Profile to see more details on the profiling information. (It may take a minute or two to render -- be patient.)<br/>Notice column GENDER was assigned Identifier Gender, which has 2 of 2 values (M and F) and a displayed frequency for each.<br/><br/>![](./images/media/image13.png)![](./images/media/image14.png)
 1. Scroll over to column TAXID and click the twisty to see how this data is profiled.<br/>![](./images/media/image15.png)
 
 ### Refine visualizations
@@ -117,6 +117,7 @@ An information Governance Rule is a natural-language description of the criteria
 1. Click Navigation Menu a Organize a Data and AI governance a Policies.<br/>![](./images/media/image41.png) ![](./images/media/image47.png)<br/>**Note:** the first time using the page may take a minute or two to render. **be please patient**.
 1. Review the Published Policy that has been associated with our previously reviewed Category.<br/>![](./images/media/image48.png)
 1. Scroll down until you find the Rule that is associated with this Policy.<br/>Notice you could add another rule to this policy here. (Don't do this now.)<br/>Review the Rule by clicking on it.<br/>![](./images/media/image49.png)<br/>![](./images/media/image50.png)
+
  | **Persona (Role)** | **Capabilities**  |
  | :-: | :-- |
  | ![](./images/media/image32.png)<br/>Data Steward | A Data Dictionary contains a Business Glossary (Categories and Business terms) as well as information Governance Policies and Rules to ensure data compliance with business objectives.<br/>In this lab we have a beginning sample of these items, but in reality, a Data Dictionary for any organization is quite large and can and should be updated as frequently as new data sources, regulations, and other criteria require it. |
@@ -168,15 +169,18 @@ This is remedied by the search functionality provided in CPD.
 1. Here you can review a sample of the data.
  - Next, click Lineage.<br/>![](./images/media/image67.png)
 1. The Lineage shown here is relatively simple for this Data asset; however, this could show a more complex lineage should this Data asset have been the result of a Data Flow Design or refine job flow output from a virtualized view of a join of two tables in two different servers.<br/>![](./images/media/image68.png){width="3.235294181977253in" height="1.9262040682414698in"}
-  | **Persona (Role)** | **Capabilities**  |
-  | :-: | :-- |
-  | ![](./images/media/image32.png)<br/>Data Steward | The results of this search and exploration of the Data asset tells us that we want to utilize this asset for a Data Flow Design job later in this lab.<br/>At this point, we could go to the Overview page of the Catalog View and click Add to Project for easy access later. However, this has already been done, so there is no need to do so now.<br/>![](./images/media/image69.png)<br/>![](./images/media/image70.png)|
+
+   | **Persona (Role)** | **Capabilities**  |
+   | :-: | :-- |
+   | ![](./images/media/image32.png)<br/>Data Steward | The results of this search and exploration of the Data asset tells us that we want to utilize this asset for a Data Flow Design job later in this lab.<br/>At this point, we could go to the Overview page of the Catalog View and click Add to Project for easy access later. However, this has already been done, so there is no need to do so now.<br/>![](./images/media/image69.png)<br/>![](./images/media/image70.png)|
+
 1. Try the Search again, this time using the word demographics.<br/>![](./images/media/image71.png)
 1. Choose the second Data asset named CPDUSER.Customer_Demographics which is under All projects > CPD Workshop Analytics Project.<br/>![](./images/media/image72.png)
 1. This takes us to the CPDUSER.Customer_Demographics Data asset we reviewed in an earlier exercise at the beginning of this lab<br/>![](./images/media/image73.png)
-  | **Persona (Role)** | **Capabilities**  |
-  | :-: | :-- |
-  | ![](./images/media/image32.png)<br/>Data Steward | You will be using this data in the Data Flow Design exercise to follow.<br/>**To recap:** you have searched for, found and selected two tables, from which you will build a job to join and transform this data to create another permanent table. |
+
+   | **Persona (Role)** | **Capabilities**  |
+   | :-: | :-- |
+   | ![](./images/media/image32.png)<br/>Data Steward | You will be using this data in the Data Flow Design exercise to follow.<br/>**To recap:** you have searched for, found and selected two tables, from which you will build a job to join and transform this data to create another permanent table. |
 
 ## Reviewing the catalog
 
@@ -192,7 +196,6 @@ This is remedied by the search functionality provided in CPD.
 
 In this set of exercises, you will use the CPD built-in Data Flow Designer (DFD) to build a job that can transform your data. Note: it is the Data Engineer who would do this.
 
-
   | **Persona (Role)** | **Capabilities**  |
   | :-: | :-- |
   | ![](./images/media/image81.png)<br/>Data Engineer | Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
@@ -200,9 +203,11 @@ In this set of exercises, you will use the CPD built-in Data Flow Designer (DFD)
 1. Click Navigation Menu a Organize a Transform data.<br/>![](./images/media/image41.png)![](./images/media/image82.png)
 1. Select the project: CPD_Workshop_Transform_Project.<br/>![](./images/media/image83.png)
 1. Select the job Transform_Job_Demo_Churn.<br/>![](./images/media/image84.png)
- | **Persona (Role)** | **Capabilities**  |
- | :-: | :-- |
- | ![](./images/media/image81.png)<br/>Data Engineer| **Note:** if there is a lock icon next to this job ![](./images/media/image85.png) then click on the lock icon to unlock the job, then you can select it.<br/>Just make sure you are not in two different web client sessions at the same time doing this because that might be causing your locked job issue. |
+
+   | **Persona (Role)** | **Capabilities**  |
+   | :-: | :-- |
+   | ![](./images/media/image81.png)<br/>Data Engineer| **Note:** if there is a lock icon next to this job ![](./images/media/image85.png) then click on the lock icon to unlock the job, then you can select it.<br/>Just make sure you are not in two different web client sessions at the same time doing this because that might be causing your locked job issue. |
+
 1. Use the zoom icons to get the best view of the entire transform job on your screen.<br/>![](./images/media/image86.png)
 1. This job consists of four stages as shown below. Its purpose is to join two tables (represented by the Data assets you previously searched for) CUSTOMER_CHURN and CUSTOMER_DEMOGRAPHICS.<br/>It then adds one new column called AGE_GROUP which is derived (transformed) from the column AGE.<br/>Finally, it writes out the results to a single table CUSTOMER_DEMOCHURN.<br/>![](./images/media/image87.png)
 1. Review the connection of CUSTOMER_CHURN (the top one) by double clicking on it.<br/>![](./images/media/image88.png)
