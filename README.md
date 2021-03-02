@@ -8,16 +8,16 @@ Admin/Dashboard:
 
 Collect:
  - [Building Connection to Data - First Pass Edit](labs/collect-connections/collect-connections.md)
- - [Virtualizing Data](labs/collect-virtualize/collect-virtualize.md)
+ - [Virtualizing Data - First Pass Edit](labs/collect-virtualize/collect-virtualize.md)
  - [Caching Virtualized Data](labs/dv-caching/dv-caching.md)
 
 Organize:
- - [Starting to Organize](labs/organize/organize.md)
+ - [Starting to Organize - First Pass Edit](labs/organize/organize.md)
  - [Going deeper into Organize](labs/organize-deeper/organize-deeper.md)
 
 Analyze:
+ - [Introduction to Cognos](labs/cognos-intro/cognos-intro.md)
  - [Embedding Dashboards](labs/cde-embed/cde-embed.md)
- - [Introduction to Cognos](labs/cde-embed/cde-embed.md)
 
 Data Science use cases
  - [Running AutoAI - First Pass Edit](labs/autoai/autoai.md)
