@@ -113,6 +113,6 @@ In this lab, you learned about Data Virtualization to complete the Collect tasks
  | **Persona (Role)**| **Capabilities**|
  | :-: | :-- |
  | ![](./images/media/image16.png)<br/>Data Engineer | The SQL query runs on the remote data sources (Db2 and MongoDB) when you call the data set from the project. This capability provides the absolute latest "current state" information from the activity (i.e. transactional data store). If you want to learn even more about data virtualization, see: |
-|[(Deeper Dive) Data Virtualization (Caching)](labs/dv-caching/dv-caching.md)| Final note: Cloud Pak for Data refers to joins of individual virtualized tables as "virtualized views."
+|[(Deeper Dive) Data Virtualization (Caching)](../dv-caching/dv-caching.md)| Final note: Cloud Pak for Data refers to joins of individual virtualized tables as "virtualized views."
 
 **\*\* End of Lab 05 - Collect: Virtualize**
