@@ -26,10 +26,8 @@ Before we start transforming data, let's first explore the other crucial aspects
 ## Logging into the CPD web client (if you have not already done so)
 
 1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
-1.  Double-click the desktop icon: Cloud Pak for Data Web Client.
-  ![](./images/media/image4.png)
-1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-  ![](./images/media/image5.png)
+1.  Double-click the desktop icon: Cloud Pak for Data Web Client.<br/>![](./images/media/image4.png)
+1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![](./images/media/image5.png)
 
 ## Reviewing a data asset in the project
 
@@ -37,8 +35,7 @@ Some of the more interesting "Organize" capabilities can be done on a data asset
 
 ### Data asset overview
 
-1. In the CPD web client, click the Navigation Menu ("hamburger" icon) a Projects.
-  ![](./images/media/image6.png)![](./images/media/image7.png)
+1. In the CPD web client, click the Navigation Menu ("hamburger" icon) a Projects.<br/>![](./images/media/image6.png)![](./images/media/image7.png)
 1. Select the project: CPD Workshop Analytics Project.<br/>![](./images/media/image8.png)
 1. Under tab Assets a Data assets, click ***CPDUSER.CUSTOMER.DEMOGRAPHICS***.<br/>![](./images/media/image9.png)
 1. Close (x) the Information window on the top left.<br/>![](./images/media/image10.png)
