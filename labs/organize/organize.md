@@ -149,7 +149,7 @@ Reference Data Sets define list of permissible values that are allowed for use w
 
 You can capture, manage, and socialize reference data --- setting it up once and re-using the reference data in other places.
 
-1. Click Navigation Menu a Organize a Data and AI governance a Reference data.<br/>![](./images/media/image41.png) ![](./images/media/image57.png)
+1. Click Navigation Menu a Organize a Data and AI governance a Reference data.<br/>![](./images/media/image41.png)![](./images/media/image57.png)
 1. Scroll to find Reference Data Set State and Province Codes and click on it.<br/>![](./images/media/image58.png)
 1. Scroll down to review the Reference Data Set rows (the data).<br/>![](./images/media/image59.png)
 1. Click Related content and review how you could relate Data classes and Rules to it.<br/>![](./images/media/image60.png)
