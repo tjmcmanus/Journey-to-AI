@@ -204,14 +204,9 @@ Let's explore some of the categories and terms that are pre-loaded into our envi
 As mentioned in the business glossary section, the key to successful data governance lies in the use of automation and machine learning techniques to make decisions, create relationships, and generally enhance the value, timeliness and accuracy of your data governance activities. What you'll be doing next is known as Auto Discovery. This is a process that will crawl the data you point it at, and do several things:
 
 a.  *Classify the data* -- this is the process that will assign business classifications to your data elements.
-
 b.  *Score the data* -- this will allow you to quickly understand how clean your data is.
-
 c.  *Assign Terms to your data* -- this is where CPD will look at the data you're pointing to, take the business glossary terms, and based on both the data in the columns and the metadata and classifications already determined, assign a confidence rating to specific terms that it matches to the columns. You can set a threshold for when it automatically makes the connection between terms and columns, or you can use a workflow-driven review process to inspect the confidences and determine whether to assign or not.
 
-```{=html}
-<!-- -->
-```
 1. Let's get started. Go to the Navigation Menu.<br/>Click Organize Curation Data discovery.<br/>![](./images/media/image80.png)
 1. This will bring up a screen showing any past results and allow you to create a new discovery job. Click Automated discovery.<br/>![](./images/media/image81.png)
 1. Next, we'll choose the connection that gets us to our data, and the options we want for this discovery run:<br/>For Connection choose the connection we created earlier, i.e., Db2 Advanced Edition, then click Browse.<br/>![](./images/media/image82.png)
