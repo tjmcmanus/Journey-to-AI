@@ -37,7 +37,9 @@ The Data Steward persona also works closely with the Data Quality Analyst person
 1.  Click New connection.<br/>![](./images/media/image8.png)
 1.  Before creating a connection, you will need to know the credentials to the database. You can find this by clicking on Navigation Home, Collect, then right click on My data and Open Link in New Tab.<br/>![](./images/media/image9.png)
 1.  Click on the tab Databases Click on the tile Db2 Advanced Edition Ellipse Details.<br/>![](./images/media/image10.png)
+
   | ![](./images/media/image11.png)<br/>Data Steward | One of the advantages of using a full platform that uses containers and microservices is that you can have a host of capabilities that can be turned on, and with the correct user privilege, instances of those capabilities (like a new MongoDB or Db2 instance) can be created with the click of a button -- just as you would be able to do in a Public Cloud, but behind your firewall. |
+  
 1.  Page down to the bottom of the screen and you'll see the access information for our database. Copy down this information to enter in our Data Connections window.<br/>![](./images/media/image12.png)<br/>![](./images/media/image13.png)
 1.  Now return to the previous tab.<br/>![](./images/media/image14.png)
 1. Enter the parameters to create a connection to the internal Db2 database used for this workshop. Below is a sample; Connection Name and Description can be whatever you choose, the rest of the credentials you can get from the previous step.<br/>![](./images/media/image15.png)
