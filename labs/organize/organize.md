@@ -168,7 +168,7 @@ This is remedied by the search functionality provided in CPD.
 1. Click on the Data asset called CPDUSER.CUSTOMER.CHURN which is located in All projects > CPD Workshop Analytics Project.<br/>![](./images/media/image66.png)
 1. Here you can review a sample of the data.
  - Next, click Lineage.<br/>![](./images/media/image67.png)
-1. The Lineage shown here is relatively simple for this Data asset; however, this could show a more complex lineage should this Data asset have been the result of a Data Flow Design or refine job flow output from a virtualized view of a join of two tables in two different servers.<br/>![](./images/media/image68.png){width="3.235294181977253in" height="1.9262040682414698in"}
+1. The Lineage shown here is relatively simple for this Data asset; however, this could show a more complex lineage should this Data asset have been the result of a Data Flow Design or refine job flow output from a virtualized view of a join of two tables in two different servers.<br/>![](./images/media/image68.png)
 
    | **Persona (Role)** | **Capabilities**  |
    | :-: | :-- |
@@ -190,7 +190,7 @@ This is remedied by the search functionality provided in CPD.
 1. Return to Browse Assets.
 1. Click the. ellipses to the right of the CPDUSER.Customer_Demographics tile.<br/> **(Tip: You can either hover over the name for a flyout that shows the complete name or zoom out.)**<br/>![](./images/media/image78.png)
 1. Click the tab Review.<br/>![](./images/media/image79.png)
-1.. This is where you can find review ratings and comments for the data, which is another aid in helping you find the best data for your projects.<br/>![](./images/media/image80.png){width="4.542483595800525in" height="2.059757217847769in"}
+1.. This is where you can find review ratings and comments for the data, which is another aid in helping you find the best data for your projects.<br/>![](./images/media/image80.png)
 
 ## Transforming Data
 
