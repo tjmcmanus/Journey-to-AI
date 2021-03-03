@@ -38,9 +38,9 @@ The Data Steward persona also works closely with the Data Quality Analyst person
 1.  Before creating a connection, you will need to know the credentials to the database. You can find this by clicking on Navigation Home, Collect, then right click on My data and Open Link in New Tab.<br/>![](./images/media/image9.png)
 1.  Click on the tab Databases Click on the tile Db2 Advanced Edition Ellipse Details.<br/>![](./images/media/image10.png)
 
-  | **Persona** | **Capabilities** |
-  | :-: | :-- |
-  | ![](./images/media/image11.png)<br/>Data Steward | One of the advantages of using a full platform that uses containers and microservices is that you can have a host of capabilities that can be turned on, and with the correct user privilege, instances of those capabilities (like a new MongoDB or Db2 instance) can be created with the click of a button -- just as you would be able to do in a Public Cloud, but behind your firewall. |
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward | One of the advantages of using a full platform that uses containers and microservices is that you can have a host of capabilities that can be turned on, and with the correct user privilege, instances of those capabilities (like a new MongoDB or Db2 instance) can be created with the click of a button -- just as you would be able to do in a Public Cloud, but behind your firewall. |
 
 1.  Page down to the bottom of the screen and you'll see the access information for our database. Copy down this information to enter in our Data Connections window.<br/>![](./images/media/image12.png)<br/>![](./images/media/image13.png)
 1.  Now return to the previous tab.<br/>![](./images/media/image14.png)
@@ -84,7 +84,7 @@ Next, we'll start to bring data into our project so we can start to analyze, und
 
     | **Persona** | **Capabilities** |
     | :-: | :-- |
-   | ![](./images/media/image11.png)<br/>Data Steward | **Note:** If this message appears, click the X<br/>![](./images/media/image28.png)
+    | ![](./images/media/image11.png)<br/>Data Steward | **Note:** If this message appears, click the X<br/>![](./images/media/image28.png)
 
 1. Click Test (to validate we can connect to our data source),
 1.lick Create.<br/>![](./images/media/image29.png)
@@ -162,9 +162,11 @@ Data Refinery flows are a powerful way to make adjustments to your data, in a vi
 1. Now that we've built a pipeline with two steps, we want to run it so we can persist the data somewhere. To do that, we save the pipeline as a "job".<br/>Click the down arrow icon next to the clock and play arrow icons,<br/>then click Save and Create a Job.<br/>![](./images/media/image67.png)
 1. Next we need to name the job and then run it.<br/>Enter the name Clean-Zips Create and Run.<br/>![](./images/media/image68.png)
 1. The job takes about a minute to complete. You can see it running on the screen.<br/>Hit the refresh icon to see the status more quickly.<br/>![](./images/media/image69.png)
+
     | **Persona** | **Capabilities** |
     | :-: | :-- |
     | ![](./images/media/image11.png)<br/>Data Steward | Note: Due to an issue, the first attempt to run the job may fail; if so, just re-run and it should be successful. |
+
 1. When Completed, you can check the logs of the job if you wanted to. This can be especially useful if the job is complex. This job is only a simple two step job so we will not review it now.<br/>![](./images/media/image70.png)
 1. Click on the breadcrumb trail to return back to the project.<br/>![](./images/media/image71.png)
 1. A new output was created from the Refine job.<br/>Click on it: CUSTOMER_DEMOGRAPHICS_shaped.csv.<br/>![](./images/media/image72.png)
@@ -325,6 +327,7 @@ We will next create our own Transformation job.
 1. This created a blank canvas we can use to develop our job. Before we begin, first ensure the settings are correct.<br/>Click the gear icon for Settings.<br/>![](./images/media/image144.png)
 1. Then ensure the list shows the same checked and unchecked options as below:<br/>![](./images/media/image145.png)
 1. On the left you see all of the different stages available for connecting to data, transforming it, routing it, etc.
+
     | **Persona** | **Capabilities** |
     | :-: | :-- |
     | ![](./images/media/image11.png)<br/>Data Steward | Note: If the palette isn't showing, click the leftmost icon on the button bar:<br/>![](./images/media/image146.png)|
@@ -416,10 +419,10 @@ Lab by John Van Buren, Burt Vialpando and Kent Rubin
      From the main navigation menu, choose CollectMy data.<br/>![](./images/media/image177.png)
 1. This will bring up a list of virtualized tables and views. Look for the one with the name USER1001.CUSTOMER_DEMOCHURN**;** this is a view that represents the join of our DEMOGRAPHICS table, in Db2 with our ACTIVITY table, in MongoDB:<br/>![](./images/media/image178.png)
 1. If that asset is there, you can proceed to the next step.
+
     | **Persona** | **Capabilities** |
     | :-: | :-- |
     | ![](./images/media/image11.png)<br/>Data Steward | Note: If it's not there, please go back and run the Collect and Virtualize lab from our CORE. |
-
 1. Once you've established that your virtualized view is there, we want to simply run some of the actions against it the way we would against any other table.
 1. From the main navigation menu, choose Organize Curation Data discovery.<br/>![](./images/media/image179.png)
 1. Here, we'll want to run an automated discovery just like before -- choose new discovery job automated discovery<br/>![](./images/media/image180.png)
@@ -428,7 +431,6 @@ Lab by John Van Buren, Burt Vialpando and Kent Rubin
     | **Persona** | **Capabilities** |
     | :-: | :-- |
     | ![](./images/media/image11.png) | Note: if the connection 'DV-VIRTUAL-SOURCES' appears in the list, then you can skip adding a connection. Simply choose 'DV-VIRTUAL-SOURCES' from the list.|
-
 1. The screen will change to a list of possible connections, choose 'DV-VIRTUAL-SOURCES' and then click 'Next':<br/>![](./images/media/image182.png)
 1. This will send you back to the discovery window -- click the Browse button to take a look at the data available --<br/>![](./images/media/image183.png)
 1. This will bring up a tree view of the database (BigSQL) and the member schemas. Navigate down until you come to 'USER1001' and choose our virtual view, CUSTOMER_DEMOCHURN_ACTIVITY, and click Select<br/>![](./images/media/image184.png)
