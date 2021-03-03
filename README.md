@@ -16,7 +16,7 @@ Organize:
  - [Going deeper into Organize - First Pass Edit](labs/organize-deeper/organize-deeper.md)
 
 Analyze:
- - [Introduction to Cognos](labs/cognos-intro/cognos-intro.md)
+ - [Introduction to Cognos - First Pass Edit](labs/cognos-intro/cognos-intro.md)
  - [Embedding Dashboards](labs/cde-embed/cde-embed.md)
 
 Data Science use cases
