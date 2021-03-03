@@ -13,7 +13,7 @@ Collect:
 
 Organize:
  - [Starting to Organize - First Pass Edit](labs/organize/organize.md)
- - [Going deeper into Organize](labs/organize-deeper/organize-deeper.md)
+ - [Going deeper into Organize - First Pass Edit](labs/organize-deeper/organize-deeper.md)
 
 Analyze:
  - [Introduction to Cognos](labs/cognos-intro/cognos-intro.md)
