@@ -38,12 +38,18 @@ The Data Steward persona also works closely with the Data Quality Analyst person
 1.  Before creating a connection, you will need to know the credentials to the database. You can find this by clicking on Navigation Home, Collect, then right click on My data and Open Link in New Tab.<br/>![](./images/media/image9.png)
 1.  Click on the tab Databases Click on the tile Db2 Advanced Edition Ellipse Details.<br/>![](./images/media/image10.png)
 
+  | **Persona** | **Capabilities** |
+  | :-: | :-- |
   | ![](./images/media/image11.png)<br/>Data Steward | One of the advantages of using a full platform that uses containers and microservices is that you can have a host of capabilities that can be turned on, and with the correct user privilege, instances of those capabilities (like a new MongoDB or Db2 instance) can be created with the click of a button -- just as you would be able to do in a Public Cloud, but behind your firewall. |
-  
+
 1.  Page down to the bottom of the screen and you'll see the access information for our database. Copy down this information to enter in our Data Connections window.<br/>![](./images/media/image12.png)<br/>![](./images/media/image13.png)
 1.  Now return to the previous tab.<br/>![](./images/media/image14.png)
 1. Enter the parameters to create a connection to the internal Db2 database used for this workshop. Below is a sample; Connection Name and Description can be whatever you choose, the rest of the credentials you can get from the previous step.<br/>![](./images/media/image15.png)
-  | ![](./images/media/image11.png)<br/>Data Steward| **Note:** You may copy and paste the password as shown below. (if this doesn't work, then try<br/>highlighting the password and use \[CTL\]-c then \[CTL\]-v).<br/> ![](./images/media/image16.png){width="3.8191491688538934in" height="1.54125656167979in"} |
+
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward| **Note:** You may copy and paste the password as shown below. (if this doesn't work, then try highlighting the password and use \[CTL\]-c then \[CTL\]-v).<br/> ![](./images/media/image16.png) |
+
 1. Click Test connection (to verify your credentials are correct).
 1. That will return a successful message if the connection parameters are correct.<br/>![](./images/media/image17.png)
 1. Click the Create button to add the connection to CPD. At this point it is a 'Global Connection'. We will later add it to different projects, catalogs, etc.<br/>![\](./images/media/image18.png)
@@ -57,7 +63,11 @@ The Data Steward persona also works closely with the Data Quality Analyst person
   - Click Analytics project Next.<br/>![](./images/media/image20.png)
 1. You can create an empty project,create a project by importing existing assets from your file system, or from a Git repository.<br/>Click tile Create an empty project.<br/>![](./images/media/image21.png)
 1. Add the Name and Description for your project.![](./images/media/image22.png)
-  | ![](./images/media/image11.png)<br/>Data Steward| Note: You can also integrate the project to Git, which allows for automatic saves to a Git repository -- we won't be doing that today.|
+
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward| Note: You can also integrate the project to Git, which allows for automatic saves to a Git repository -- we won't be doing that today.|
+
 1. Click Create.<br/>![](./images/media/image23.png)
 
 This will create a project and put you into the project overview screen.<br/>![](./images/media/image24.png)
@@ -72,7 +82,10 @@ Next, we'll start to bring data into our project so we can start to analyze, und
 1. Choose Connection, and we will add the connection we created earlier.<br/>![](./images/media/image26.png)
 1. Here, you see a number of different choices for creating a connection. This is one of the strengths of CPD -- the breadth of different types of data you can access directly from the platform. As we said, we're going to add the connection we created earlier.<br/>Choose From global Db2_Source_Local.<br/>![](./images/media/image27.png)
 
-  | ![](./images/media/image11.png)<br/>Data Steward | **Note:** If this message appears, click the X<br/>![](./images/media/image28.png)
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+   | ![](./images/media/image11.png)<br/>Data Steward | **Note:** If this message appears, click the X<br/>![](./images/media/image28.png)
+
 1. Click Test (to validate we can connect to our data source),
 1.lick Create.<br/>![](./images/media/image29.png)
 
@@ -102,7 +115,11 @@ One of the most powerful capabilities of Cloud Pak for Data is its ability to au
 1. First, click Select Data Classes.<br/>![](./images/media/image42.png)
 1. This will show a list of all "out of the box' data classes that can be assigned automatically during profiling to the different data columns. (Sometimes this does not populate -- if so, Cancel and reselect.)<br/>This window allows you to de-select certain classes if they aren't pertinent to your business or to this profiling exercise. For now, we will leave them all active. In addition, custom data classes can be defined for your business and added to this repository.<br/>Click Cancel (to return to the profile launch screen).<br/>![](./images/media/image43.png)
 1. Now click Create Profile.<br/>![](./images/media/image44.png)
- | ![](./images/media/image11.png)<br/>Data Steward| Note: The profiling process will launch. This will take a few moments to complete so feel free to leave this screen and return, but it should only take between 2-3 minutes.<br/>![](./images/media/image45.png)<br/>Click refresh on the browser to see if it finished.<br/>![](./images/media/image46.png)|
+
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward| **Note:** The profiling process will launch. This will take a few moments to complete so feel free to leave this screen and return, but it should only take between 2-3 minutes.<br/>![](./images/media/image45.png)<br/>Click refresh on the browser to see if it finished.<br/>![](./images/media/image46.png)|
+
 1. When it is complete, you will see:<br/>[](./images/media/image47.png)
 1. This is a bird's eye view of the results that have been generated by the profile run. Note that you can immediately determine frequencies and pay attention to the data classes that have been identified. Here we are looking at Gender, which was automatically determined during profiling based on the column metadata and the data itself.<br/>Scroll right to see other columns, like TAXID...<br/>![](./images/media/image48.png)
 1. Click back to the section Preview.<br/>![](./images/media/image49.png)
@@ -114,7 +131,11 @@ One of the most powerful capabilities of Cloud Pak for Data is its ability to au
 The next steps will allow us to use visualization techniques to further get an understanding of our data; visualization is a powerful way to get quick insights and make decisions about what we want to do next.
 
 1. Click Refine.<br/>![](./images/media/image51.png)
-  | ![](./images/media/image11.png)<br/>Data Steward | **Note:** If you receive this error, back up in the browser and refresh to fix.<br/>![](./images/media/image52.png) |
+
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward | **Note:** If you receive this error, back up in the browser and refresh to fix.<br/>![](./images/media/image52.png) |
+
 1. Click Visualizations Map.<br/>**NOTE:** You may need to click the double drop down arrow to expand the list of visualizations to find Map.<br/>![\](./images/media/image53.png)
 1. Fill in the Details as shown below.<br/>![](./images/media/image54.png)
 1. Use your mouse's wheel to zoom in and center the United States on the visualization.<br/>Hover over any circle on the map, which indicates the Estimated Income by that City.<br/>![](./images/media/image55.png)
@@ -141,11 +162,16 @@ Data Refinery flows are a powerful way to make adjustments to your data, in a vi
 1. Now that we've built a pipeline with two steps, we want to run it so we can persist the data somewhere. To do that, we save the pipeline as a "job".<br/>Click the down arrow icon next to the clock and play arrow icons,<br/>then click Save and Create a Job.<br/>![](./images/media/image67.png)
 1. Next we need to name the job and then run it.<br/>Enter the name Clean-Zips Create and Run.<br/>![](./images/media/image68.png)
 1. The job takes about a minute to complete. You can see it running on the screen.<br/>Hit the refresh icon to see the status more quickly.<br/>![](./images/media/image69.png)
-  | ![](./images/media/image11.png)<br/>Data Steward | Note: Due to an issue, the first attempt to run the job may fail; if so, just re-run and it should be successful. |
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward | Note: Due to an issue, the first attempt to run the job may fail; if so, just re-run and it should be successful. |
 1. When Completed, you can check the logs of the job if you wanted to. This can be especially useful if the job is complex. This job is only a simple two step job so we will not review it now.<br/>![](./images/media/image70.png)
 1. Click on the breadcrumb trail to return back to the project.<br/>![](./images/media/image71.png)
 1. A new output was created from the Refine job.<br/>Click on it: CUSTOMER_DEMOGRAPHICS_shaped.csv.<br/>![](./images/media/image72.png)
 1. Scroll over to find the ZIP and ZIP4 columns. Notice the data is padded with four zeros when there was previously only one zero in ZIP4 and the ZIP field is left padded with a 0.<br/>![](./images/media/image73.png)
+
+  | **Persona** | **Capabilities** |
+  |  :-: | :-- |
   | ![](./images/media/image11.png)<br/>Data Steward | The power of Refine can be used by more than just the Data Steward because it is launched from a Project, which enables many more personas the ability to shape and refine data assets that the Data Steward may have given them access to. This gives anyone the ability to explore and shape data on their own with self-service capabilities.<br/>If you need to make a permanent change to the data, for example, to write it back to a database from where it came, that is where Transform comes in. We will explore Transform later in this lab.|
 
 ## Reviewing the business glossary
@@ -166,7 +192,10 @@ Let's explore some of the categories and terms that are pre-loaded into our envi
 1. Review the Business Terms and Policy for the Category.<br/>![](./images/media/image76.png)<br/>Notice that on this page you could create a new Category, but do not do so. We will only be working with this one category.
 1. Click Navigation Menu Organize Data and AI governance Business terms.<br/>![](./images/media/image77.png)
 1. Here you can edit or add new Business terms that are either in Published or Draft mode.<br/>Click on one to review it in more detail.<br/>![](./images/media/image78.png)
-| ![](./images/media/image11.png)<br/>Data Steward | You can create your own Glossary with Categories and Business Terms manually or import them from a file. In addition, you can import Industry Models from IBM for industries such as finance, banking, healthcare, and insurance, and import them into CPD.<br/>See the services screen ![](./images/media/image79.png) then Industry solutions.  |
+
+  | **Persona** | **Capabilities** |
+  | :-: | :-- |
+  | ![](./images/media/image11.png)<br/>Data Steward | You can create your own Glossary with Categories and Business Terms manually or import them from a file. In addition, you can import Industry Models from IBM for industries such as finance, banking, healthcare, and insurance, and import them into CPD.<br/>See the services screen ![](./images/media/image79.png) then Industry solutions.  |
 
 ## Automation Capabilities -- Discovery, Classification, Term Assignment
 
@@ -201,7 +230,9 @@ c.  *Assign Terms to your data* -- this is where CPD will look at the data you'r
 1. Next, click on the CUSTOMER_DEMOGRAPHICS tile.<br/>![](./images/media/image98.png)
 1. We are now looking at all the columns in the table, and different information about each column; Data Class, Business Term assigned, even the prevailing format and whether the field is unique. You can click on a column name to get even more detailed information.<br/>![](./images/media/image99.png)
 
-| ![](./images/media/image11.png)<br/>Data Steward | A Data Dictionary contains a Business Glossary (Categories and Business Terms) as well as Information Governance Policies and Rules to ensure data compliance with business objectives, as well as data security.<br/>In this lab we have a beginning sample of these items, but in reality, a Data Dictionary for any organization is quite large and can and should be updated frequently as new data sources, regulations, and other criteria require it. |
+  | **Persona** | **Capabilities** |
+  | :-: | :-- |
+  | ![](./images/media/image11.png)<br/>Data Steward | A Data Dictionary contains a Business Glossary (Categories and Business Terms) as well as Information Governance Policies and Rules to ensure data compliance with business objectives, as well as data security.<br/>In this lab we have a beginning sample of these items, but in reality, a Data Dictionary for any organization is quite large and can and should be updated frequently as new data sources, regulations, and other criteria require it. |
 
 ## Reviewing Classifications, Data Classes, and Reference Data
 
@@ -256,7 +287,10 @@ Let's see how this works in practice. The first thing we will do is create a pol
 1. Click the checkbox next to our Data Protection Rule.<br/>Then click Add.<br/>**Note:** There's no need to hit save after adding the Rule; it's automatically saved, and you will get a small indicator of that in the upper right of the screen.<br/>![](./images/media/image124.png)
 1. The next thing we'll want to do is add a collaborator to our catalog -- catalogs can have collaborators with various roles; we will add our 'developer' user, and then we'll log in as that user to see the masking in action.<br/>Go to Navigation Menu Organize All catalogs.<br/>![](./images/media/image125.png)
 1. Click on CPD Workshop Catalog.<br/>![](./images/media/image126.png)
-   | ![](./images/media/image11.png)<br/>Data Steward | **Note:** This is the catalog where our data assets were automatically published after running Auto Discovery. |
+
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward | **Note:** This is the catalog where our data assets were automatically published after running Auto Discovery. |
 1. This will bring you into the screen that shows the assets in the catalog, and tabs for different types of information. Click the tab Access Control.<br/>![](./images/media/image127.png)
 1. Next, click the link on the right side of the screen that says Add Collaborator.<br/>![](./images/media/image128.png)
 1. Next, start typing the word Developer and you will get a drop down of all the users in the system with that in their name.<br/>Choose Developer from the list click Add. This will add the Developer as a Viewer (default).<br/>![](./images/media/image129.png)
@@ -291,7 +325,9 @@ We will next create our own Transformation job.
 1. This created a blank canvas we can use to develop our job. Before we begin, first ensure the settings are correct.<br/>Click the gear icon for Settings.<br/>![](./images/media/image144.png)
 1. Then ensure the list shows the same checked and unchecked options as below:<br/>![](./images/media/image145.png)
 1. On the left you see all of the different stages available for connecting to data, transforming it, routing it, etc.
-  | ![](./images/media/image11.png)<br/>Data Steward | Note: If the palette isn't showing, click the leftmost icon on the button bar:<br/>![](./images/media/image146.png)|
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward | Note: If the palette isn't showing, click the leftmost icon on the button bar:<br/>![](./images/media/image146.png)|
 1. We're going to create a job that joins our two tables, CUSTOMER_DEMOGRAPHICS and CUSTOMER_ACTIVITY. Let's start by dropping two stages to represent these tables.<br/>On the palette, find the Connection icon. It should be the first one on the palette.<br/>Left click the icon, drag it to the canvas, and left click again to release it. This will open up a window where you'll be guided to fill out the connection information for the database we'll be extracting from.<br/>![](./images/media/image147.png)
 1. The Connection asset browser appears. Click Db2 Advanced Edition to select our Db2 Advanced Edition connection, choose it from the list and then click Next.<br/>![](./images/media/image148.png)
 1. On the next window, choose Schema CPDUSER, and click Next.<br/>![](./images/media/image149.png)
@@ -380,12 +416,19 @@ Lab by John Van Buren, Burt Vialpando and Kent Rubin
      From the main navigation menu, choose CollectMy data.<br/>![](./images/media/image177.png)
 1. This will bring up a list of virtualized tables and views. Look for the one with the name USER1001.CUSTOMER_DEMOCHURN**;** this is a view that represents the join of our DEMOGRAPHICS table, in Db2 with our ACTIVITY table, in MongoDB:<br/>![](./images/media/image178.png)
 1. If that asset is there, you can proceed to the next step.
-  | ![](./images/media/image11.png)<br/>Data Steward | Note: If it's not there, please go back and run the Collect and Virtualize lab from our CORE. |
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png)<br/>Data Steward | Note: If it's not there, please go back and run the Collect and Virtualize lab from our CORE. |
+
 1. Once you've established that your virtualized view is there, we want to simply run some of the actions against it the way we would against any other table.
 1. From the main navigation menu, choose Organize Curation Data discovery.<br/>![](./images/media/image179.png)
 1. Here, we'll want to run an automated discovery just like before -- choose new discovery job automated discovery<br/>![](./images/media/image180.png)
 1. Next click the 'Select a Connection' dropdown, and choose 'Add a connection'<br/>![](./images/media/image181.png)
- | ![](./images/media/image11.png){width="0.37572287839020124in" height="0.37572287839020124in"} | Note: if the connection 'DV-VIRTUAL-SOURCES' appears in the list, then you can skip adding a connection. Simply choose 'DV-VIRTUAL-SOURCES' from the list.|
+
+    | **Persona** | **Capabilities** |
+    | :-: | :-- |
+    | ![](./images/media/image11.png) | Note: if the connection 'DV-VIRTUAL-SOURCES' appears in the list, then you can skip adding a connection. Simply choose 'DV-VIRTUAL-SOURCES' from the list.|
+
 1. The screen will change to a list of possible connections, choose 'DV-VIRTUAL-SOURCES' and then click 'Next':<br/>![](./images/media/image182.png)
 1. This will send you back to the discovery window -- click the Browse button to take a look at the data available --<br/>![](./images/media/image183.png)
 1. This will bring up a tree view of the database (BigSQL) and the member schemas. Navigate down until you come to 'USER1001' and choose our virtual view, CUSTOMER_DEMOCHURN_ACTIVITY, and click Select<br/>![](./images/media/image184.png)
