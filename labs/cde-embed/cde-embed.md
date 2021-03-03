@@ -60,7 +60,7 @@ Build the dashboard with that data to see the trends the business analyst discov
 1. Drag DailyTraders to the top right box, hovering over the *Drop here to maximize* area when it turns blue as well. This maximizes this metric in this box. This gives us a total of trades over all time.<br/>![](./images/media/image24.png)
 1. After you complete both top boxes, the dashboard should display as shown:<br/>![](./images/media/image25.png)
 
-### Building the line charts*
+### Building the line charts
 
 1. Hold the \[Ctrl\] key down *(or Control-Option on Mac),* click Month and SharesSold and drag the two onto the lower left canvas area. This time [do not]{.ul} drop in the *Drop here to maximize* area.
 1. When finished, it will automatically format like this. (Stretch the visualization wider if needed.)<br/>![](./images/media/image26.png)
@@ -97,4 +97,4 @@ Dashboard creation and analysis is just one part of the Analyze phase, but a bus
 
 However, the Data Scientist can take this information and create machine learning models from the knowledge gained by this kind of analysis.
 
-**\*\* End of Lab 14 - Cognos Dashboard Embedded -- Deeper Dive**
+ End of Lab 14 - Cognos Dashboard Embedded -- Deeper Dive
