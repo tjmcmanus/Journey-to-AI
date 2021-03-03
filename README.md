@@ -17,7 +17,7 @@ Organize:
 
 Analyze:
  - [Introduction to Cognos - First Pass Edit](labs/cognos-intro/cognos-intro.md)
- - [Embedding Dashboards](labs/cde-embed/cde-embed.md)
+ - [Embedding Dashboards - First Pass Edit](labs/cde-embed/cde-embed.md)
 
 Data Science use cases
  - [Running AutoAI - First Pass Edit](labs/autoai/autoai.md)
