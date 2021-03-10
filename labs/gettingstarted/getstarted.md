@@ -10,7 +10,7 @@ The Journey to AI requires a strong information architecture (IA) that supports 
 
 Cloud Pak for Data is an integrated end-to-end data and analytics platform designed to help make data more accessible and trusted, as well as to provide access to many analytical tools to help your organization gain insights from your data.
 
-Cloud Pak for Data provides the data platform that accelerates the journey up the **AI Ladder.** With it, you can quickly build, train, deploy, and manage machine learning (ML) models to create applications with Artificial intelligence (AI). Cloud Pak for Data provides inventory and cataloging of your data sources, self-service shopping for data, and data integration and refinement capabilities. Thus, high quality and trusted data can be more easily prepared, assembled and used in one modern, integrated, collaborative and scalable platform.
+Cloud Pak for Data provides the data platform that accelerates the journey up the **AI Ladder** With it, you can quickly build, train, deploy, and manage machine learning (ML) models to create applications with Artificial intelligence (AI). Cloud Pak for Data provides inventory and cataloging of your data sources, self-service shopping for data, and data integration and refinement capabilities. Thus, high quality and trusted data can be more easily prepared, assembled and used in one modern, integrated, collaborative and scalable platform.
 
 Cloud Pak for Data is installed on the foundation of OpenShift for the cluster this workshop uses.
 
@@ -24,9 +24,11 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 > We are using a Cloud Pak for Data cloud cluster for this workshop. This software environment was built with the following key software components:
 
--   Red Hat OpenShift Container Platform (RHOCP) 4.5 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
+-   Red Hat OpenShift Container Platform (RHOCP) 4.5 or 4.6 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
 
 -   Cloud Pak for Data v3.5.2 as the microservice-built, integrated data and analytics platform with various add-ons installed and enabled.
+
+Verify the the environment you are using has the [appropriate resources](../environmentSetup.md).
 
 ## Audience for this IBM workshop
 
@@ -44,7 +46,14 @@ This IBM workshop is aimed at the line-of-business professionals who are tasked 
 
 ## Getting started
 
-1. To launch your Cloud Pak for Data cluster,
+1. To run these labs, you will need to have access to a Cloud Pak for Data Cluster with the following services installed.  
+    | Services | Lab |
+    | :-: | :-- |
+    | DB2 OLTP with and instance provisioned | Getting Started |
+    | Analytics Dashboard |  Business Use case |
+
+
+1.To launch your Cloud Pak for Data cluster,
 1. The Cloud Pak for Data web client GUI displays as shown below.
    Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![image](./images/media/image16.png)
 1. You should now be at the Home Page.<br/>![](./images/media/image17.png)
