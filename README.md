@@ -2,7 +2,7 @@
 
 ## Labs
 
-[Environment requirements](environmentSetup.md) to run labs
+[Environment requirements](labs/environmentSetup.md) to run labs
 
 Admin/Dashboard:
  - [Getting Started with Cloud Pak for Data - First Pass Edit](labs/gettingstarted/getstarted.md)
