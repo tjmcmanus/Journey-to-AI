@@ -29,7 +29,7 @@ The Business Analyst persona is the likely role to perform the exercises in this
 
 The Business Analyst has used the Cloud Pak for Data Analytics Dashboarding service to analyze Trade Co. issues. He has come up with a Monthly Metrics dashboard that demonstrates the company's concerns.
 
-This first dashboard was built with the recent trading information delivered to him for the year. It was placed into a CSV file in the project the Business Analyst shares with his team.
+This first dashboard was built with the recent trading information delivered to him for the year. It was placed into a [TraderData.csv](TraderData.csv)) file in the project the Business Analyst shares with his team.
 
 1.  In the CPD web client, click the Navigation Menu ("hamburger" icon) Projects.<br/>![](./images/media/image6.png)![](./images/media/image7.png)
 1.  Select the project: CPD Workshop Analytics Project.<br/>![](./images/media/image8.png)
