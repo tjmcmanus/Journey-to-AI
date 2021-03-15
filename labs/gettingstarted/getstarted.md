@@ -22,7 +22,7 @@ Cloud Pak for Data can be installed and managed on public cloud platforms as wel
 
 ## Lab workshop environment
 
-> We are using a Cloud Pak for Data cloud cluster for this workshop. This software environment was built with the following key software components:
+We are using a Cloud Pak for Data cloud cluster for this workshop. This software environment was built with the following key software components:
 
 -   Red Hat OpenShift Container Platform (RHOCP) 4.5 or 4.6 as the foundational cloud-native technology platform of Kubernetes and Docker, as well as other open-source tools.
 
@@ -32,17 +32,17 @@ Verify the the environment you are using has the [appropriate resources](../envi
 
 ## Audience for this IBM workshop
 
-This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data -- regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
+This IBM workshop is aimed at the line-of-business professionals who are tasked to gain new insights from all available data, regardless of its type and origin. The following personas who will be represented in the various labs will greatly benefit from this workshop:
 
- | **Persona** | **Capabilities** |
- | :-: | :-: |
- | ![](./images/media/image1.png)<br/>**Admin**| Administrators set up and maintain the Cloud Pak for Data environment itself.<br/>**Note:** while some of the Admin work can be done in the Cloud Pak for Data web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical Cloud Pak for Data Administrator activities.|
- | ![ ](./images/media/image2.png)<br/>**Data Engineer**| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
- | ![](./images/media/image3.png)<br/>**Data Steward** | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
- | ![ ](./images/media/image4.png)<br/>**Data Quality Analyst** | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
- | ![](./images/media/image5.png)<br/>**Business Analyst** | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
- | ![](./images/media/image6.png)<br/>**Data Scientist** | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
- | ![](./images/media/image7.png)<br/>**Developer** | Developers create and maintain the end-user applications that utilize the output from all the other personas on the Cloud Pak for Data platform.|
+  | **Persona** | **Capabilities** |
+  | :-: | :-: |
+  | ![](./images/media/image1.png)<br/>**Admin**| Administrators set up and maintain the Cloud Pak for Data environment itself.<br/>**Note:** while some of the Admin work can be done in the Cloud Pak for Data web client, most of the Admin work on the cluster would be done in OpenShift which is outside the scope of this workshop.<br/>The exercises in this first lab represent some typical Cloud Pak for Data Administrator activities.|
+  | ![ ](./images/media/image2.png)<br/>**Data Engineer**| Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
+  | ![](./images/media/image3.png)<br/>**Data Steward** | Data Stewards bring integration and transformation of the data as well as providing governance, lineage and classification of the data.|
+  | ![ ](./images/media/image4.png)<br/>**Data Quality Analyst** | Data Quality Analysts perform advanced curation of the data and analyze the quality of the data.|
+  | ![](./images/media/image5.png)<br/>**Business Analyst** | Business Analysts deliver value by analyzing data to answer questions and communicating the results to help make better business decisions. |
+  | ![](./images/media/image6.png)<br/>**Data Scientist** | Data Scientists bring expertise in statistics and the process of building ML/AI models to make predictions and answer key business questions.|
+  | ![](./images/media/image7.png)<br/>**Developer** | Developers create and maintain the end-user applications that utilize the output from all the other personas on the Cloud Pak for Data platform.|
 
 ## Getting started
 
