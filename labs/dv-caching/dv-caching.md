@@ -16,41 +16,26 @@ In our scenario, the Trade Co. Business Analyst (BA) initially creates a dashboa
 
 The Business Analyst persona along with the Data Engineer and Data Virtualization Administrator personas will perform the exercises in this lab.
 
+ | **Persona (Role)**  | **Capabilities** |
+ | :-: | :-- |
+ | ![](./images/media/image1.png)<br/>Business Analyst    | Business Analysts deliver value by taking data, using it to answer questions, and communicating the results to help make better business decisions.  |
+ | ![](./images/media/image2.png)<br/>Data Engineer | Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
+ | ![A close up of a logo Description automatically generated](./images/media/image3.png)<br/>Administrator (DV/CPD)  | Administrators set up and maintain the DV module within the CPD environment itself. They are responsible for granting DV access to users and administration tasks such as creating a data cache.|
 
-| **Persona (Role)**  | **Capabilities** |
-| :-: | :-- |
-| ![](./images/media/image1.png)    | Business Analysts deliver value by taking data, using it to answer questions, and communicating the results to help make better business decisions.                                                                                        |
-|                                                                                                                                                                                    |                                                                                                                                                                                                                                            |
-| Business Analyst                                                                                                                                                                   |                                                                                                                                                                                                                                            |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of a logo Description generated with high confidence](./images/media/image2.png){width="0.4in" height="0.4in"} | Data Engineers build and optimize the systems to allow data scientists and business analysts to perform their work. The Data Engineer ensures that any data is properly received, transformed, stored, and made accessible to other users. |
-|                                                                                                                                                                                    |                                                                                                                                                                                                                                            |
-| Data Engineer                                                                                                                                                                      |                                                                                                                                                                                                                                            |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of a logo Description automatically generated](./images/media/image3.png){width="0.4in" height="0.4in"}        | Administrators set up and maintain the DV module within the CPD environment itself. They are responsible for granting DV access to users and administration tasks such as creating a data cache.                                           |
-|                                                                                                                                                                                    |                                                                                                                                                                                                                                            |
-| Administrator (DV/CPD)                                                                                                                                                             |                                                                                                                                                                                                                                            |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-> For convenience in doing this lab, instead of switching between personas, all the required privileges have been provided to the same user. The workbook will refer to the respective personas at different stages to help understand the flow of this task.
+For convenience in doing this lab, instead of switching between personas, all the required privileges have been provided to the same user. The workbook will refer to the respective personas at different stages to help understand the flow of this task.
 
 ## Logging into the CPD web client (if you have not already done so)
 
 1.  If you are starting this lab stand-alone (without going through previous labs) do the following:
-
-2.  Double-click the desktop icon: Cloud Pak for Data Web Client.
-
-![A picture containing object, clock Description automatically generated](./images/media/image4.png){width="0.7914905949256343in" height="0.8936176727909011in"}
-
-3.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.
-
-    ![A screenshot of a cell phone Description automatically generated](./images/media/image5.png){width="2.2121216097987753in" height="2.908131014873141in"}
+1.  Double-click the desktop icon: Cloud Pak for Data Web Client.<br/>![](./images/media/image4.png)
+1.  The CPD web client GUI displays as shown. Use cpduser and cpdaccess for the *Username* and *Password* and click Sign in.<br/>![](./images/media/image5.png)
 
 ## Reviewing the dashboard: Stock Trading Analysis - Trade Co.
 
 In an attempt to understand stock trading patterns, the business analysis for Trade Co. starts by creating a simple dashboard to find the most popular historically traded stocks. The dashboard shows the number of Shares Sold vs. the number of Daily Trades.
 
-![A screen shot of a computer Description automatically generated](./images/media/image6.png){width="6.457446412948381in" height="2.6084951881014873in"}
+![](./images/media/image6.png)
 
 The Business Analyst (BA) works with the Data Engineer (DE) to get virtualized access to the different data sources required for creating the dashboard(s). The DE creates the Data Sources, Virtual Tables and finally a Virtualized View joining all the Virtual Tables and computing the basic aggregations required. The View is then shared with the BA, who can then proceed with creating the dashboard.
 
@@ -60,198 +45,85 @@ However, once the dashboard is initially created, the BA notices delays in rende
 
 The Data Virtualization process begins by adding data sources to virtualize and is typically done by the Data Engineer.
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Persona (Role)**                                                                                                                                                                 |
-+====================================================================================================================================================================================+
-| ![A close up of a logo Description generated with high confidence](./images/media/image2.png){width="0.4in" height="0.4in"} |
-|                                                                                                                                                                                    |
-| Data Engineer (DV/CPD)                                                                                                                                                             |
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| **Persona (Role)** | ![](./images/media/image2.png)<br/>Data Engineer (DV/CPD)|
+
 
 ### **Navigate to Data virtualization**
 
-4.  Start at the Navigation Menu.
+1. Start at the Navigation Menu.
+1. Click Collect Data virtualization.
 
-Click Collect Data virtualization.
+![](./images/media/image7.png) ![](./images/media/image8.png)
 
-![A picture containing sitting, dark, screen, sign Description automatically generated](./images/media/image7.png){width="2.797871828521435in" height="1.1085903324584427in"} ![A picture containing clock Description automatically generated](./images/media/image8.png){width="1.950819116360455in" height="1.796806649168854in"}
 
-**\
-**
 
 ### **Create the PostgreSQL database connection**
 
-5.  We will need to create a connection to a PostgreSQL table for use in this lab. Select Data Sources -- SQL editor and enter the following SQL:
+1.  We will need to create a connection to a PostgreSQL table for use in this lab. Select Data Sources -- SQL editor and enter the following SQL:
+ ~~~
+ call QPLEXSYS.setRdbcX(\'PostgreSQL\', \'03c07569-09f5-42d9-8135-c1d647c59920.btdl8mld0r95fevivv30.databases.appdomain.cloud\',\'32121\', \'ibmclouddb\', \'CryptoProtocolVersion=TLSv1.2\', \'ibm_cloud_7e30807a_5e03_4bb5_87f5_6550a69de7cd\',\'6627c6d6f8746916ec7fa3c0ade3d722297dfcd1e9b91cec7c53515e2efd1843\', \'1\', \'0\', \'\', \'\', \'qpendpoint_5:6419\', ?, ?, ?);
+ ~~~
+**Note:** You can also find this SQL to download/copy/paste here: <https://ibm.box.com/v/DV-CreatePostgreSQL><br/>
+1.  Select Run all to execute the SQL and create the connection in Data Virtualization.<br/>![Graphical user interface, application Description automatically generated](./images/media/image9.png){width="7.1in" height="2.65in"}
 
-call QPLEXSYS.setRdbcX(\'PostgreSQL\', \'03c07569-09f5-42d9-8135-c1d647c59920.btdl8mld0r95fevivv30.databases.appdomain.cloud\',\'32121\', \'ibmclouddb\', \'CryptoProtocolVersion=TLSv1.2\', \'ibm_cloud_7e30807a_5e03_4bb5_87f5_6550a69de7cd\',\'6627c6d6f8746916ec7fa3c0ade3d722297dfcd1e9b91cec7c53515e2efd1843\', \'1\', \'0\', \'\', \'\', \'qpendpoint_5:6419\', ?, ?, ?);
-
-Note: You can also find this SQL to download/copy/paste here: <https://ibm.box.com/v/DV-CreatePostgreSQL>
-
-6.  Select Run all to execute the SQL and create the connection in Data Virtualization.
-
-![Graphical user interface, application Description automatically generated](./images/media/image9.png){width="7.1in" height="2.65in"}
-
-**\
-**
 
 ### **Creating virtualized tables**
 
-7.  With the data sources successfully created, the next step is to virtualize the tables needed for this exercise.
+1. With the data sources successfully created, the next step is to virtualize the tables needed for this exercise.<br/>From the top left go to SQL editor Virtualize.<br/>![](./images/media/image10.png)
+1. In the search bar, enter the string STOCK and click the search icon (magnifying glass).<br/>![](./images/media/image11.png)
+1. Click the gear, then select Group tables with identical names.<br/>![](./images/media/image12.png)<br/><br/>This uses the DV feature of "Schema Folding" which groups tables with the same names across data sources and shows them as a single "table" selection. (Notice how two tables called CUSTOMER_TRANSACTIONS from to different databases are treated as one.)
+1. Select tables: CUSTOMER_TRANSACTIONS and STOCK_SYMBOLS Click Add to cart<br/>View cart.<br/>![](./images/media/image13.png) ![](./images/media/image14.png)
+1. In the Review cart and Virtualize tables section, select button My virtualized data Uncheck box Submit to catalog Click Virtualize.<br/>![](./images/media/image15.png)
+1. Notice the **two** virtual tables you just created, which are actually comprised of three different tables in three databases in the IBM Cloud. The CUSTOMER_TRANSACTIONS virtual table is a schema folded table pointing to **two** remote Db2 Warehouse tables and the STOCK_SYMBOLS virtual table points to **single** table in the PostgreSQL database.<br/>Click View my virtualized data.<br/>![](./images/media/image16.png)
+1. You will now be creating a virtualized view of these virtualized tables using the SQL editor.<br/>Select Menu (My virtualized data) SQL editor.<br/>![A screenshot of a cell phone Description automatically generated](./images/media/image17.png)
+1. Copy and paste the SQL below into the SQL editor.
 
-From the top left go to SQL editor Virtualize.
+   | ![](./images/media/image18.png)<br/>Data Engineer | Note: You can copy and paste this SQL directly from the Unified Desktop by using the File Browser to open this file: <br/>![](./images/media/image19.png) Home Downloads DVCaching_SQL.txt.<br/> Alternately, you can download this file by opening a browser tab and using this link: <https://ibm.box.com/v/Workshop-V9-DVCashing-SQL> |
 
-![Text, application Description automatically generated](./images/media/image10.png){width="1.9349748468941381in" height="2.564815179352581in"}
+ ~~~
+ DROP VIEW VIEW_CUST_TXN_SYMBOL_COM;
+ CREATE VIEW VIEW_CUST_TXN_SYMBOL_COM AS SELECT "SYM"."COMPANY",
+ "SYM"."SYMBOL","CUSTID",
+ "TOTAL_QUANTITY", "TXN_COUNT" FROM
+ "USER1001"."STOCK_SYMBOLS" "SYM",
+ (SELECT "USER1001"."CUSTOMER_TRANSACTIONS"."CUSTID" "CUSTID",
+ "USER1001"."CUSTOMER_TRANSACTIONS"."SYMBOL" "SYMBOL",
+ "USER1001"."CUSTOMER_TRANSACTIONS"."TRANSACTION_DATE"
+ "TRANSACTION_DATE",
+ SUM("USER1001"."CUSTOMER_TRANSACTIONS"."UNITS_TRADED") as
+ "TOTAL_QUANTITY",
+ COUNT(*) as "TXN_COUNT"
+ FROM
+ "USER1001"."CUSTOMER_TRANSACTIONS"
+ GROUP BY CUSTID,SYMBOL,TRANSACTION_DATE) "ST"
+ WHERE RTRIM("SYM"."SYMBOL")= RTRIM("ST"."SYMBOL");
+ ~~~
 
-8.  In the search bar, enter the string STOCK and click the search icon (magnifying glass).
+1. Click Run all which should create the virtualized view successfully.<br/>![](./images/media/image20.png)
 
-![A screenshot of a cell phone Description automatically generated](./images/media/image11.png){width="3.671804461942257in" height="2.1666666666666665in"}
+   | ![](./images/media/image18.png)<br/>Data Engineer| Note: The first time this script is run, the DROP VIEW statement will fail since the view does not exist. It will execute cleanly on subsequent runs. ![](./images/media/image21.png) |
 
-9.  Click the gear, then select Group tables with identical names.\
-    ![A close up of a sign Description automatically generated](./images/media/image12.png){width="2.4907403762029747in" height="1.1116404199475065in"}
+1. Preview the contents of the virtualized view to confirm the data is being correctly retrieved.<br/>Go to Menu (SQL editor) My virtualized data.<br/>![](./images/media/image22.png)
+1. On the view you just created, VIEW_CUST_TXN_SYMBOL_COM, click the ellipses at the end of that line ... and then select Preview.<br/>![](./images/media/image23.png)
 
-This uses the DV feature of "Schema Folding" which groups tables with the same names across data sources and shows them as a single "table" selection. (Notice how two tables called CUSTOMER_TRANSACTIONS from to different databases are treated as one.)
+   | ![](./images/media/image18.png)<br/>Data Engineer | It may take a minute or two for the view to render.<br/> If this step fails, check to make sure that you have copied the SQL code properly into the SQL editor and run it again. Keep in mind that a successful execution of the SQL may not necessarily mean the view was actually created properly. |
 
-10. Select tables: CUSTOMER_TRANSACTIONS and STOCK_SYMBOLS Click Add to cart
-
-View cart.
-
-![Graphical user interface, application Description automatically generated](./images/media/image13.png){width="2.8132939632545932in" height="1.8675492125984252in"} ![Diagram Description automatically generated](./images/media/image14.png){width="1.2516557305336833in" height="1.390246062992126in"}
-
-11. In the Review cart and Virtualize tables section, select button My virtualized data Uncheck box Submit to catalog Click Virtualize.
-
-![A picture containing clock, meter Description automatically generated](./images/media/image15.png){width="6.3971839457567805in" height="1.1125in"}
-
-12. Notice the **two** virtual tables you just created, which are actually comprised of three different tables in three databases in the IBM Cloud. The CUSTOMER_TRANSACTIONS virtual table is a schema folded table pointing to **two** remote Db2 Warehouse tables and the STOCK_SYMBOLS virtual table points to **single** table in the PostgreSQL database.
-
-Click View my virtualized data.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image16.png){width="4.1123151793525805in" height="1.7585126859142608in"}
-
-13. You will now be creating a virtualized view of these virtualized tables using the SQL editor.
-
-Select Menu (My virtualized data) SQL editor.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image17.png){width="1.3964905949256343in" height="1.3178805774278215in"}
-
-14. Copy and paste the SQL below into the SQL editor.
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of a logo Description generated with high confidence](./images/media/image18.png){width="0.36041666666666666in" height="0.36041666666666666in"} | Note: You can copy and paste this SQL directly from the Unified Desktop by using the File Browser to open this file:                                                                 |
-|                                                                                                                                                                                                                     |                                                                                                                                                                                      |
-| Data                                                                                                                                                                                                                | ![](./images/media/image19.png){width="0.5416666666666666in" height="0.5225164041994751in"} Home Downloads DVCaching_SQL.txt. |
-|                                                                                                                                                                                                                     |                                                                                                                                                                                      |
-| Engineer                                                                                                                                                                                                            | Alternately, you can download this file by opening a browser tab and using this link: <https://ibm.box.com/v/Workshop-V9-DVCashing-SQL>                                              |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-**DROP VIEW VIEW_CUST_TXN_SYMBOL_COM;**
-
-> **CREATE VIEW VIEW_CUST_TXN_SYMBOL_COM**
->
-> **AS**
->
-> **SELECT**
->
-> **\"SYM\".\"COMPANY\",**
->
-> **\"SYM\".\"SYMBOL\",**
->
-> **\"CUSTID\",**
->
-> **\"TOTAL_QUANTITY\",**
->
-> **\"TXN_COUNT\"**
->
-> **FROM**
->
-> **\"USER1001\".\"STOCK_SYMBOLS\" \"SYM\",**
->
-> **(SELECT**
->
-> **\"USER1001\".\"CUSTOMER_TRANSACTIONS\".\"CUSTID\" \"CUSTID\",**
->
-> **\"USER1001\".\"CUSTOMER_TRANSACTIONS\".\"SYMBOL\" \"SYMBOL\",**
->
-> **\"USER1001\".\"CUSTOMER_TRANSACTIONS\".\"TRANSACTION_DATE\"**
->
-> **\"TRANSACTION_DATE\",**
->
-> **SUM(\"USER1001\".\"CUSTOMER_TRANSACTIONS\".\"UNITS_TRADED\") as**
->
-> **\"TOTAL_QUANTITY\",**
->
-> **COUNT(\*) as \"TXN_COUNT\"**
->
-> **FROM**
->
-> **\"USER1001\".\"CUSTOMER_TRANSACTIONS\"**
->
-> **GROUP BY CUSTID,SYMBOL,TRANSACTION_DATE) \"ST\"**
->
-> **WHERE RTRIM(\"SYM\".\"SYMBOL\")= RTRIM(\"ST\".\"SYMBOL\");**
-
-15. Click Run all which should create the virtualized view successfully.
-
-![](./images/media/image20.png){width="6.572830271216098in" height="5.4375in"}
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of a logo Description generated with high confidence](./images/media/image18.png){width="0.36041666666666666in" height="0.36041666666666666in"} | Note: The first time this script is run, the DROP VIEW statement will fail since the view does not exist. It will execute cleanly on subsequent runs. ![](./images/media/image21.png){width="5.414893919510061in" height="1.9792136920384953in"} |
-|                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                         |
-| Data                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                         |
-|                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                         |
-| Engineer                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                         |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-16. Preview the contents of the virtualized view to confirm the data is being correctly retrieved.
-
-Go to Menu (SQL editor) My virtualized data.
-
-![A screenshot of a cell phone screen with text Description automatically generated](./images/media/image22.png){width="1.7008661417322835in" height="1.8263888888888888in"}
-
-17. On the view you just created, VIEW_CUST_TXN_SYMBOL_COM, click the ellipses at the end of that line ... and then select Preview.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image23.png){width="4.069444444444445in" height="1.929643482064742in"}
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![A close up of a logo Description generated with high confidence](./images/media/image18.png){width="0.36041666666666666in" height="0.36041666666666666in"} | It may take a minute or two for the view to render.                                                                                                                                                                                          |
-|                                                                                                                                                                                                                     |                                                                                                                                                                                                                                              |
-| Data                                                                                                                                                                                                                | If this step fails, check to make sure that you have copied the SQL code properly into the SQL editor and run it again. Keep in mind that a successful execution of the SQL may not necessarily mean the view was actually created properly. |
-|                                                                                                                                                                                                                     |                                                                                                                                                                                                                                              |
-| Engineer                                                                                                                                                                                                            |                                                                                                                                                                                                                                              |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-18. The Virtualized View preview should render as below.
-
-![](./images/media/image24.png){width="5.375in" height="2.3273786089238846in"}
+1. The Virtualized View preview should render as below.<br/>![](./images/media/image24.png)
 
 ## Creating a project to work in
 
 The Virtualized View referencing different data sources is now created. The Data Engineer will share the Virtualized View with the Business Analyst (BA) who can then work on creating the dashboard.
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Persona (Role)**                                                                                                                                                                   |
-+======================================================================================================================================================================================+
-| ![A picture containing clothing Description automatically generated](./images/media/image1.png){width="0.4in" height="0.4in"} |
-|                                                                                                                                                                                      |
-| Business Analyst                                                                                                                                                                     |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Persona (Role)** | |
+| :-: | :-- |
+| ![](./images/media/image1.png)<br/>Business Analyst | |
 
 With the access to the Virtualized View in place, the BA begins to work on the dashboard by creating an Analytics Project.
-
-19. Click Navigation Menu Projects New project.
-
-![A screenshot of a video game Description automatically generated](./images/media/image25.png){width="4.225in" height="1.879430227471566in"}
-
-20. Choose Analytics project Next.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image26.png){width="6.5098436132983375in" height="2.1489359142607176in"}
-
-21. Click on tile Create an empty project.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image27.png){width="6.230544619422572in" height="2.6375in"}
-
-22. Provide a name of 'your initials-DV-Project' and description for the project and click Create.
-
-![A screenshot of a cell phone Description automatically generated](./images/media/image28.png){width="6.2944892825896765in" height="2.5125in"}
+1. Click Navigation Menu Projects New project.<br/>![](./images/media/image25.png)
+1. Choose Analytics project Next.<br/>![](./images/media/image26.png)
+1. Click on tile Create an empty project.<br/>![](./images/media/image27.png)
+1. Provide a name of 'your initials-DV-Project' and description for the project and click Create.<br/>![](./images/media/image28.png)
 
 ### **Adding the previously created DV view to the new project**
 
